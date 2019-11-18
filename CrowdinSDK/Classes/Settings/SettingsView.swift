@@ -5,7 +5,8 @@
 //  Created by Serhii Londar on 4/4/19.
 //
 
-import Foundation
+import CoreGraphics
+import UIKit
 
 class SettingsView: UIView {
     // swiftlint:disable force_unwrapping

@@ -1,2518 +1,1677 @@
 // !$*UTF8*$!
 {
-   archiveVersion = "1";
-   objectVersion = "46";
-   objects = {
-      "CrowdinSDK::CrowdinSDK" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_207";
-         buildPhases = (
-            "OBJ_210",
-            "OBJ_331"
-         );
-         dependencies = (
-            "OBJ_333"
-         );
-         name = "CrowdinSDK";
-         productName = "CrowdinSDK";
-         productReference = "CrowdinSDK::CrowdinSDK::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "CrowdinSDK::CrowdinSDK::Product" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "CrowdinSDK::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_336";
-         buildPhases = (
-            "OBJ_339"
-         );
-         dependencies = (
-         );
-         name = "CrowdinSDKPackageDescription";
-         productName = "CrowdinSDKPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "OBJ_1" = {
-         isa = "PBXProject";
-         attributes = {
-            LastSwiftMigration = "9999";
-            LastUpgradeCheck = "9999";
-         };
-         buildConfigurationList = "OBJ_2";
-         compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "en";
-         hasScannedForEncodings = "0";
-         knownRegions = (
-            "en"
-         );
-         mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_193";
-         projectDirPath = ".";
-         targets = (
-            "CrowdinSDK::CrowdinSDK",
-            "CrowdinSDK::SwiftPMPackageDescription",
-            "Starscream::Starscream",
-            "Starscream::SwiftPMPackageDescription"
-         );
-      };
-      "OBJ_10" = {
-         isa = "PBXFileReference";
-         path = "BaseAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_100" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_101"
-         );
-         name = "Extractor";
-         path = "Extractor";
-         sourceTree = "<group>";
-      };
-      "OBJ_101" = {
-         isa = "PBXFileReference";
-         path = "LocalizationExtractor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_102" = {
-         isa = "PBXFileReference";
-         path = "Localization.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_103" = {
-         isa = "PBXFileReference";
-         path = "LocalizationUpdateObserver.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_104" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_105",
-            "OBJ_106",
-            "OBJ_107",
-            "OBJ_108",
-            "OBJ_109",
-            "OBJ_110"
-         );
-         name = "Provider";
-         path = "Provider";
-         sourceTree = "<group>";
-      };
-      "OBJ_105" = {
-         isa = "PBXFileReference";
-         path = "InBundleLocalizationStorage.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_106" = {
-         isa = "PBXFileReference";
-         path = "LocalLocalizationStorage.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_107" = {
-         isa = "PBXFileReference";
-         path = "LocalizationDataSource.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_108" = {
-         isa = "PBXFileReference";
-         path = "LocalizationProvider.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_109" = {
-         isa = "PBXFileReference";
-         path = "LocalizationStorage.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_11" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_12",
-            "OBJ_13"
-         );
-         name = "Extensions";
-         path = "Extensions";
-         sourceTree = "<group>";
-      };
-      "OBJ_110" = {
-         isa = "PBXFileReference";
-         path = "RemoteLocalizationStorage.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_111" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_112"
-         );
-         name = "R.swift";
-         path = "R.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_112" = {
-         isa = "PBXFileReference";
-         path = "StringParam.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_113" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_114",
-            "OBJ_115",
-            "OBJ_116"
-         );
-         name = "Utils";
-         path = "Utils";
-         sourceTree = "<group>";
-      };
-      "OBJ_114" = {
-         isa = "PBXFileReference";
-         path = "Atomic.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_115" = {
-         isa = "PBXFileReference";
-         path = "ObjectAssociation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_116" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_117",
-            "OBJ_118"
-         );
-         name = "Operations";
-         path = "Operations";
-         sourceTree = "<group>";
-      };
-      "OBJ_117" = {
-         isa = "PBXFileReference";
-         path = "AsyncOperation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_118" = {
-         isa = "PBXFileReference";
-         path = "BlockAsyncOperation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_119" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_120",
-            "OBJ_124",
-            "OBJ_131",
-            "OBJ_141",
-            "OBJ_144"
-         );
-         name = "Features";
-         path = "Features";
-         sourceTree = "<group>";
-      };
-      "OBJ_12" = {
-         isa = "PBXFileReference";
-         path = "CharacterSet.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_120" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_121",
-            "OBJ_122",
-            "OBJ_123"
-         );
-         name = "IntervalUpdateFeature";
-         path = "IntervalUpdateFeature";
-         sourceTree = "<group>";
-      };
-      "OBJ_121" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK+IntervalUpdate.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_122" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDKConfig+IntervalUpdate.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_123" = {
-         isa = "PBXFileReference";
-         path = "IntervalUpdateFeature.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_124" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_125",
-            "OBJ_126",
-            "OBJ_130"
-         );
-         name = "LoginFeature";
-         path = "LoginFeature";
-         sourceTree = "<group>";
-      };
-      "OBJ_125" = {
-         isa = "PBXFileReference";
-         path = "CrowdinLoginConfig.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_126" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_127",
-            "OBJ_128",
-            "OBJ_129"
-         );
-         name = "Extensions";
-         path = "Extensions";
-         sourceTree = "<group>";
-      };
-      "OBJ_127" = {
-         isa = "PBXFileReference";
-         path = "Bundle+URLScheme.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_128" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK+Login.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_129" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDKConfig +Login.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "URLSession.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_130" = {
-         isa = "PBXFileReference";
-         path = "LoginFeature.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_131" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_132",
-            "OBJ_134",
-            "OBJ_139",
-            "OBJ_140"
-         );
-         name = "RealtimeUpdateFeature";
-         path = "RealtimeUpdateFeature";
-         sourceTree = "<group>";
-      };
-      "OBJ_132" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_133"
-         );
-         name = "CrowdinSocketManager";
-         path = "CrowdinSocketManager";
-         sourceTree = "<group>";
-      };
-      "OBJ_133" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSocketManager.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_134" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_135",
-            "OBJ_136",
-            "OBJ_137",
-            "OBJ_138"
-         );
-         name = "Extensions";
-         path = "Extensions";
-         sourceTree = "<group>";
-      };
-      "OBJ_135" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK+ReatimeUpdates.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_136" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDKConfig+RealtimeUpdates.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_137" = {
-         isa = "PBXFileReference";
-         path = "UIButton+RealtimeUpdates.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_138" = {
-         isa = "PBXFileReference";
-         path = "UILabel+RealtimeUpdates.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_139" = {
-         isa = "PBXFileReference";
-         path = "RealtimeUpdateFeature.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_14" = {
-         isa = "PBXFileReference";
-         path = "Request.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_140" = {
-         isa = "PBXFileReference";
-         path = "Refreshable.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_141" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_142",
-            "OBJ_143"
-         );
-         name = "RefreshLocalizationFeature";
-         path = "RefreshLocalizationFeature";
-         sourceTree = "<group>";
-      };
-      "OBJ_142" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK+RefreshLocalization.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_143" = {
-         isa = "PBXFileReference";
-         path = "RefreshLocalizationFeature.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_144" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_145",
-            "OBJ_146",
-            "OBJ_150",
-            "OBJ_151",
-            "OBJ_152",
-            "OBJ_153"
-         );
-         name = "ScreenshotFeature";
-         path = "ScreenshotFeature";
-         sourceTree = "<group>";
-      };
-      "OBJ_145" = {
-         isa = "PBXFileReference";
-         path = "CrowdinScreenshotsConfig.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_146" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_147",
-            "OBJ_148",
-            "OBJ_149"
-         );
-         name = "Extensions";
-         path = "Extensions";
-         sourceTree = "<group>";
-      };
-      "OBJ_147" = {
-         isa = "PBXFileReference";
-         path = "CGRect+Validation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_148" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK+Screenshots.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_149" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDKConfig+Screenshots.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_15" = {
-         isa = "PBXFileReference";
-         path = "RequestHeaderFields.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_150" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotFeature.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_151" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotInformationCollector.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_152" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotProcessor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_153" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotUploader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_154" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_155",
-            "OBJ_156"
-         );
-         name = "Mapping";
-         path = "Mapping";
-         sourceTree = "<group>";
-      };
-      "OBJ_155" = {
-         isa = "PBXFileReference";
-         path = "CrowdinMappingDownloader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_156" = {
-         isa = "PBXFileReference";
-         path = "CrowdinMappingManager.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_157" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_158",
-            "OBJ_169"
-         );
-         name = "Providers";
-         path = "Providers";
-         sourceTree = "<group>";
-      };
-      "OBJ_158" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_159",
-            "OBJ_161",
-            "OBJ_162",
-            "OBJ_165",
-            "OBJ_167"
-         );
-         name = "Crowdin";
-         path = "Crowdin";
-         sourceTree = "<group>";
-      };
-      "OBJ_159" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_160"
-         );
-         name = "Config";
-         path = "Config";
-         sourceTree = "<group>";
-      };
-      "OBJ_16" = {
-         isa = "PBXFileReference";
-         path = "RequestMethod.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_160" = {
-         isa = "PBXFileReference";
-         path = "CrowdinProviderConfig.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_161" = {
-         isa = "PBXFileReference";
-         path = "CrowdinRemoteLocalizationStorage.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_162" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_163",
-            "OBJ_164"
-         );
-         name = "Extensions";
-         path = "Extensions";
-         sourceTree = "<group>";
-      };
-      "OBJ_163" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDKConfig+CrowdinProvider.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_164" = {
-         isa = "PBXFileReference";
-         path = "String+Extensions.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_165" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_166"
-         );
-         name = "PathParser";
-         path = "PathParser";
-         sourceTree = "<group>";
-      };
-      "OBJ_166" = {
-         isa = "PBXFileReference";
-         path = "CrowdinPathsParser.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_167" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_168"
-         );
-         name = "SupportedLanguages";
-         path = "SupportedLanguages";
-         sourceTree = "<group>";
-      };
-      "OBJ_168" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSupportedLanguages.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_169" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_170",
-            "OBJ_173",
-            "OBJ_174",
-            "OBJ_175"
-         );
-         name = "Firebase";
-         path = "Firebase";
-         sourceTree = "<group>";
-      };
-      "OBJ_17" = {
-         isa = "PBXFileReference";
-         path = "ResponsetHeaderFields.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_170" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_171",
-            "OBJ_172"
-         );
-         name = "Extensions";
-         path = "Extensions";
-         sourceTree = "<group>";
-      };
-      "OBJ_171" = {
-         isa = "PBXFileReference";
-         path = "Dictionary+Firebase.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_172" = {
-         isa = "PBXFileReference";
-         path = "String+Firebase.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_173" = {
-         isa = "PBXFileReference";
-         path = "FirebaseLocalLocalizationStorage.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_174" = {
-         isa = "PBXFileReference";
-         path = "FirebaseLocalizationProvider.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_175" = {
-         isa = "PBXFileReference";
-         path = "FirebaseRemoteLocalizationStorage.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_176" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_177",
-            "OBJ_178",
-            "OBJ_179",
-            "OBJ_180",
-            "OBJ_181",
-            "OBJ_182",
-            "OBJ_183"
-         );
-         name = "Settings";
-         path = "Settings";
-         sourceTree = "<group>";
-      };
-      "OBJ_177" = {
-         isa = "PBXFileReference";
-         path = "Bundle+Settings.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_178" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK+Settings.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_179" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDKConfig+Settings.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_18" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_19",
-            "OBJ_20",
-            "OBJ_22",
-            "OBJ_24"
-         );
-         name = "ContentDeliveryAPI";
-         path = "ContentDeliveryAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_180" = {
-         isa = "PBXFileReference";
-         path = "SettingsItemCell.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_181" = {
-         isa = "PBXFileReference";
-         path = "SettingsView+Gesture.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_182" = {
-         isa = "PBXFileReference";
-         path = "SettingsView+UITableView.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_183" = {
-         isa = "PBXFileReference";
-         path = "SettingsView.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_184" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "Tests";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_185" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_186"
-         );
-         name = "Dependencies";
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_186" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_187",
-            "OBJ_192"
-         );
-         name = "Starscream 3.1.1";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_187" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_188",
-            "OBJ_189",
-            "OBJ_190",
-            "OBJ_191"
-         );
-         name = "Starscream";
-         path = ".build/checkouts/Starscream/Sources/Starscream";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_188" = {
-         isa = "PBXFileReference";
-         path = "Compression.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_189" = {
-         isa = "PBXFileReference";
-         path = "SSLClientCertificate.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_19" = {
-         isa = "PBXFileReference";
-         path = "CrowdinContentDeliveryAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_190" = {
-         isa = "PBXFileReference";
-         path = "SSLSecurity.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_191" = {
-         isa = "PBXFileReference";
-         path = "WebSocket.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_192" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/serhii-londar/Documents/GitHub/mobile-sdk-ios/.build/checkouts/Starscream/Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_193" = {
-         isa = "PBXGroup";
-         children = (
-            "Starscream::Starscream::Product",
-            "CrowdinSDK::CrowdinSDK::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_196" = {
-         isa = "PBXFileReference";
-         path = "Documentation";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_197" = {
-         isa = "PBXFileReference";
-         path = "ObjCExample";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_198" = {
-         isa = "PBXFileReference";
-         path = "Example";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_199" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_2" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_3",
-            "OBJ_4"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_20" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_21"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_200" = {
-         isa = "PBXFileReference";
-         path = "docs";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_201" = {
-         isa = "PBXFileReference";
-         path = "LICENSE";
-         sourceTree = "<group>";
-      };
-      "OBJ_202" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK.podspec";
-         sourceTree = "<group>";
-      };
-      "OBJ_203" = {
-         isa = "PBXFileReference";
-         path = "azure-pipelines.yml";
-         sourceTree = "<group>";
-      };
-      "OBJ_204" = {
-         isa = "PBXFileReference";
-         path = "README.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_205" = {
-         isa = "PBXFileReference";
-         path = "build_doc.sh";
-         sourceTree = "<group>";
-      };
-      "OBJ_207" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_208",
-            "OBJ_209"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_208" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/swift-nio-zlib-support"
-            );
-            INFOPLIST_FILE = "CrowdinSDK.xcodeproj/CrowdinSDK_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)",
-               "-lz"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "CrowdinSDK";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CrowdinSDK";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_209" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/swift-nio-zlib-support"
-            );
-            INFOPLIST_FILE = "CrowdinSDK.xcodeproj/CrowdinSDK_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)",
-               "-lz"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "CrowdinSDK";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "CrowdinSDK";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_21" = {
-         isa = "PBXFileReference";
-         path = "ManifestResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_210" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_211",
-            "OBJ_212",
-            "OBJ_213",
-            "OBJ_214",
-            "OBJ_215",
-            "OBJ_216",
-            "OBJ_217",
-            "OBJ_218",
-            "OBJ_219",
-            "OBJ_220",
-            "OBJ_221",
-            "OBJ_222",
-            "OBJ_223",
-            "OBJ_224",
-            "OBJ_225",
-            "OBJ_226",
-            "OBJ_227",
-            "OBJ_228",
-            "OBJ_229",
-            "OBJ_230",
-            "OBJ_231",
-            "OBJ_232",
-            "OBJ_233",
-            "OBJ_234",
-            "OBJ_235",
-            "OBJ_236",
-            "OBJ_237",
-            "OBJ_238",
-            "OBJ_239",
-            "OBJ_240",
-            "OBJ_241",
-            "OBJ_242",
-            "OBJ_243",
-            "OBJ_244",
-            "OBJ_245",
-            "OBJ_246",
-            "OBJ_247",
-            "OBJ_248",
-            "OBJ_249",
-            "OBJ_250",
-            "OBJ_251",
-            "OBJ_252",
-            "OBJ_253",
-            "OBJ_254",
-            "OBJ_255",
-            "OBJ_256",
-            "OBJ_257",
-            "OBJ_258",
-            "OBJ_259",
-            "OBJ_260",
-            "OBJ_261",
-            "OBJ_262",
-            "OBJ_263",
-            "OBJ_264",
-            "OBJ_265",
-            "OBJ_266",
-            "OBJ_267",
-            "OBJ_268",
-            "OBJ_269",
-            "OBJ_270",
-            "OBJ_271",
-            "OBJ_272",
-            "OBJ_273",
-            "OBJ_274",
-            "OBJ_275",
-            "OBJ_276",
-            "OBJ_277",
-            "OBJ_278",
-            "OBJ_279",
-            "OBJ_280",
-            "OBJ_281",
-            "OBJ_282",
-            "OBJ_283",
-            "OBJ_284",
-            "OBJ_285",
-            "OBJ_286",
-            "OBJ_287",
-            "OBJ_288",
-            "OBJ_289",
-            "OBJ_290",
-            "OBJ_291",
-            "OBJ_292",
-            "OBJ_293",
-            "OBJ_294",
-            "OBJ_295",
-            "OBJ_296",
-            "OBJ_297",
-            "OBJ_298",
-            "OBJ_299",
-            "OBJ_300",
-            "OBJ_301",
-            "OBJ_302",
-            "OBJ_303",
-            "OBJ_304",
-            "OBJ_305",
-            "OBJ_306",
-            "OBJ_307",
-            "OBJ_308",
-            "OBJ_309",
-            "OBJ_310",
-            "OBJ_311",
-            "OBJ_312",
-            "OBJ_313",
-            "OBJ_314",
-            "OBJ_315",
-            "OBJ_316",
-            "OBJ_317",
-            "OBJ_318",
-            "OBJ_319",
-            "OBJ_320",
-            "OBJ_321",
-            "OBJ_322",
-            "OBJ_323",
-            "OBJ_324",
-            "OBJ_325",
-            "OBJ_326",
-            "OBJ_327",
-            "OBJ_328",
-            "OBJ_329",
-            "OBJ_330"
-         );
-      };
-      "OBJ_211" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
-      };
-      "OBJ_212" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
-      };
-      "OBJ_213" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
-      };
-      "OBJ_214" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
-      };
-      "OBJ_215" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
-      };
-      "OBJ_216" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
-      };
-      "OBJ_217" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
-      };
-      "OBJ_218" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
-      };
-      "OBJ_219" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
-      };
-      "OBJ_22" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_23"
-         );
-         name = "Operations";
-         path = "Operations";
-         sourceTree = "<group>";
-      };
-      "OBJ_220" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_23";
-      };
-      "OBJ_221" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_25";
-      };
-      "OBJ_222" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_26";
-      };
-      "OBJ_223" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_28";
-      };
-      "OBJ_224" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_30";
-      };
-      "OBJ_225" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
-      };
-      "OBJ_226" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
-      };
-      "OBJ_227" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_35";
-      };
-      "OBJ_228" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
-      };
-      "OBJ_229" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_39";
-      };
-      "OBJ_23" = {
-         isa = "PBXFileReference";
-         path = "DownloadOperation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_230" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_41";
-      };
-      "OBJ_231" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
-      };
-      "OBJ_232" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_45";
-      };
-      "OBJ_233" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
-      };
-      "OBJ_234" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_48";
-      };
-      "OBJ_235" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_49";
-      };
-      "OBJ_236" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_50";
-      };
-      "OBJ_237" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_53";
-      };
-      "OBJ_238" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_54";
-      };
-      "OBJ_239" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_55";
-      };
-      "OBJ_24" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_25"
-         );
-         name = "Parser";
-         path = "Parser";
-         sourceTree = "<group>";
-      };
-      "OBJ_240" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_56";
-      };
-      "OBJ_241" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_59";
-      };
-      "OBJ_242" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
-      };
-      "OBJ_243" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_63";
-      };
-      "OBJ_244" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_65";
-      };
-      "OBJ_245" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_66";
-      };
-      "OBJ_246" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_68";
-      };
-      "OBJ_247" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_69";
-      };
-      "OBJ_248" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_70";
-      };
-      "OBJ_249" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_71";
-      };
-      "OBJ_25" = {
-         isa = "PBXFileReference";
-         path = "DataParser.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_250" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_74";
-      };
-      "OBJ_251" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_75";
-      };
-      "OBJ_252" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_76";
-      };
-      "OBJ_253" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_77";
-      };
-      "OBJ_254" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_78";
-      };
-      "OBJ_255" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_79";
-      };
-      "OBJ_256" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_80";
-      };
-      "OBJ_257" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_81";
-      };
-      "OBJ_258" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_82";
-      };
-      "OBJ_259" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_83";
-      };
-      "OBJ_26" = {
-         isa = "PBXFileReference";
-         path = "CrowdinAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_260" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_84";
-      };
-      "OBJ_261" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_85";
-      };
-      "OBJ_262" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_87";
-      };
-      "OBJ_263" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_89";
-      };
-      "OBJ_264" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_90";
-      };
-      "OBJ_265" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_91";
-      };
-      "OBJ_266" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_92";
-      };
-      "OBJ_267" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_93";
-      };
-      "OBJ_268" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_94";
-      };
-      "OBJ_269" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_95";
-      };
-      "OBJ_27" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_28",
-            "OBJ_29"
-         );
-         name = "DistributionsAPI";
-         path = "DistributionsAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_270" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_98";
-      };
-      "OBJ_271" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_99";
-      };
-      "OBJ_272" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_101";
-      };
-      "OBJ_273" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_102";
-      };
-      "OBJ_274" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_103";
-      };
-      "OBJ_275" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_105";
-      };
-      "OBJ_276" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_106";
-      };
-      "OBJ_277" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_107";
-      };
-      "OBJ_278" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_108";
-      };
-      "OBJ_279" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_109";
-      };
-      "OBJ_28" = {
-         isa = "PBXFileReference";
-         path = "DistributionsAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_280" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_110";
-      };
-      "OBJ_281" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_112";
-      };
-      "OBJ_282" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_114";
-      };
-      "OBJ_283" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_115";
-      };
-      "OBJ_284" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_117";
-      };
-      "OBJ_285" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_118";
-      };
-      "OBJ_286" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_121";
-      };
-      "OBJ_287" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_122";
-      };
-      "OBJ_288" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_123";
-      };
-      "OBJ_289" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_125";
-      };
-      "OBJ_29" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_30"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_290" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_127";
-      };
-      "OBJ_291" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_128";
-      };
-      "OBJ_292" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_129";
-      };
-      "OBJ_293" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_130";
-      };
-      "OBJ_294" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_133";
-      };
-      "OBJ_295" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_135";
-      };
-      "OBJ_296" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_136";
-      };
-      "OBJ_297" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_137";
-      };
-      "OBJ_298" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_138";
-      };
-      "OBJ_299" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_139";
-      };
-      "OBJ_3" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "NO";
-            DEBUG_INFORMATION_FORMAT = "dwarf";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            ENABLE_NS_ASSERTIONS = "YES";
-            GCC_OPTIMIZATION_LEVEL = "0";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1",
-               "DEBUG=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            ONLY_ACTIVE_ARCH = "YES";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "macosx",
-               "iphoneos",
-               "iphonesimulator",
-               "appletvos",
-               "appletvsimulator",
-               "watchos",
-               "watchsimulator"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE",
-               "DEBUG"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Debug";
-      };
-      "OBJ_30" = {
-         isa = "PBXFileReference";
-         path = "DistributionsResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_300" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_140";
-      };
-      "OBJ_301" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_142";
-      };
-      "OBJ_302" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_143";
-      };
-      "OBJ_303" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_145";
-      };
-      "OBJ_304" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_147";
-      };
-      "OBJ_305" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_148";
-      };
-      "OBJ_306" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_149";
-      };
-      "OBJ_307" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_150";
-      };
-      "OBJ_308" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_151";
-      };
-      "OBJ_309" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_152";
-      };
-      "OBJ_31" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_32",
-            "OBJ_33"
-         );
-         name = "LoginAPI";
-         path = "LoginAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_310" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_153";
-      };
-      "OBJ_311" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_155";
-      };
-      "OBJ_312" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_156";
-      };
-      "OBJ_313" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_160";
-      };
-      "OBJ_314" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_161";
-      };
-      "OBJ_315" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_163";
-      };
-      "OBJ_316" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_164";
-      };
-      "OBJ_317" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_166";
-      };
-      "OBJ_318" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_168";
-      };
-      "OBJ_319" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_171";
-      };
-      "OBJ_32" = {
-         isa = "PBXFileReference";
-         path = "LoginAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_320" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_172";
-      };
-      "OBJ_321" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_173";
-      };
-      "OBJ_322" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_174";
-      };
-      "OBJ_323" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_175";
-      };
-      "OBJ_324" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_177";
-      };
-      "OBJ_325" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_178";
-      };
-      "OBJ_326" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_179";
-      };
-      "OBJ_327" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_180";
-      };
-      "OBJ_328" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_181";
-      };
-      "OBJ_329" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_182";
-      };
-      "OBJ_33" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_34",
-            "OBJ_35",
-            "OBJ_36"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_330" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_183";
-      };
-      "OBJ_331" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_332"
-         );
-      };
-      "OBJ_332" = {
-         isa = "PBXBuildFile";
-         fileRef = "Starscream::Starscream::Product";
-      };
-      "OBJ_333" = {
-         isa = "PBXTargetDependency";
-         target = "Starscream::Starscream";
-      };
-      "OBJ_336" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_337",
-            "OBJ_338"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_337" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.1"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_338" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.1"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_339" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_340"
-         );
-      };
-      "OBJ_34" = {
-         isa = "PBXFileReference";
-         path = "RefreshTokenRequest.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_340" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_341" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_342",
-            "OBJ_343"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_342" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/swift-nio-zlib-support"
-            );
-            INFOPLIST_FILE = "CrowdinSDK.xcodeproj/Starscream_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)",
-               "-lz"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Starscream";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Starscream";
-         };
-         name = "Debug";
-      };
-      "OBJ_343" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/swift-nio-zlib-support"
-            );
-            INFOPLIST_FILE = "CrowdinSDK.xcodeproj/Starscream_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)",
-               "-lz"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Starscream";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Starscream";
-         };
-         name = "Release";
-      };
-      "OBJ_344" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_345",
-            "OBJ_346",
-            "OBJ_347",
-            "OBJ_348"
-         );
-      };
-      "OBJ_345" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_188";
-      };
-      "OBJ_346" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_189";
-      };
-      "OBJ_347" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_190";
-      };
-      "OBJ_348" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_191";
-      };
-      "OBJ_349" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_35" = {
-         isa = "PBXFileReference";
-         path = "TokenRequest.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_351" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_352",
-            "OBJ_353"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_352" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "4.2"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
-      };
-      "OBJ_353" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "4.2"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
-      };
-      "OBJ_354" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_355"
-         );
-      };
-      "OBJ_355" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_192";
-      };
-      "OBJ_36" = {
-         isa = "PBXFileReference";
-         path = "TokenResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_37" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_38",
-            "OBJ_40",
-            "OBJ_42"
-         );
-         name = "ProjectAPI";
-         path = "ProjectAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_38" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_39"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_39" = {
-         isa = "PBXFileReference";
-         path = "ProjectDetailsResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_4" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "YES";
-            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            GCC_OPTIMIZATION_LEVEL = "s";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "macosx",
-               "iphoneos",
-               "iphonesimulator",
-               "appletvos",
-               "appletvsimulator",
-               "watchos",
-               "watchsimulator"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Release";
-      };
-      "OBJ_40" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_41"
-         );
-         name = "Operations";
-         path = "Operations";
-         sourceTree = "<group>";
-      };
-      "OBJ_41" = {
-         isa = "PBXFileReference";
-         path = "DownloadProjectInfoOperation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_42" = {
-         isa = "PBXFileReference";
-         path = "ProjectAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_43" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_44",
-            "OBJ_50"
-         );
-         name = "ScreenshotsAPI";
-         path = "ScreenshotsAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_44" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_45",
-            "OBJ_46",
-            "OBJ_47"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_45" = {
-         isa = "PBXFileReference";
-         path = "CreateScreenshotRequest.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_46" = {
-         isa = "PBXFileReference";
-         path = "CreateScreenshotResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_47" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_48",
-            "OBJ_49"
-         );
-         name = "CreateScreenshotTag";
-         path = "CreateScreenshotTag";
-         sourceTree = "<group>";
-      };
-      "OBJ_48" = {
-         isa = "PBXFileReference";
-         path = "CreateScreenshotTagRequest.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_49" = {
-         isa = "PBXFileReference";
-         path = "CreateScreenshotTagResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_5" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_6",
-            "OBJ_7",
-            "OBJ_184",
-            "OBJ_185",
-            "OBJ_193",
-            "OBJ_196",
-            "OBJ_197",
-            "OBJ_198",
-            "OBJ_199",
-            "OBJ_200",
-            "OBJ_201",
-            "OBJ_202",
-            "OBJ_203",
-            "OBJ_204",
-            "OBJ_205"
-         );
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_50" = {
-         isa = "PBXFileReference";
-         path = "ScreenshotsAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_51" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_52",
-            "OBJ_56"
-         );
-         name = "SocketAPI";
-         path = "SocketAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_52" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_53",
-            "OBJ_54",
-            "OBJ_55"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_53" = {
-         isa = "PBXFileReference";
-         path = "ActionRequest.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_54" = {
-         isa = "PBXFileReference";
-         path = "TopSuggestionResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_55" = {
-         isa = "PBXFileReference";
-         path = "UpdateDraftResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_56" = {
-         isa = "PBXFileReference";
-         path = "SocketAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_57" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_58",
-            "OBJ_60"
-         );
-         name = "StorageAPI";
-         path = "StorageAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_58" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_59"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_59" = {
-         isa = "PBXFileReference";
-         path = "StorageUploadResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_6" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         path = "Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_60" = {
-         isa = "PBXFileReference";
-         path = "StorageAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_61" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_62",
-            "OBJ_64",
-            "OBJ_66"
-         );
-         name = "SupportedLanguagesAPI";
-         path = "SupportedLanguagesAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_62" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_63"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_63" = {
-         isa = "PBXFileReference";
-         path = "SupportedLanguagesResponse.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_64" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_65"
-         );
-         name = "Operations";
-         path = "Operations";
-         sourceTree = "<group>";
-      };
-      "OBJ_65" = {
-         isa = "PBXFileReference";
-         path = "DownloadSupportedLanguagesOperation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_66" = {
-         isa = "PBXFileReference";
-         path = "SupportedLanguagesAPI.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_67" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_68",
-            "OBJ_69",
-            "OBJ_70",
-            "OBJ_71",
-            "OBJ_72",
-            "OBJ_86",
-            "OBJ_96",
-            "OBJ_111",
-            "OBJ_113"
-         );
-         name = "CrowdinSDK";
-         path = "CrowdinSDK";
-         sourceTree = "<group>";
-      };
-      "OBJ_68" = {
-         isa = "PBXFileReference";
-         path = "Constants.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_69" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDK.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_7" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_8",
-            "OBJ_67",
-            "OBJ_119",
-            "OBJ_154",
-            "OBJ_157",
-            "OBJ_176"
-         );
-         name = "Sources";
-         path = "CrowdinSDK/Classes";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_70" = {
-         isa = "PBXFileReference";
-         path = "CrowdinSDKConfig.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_71" = {
-         isa = "PBXFileReference";
-         path = "CrowdinTester.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_72" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_73",
-            "OBJ_78",
-            "OBJ_79",
-            "OBJ_80",
-            "OBJ_81",
-            "OBJ_82",
-            "OBJ_83",
-            "OBJ_84",
-            "OBJ_85"
-         );
-         name = "Extensions";
-         path = "Extensions";
-         sourceTree = "<group>";
-      };
-      "OBJ_73" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_74",
-            "OBJ_75",
-            "OBJ_76",
-            "OBJ_77"
-         );
-         name = "Bundle";
-         path = "Bundle";
-         sourceTree = "<group>";
-      };
-      "OBJ_74" = {
-         isa = "PBXFileReference";
-         path = "Bundle+Application.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_75" = {
-         isa = "PBXFileReference";
-         path = "Bundle+Crowdin.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_76" = {
-         isa = "PBXFileReference";
-         path = "Bundle+Language.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_77" = {
-         isa = "PBXFileReference";
-         path = "Bundle+Swizzle.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_78" = {
-         isa = "PBXFileReference";
-         path = "Dictionary.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_79" = {
-         isa = "PBXFileReference";
-         path = "Locale.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_8" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_9",
-            "OBJ_18",
-            "OBJ_26",
-            "OBJ_27",
-            "OBJ_31",
-            "OBJ_37",
-            "OBJ_43",
-            "OBJ_51",
-            "OBJ_57",
-            "OBJ_61"
-         );
-         name = "CrowdinAPI";
-         path = "CrowdinAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_80" = {
-         isa = "PBXFileReference";
-         path = "String.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_81" = {
-         isa = "PBXFileReference";
-         path = "UIButton+Swizzle.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_82" = {
-         isa = "PBXFileReference";
-         path = "UILabel+Swizzle.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_83" = {
-         isa = "PBXFileReference";
-         path = "UIViewController.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_84" = {
-         isa = "PBXFileReference";
-         path = "UIWindow.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_85" = {
-         isa = "PBXFileReference";
-         path = "UserDefaults.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_86" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_87",
-            "OBJ_88",
-            "OBJ_90",
-            "OBJ_91",
-            "OBJ_92",
-            "OBJ_93",
-            "OBJ_94",
-            "OBJ_95"
-         );
-         name = "FileSystem";
-         path = "FileSystem";
-         sourceTree = "<group>";
-      };
-      "OBJ_87" = {
-         isa = "PBXFileReference";
-         path = "CrowdinFolder.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_88" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_89"
-         );
-         name = "CustomBundle";
-         path = "CustomBundle";
-         sourceTree = "<group>";
-      };
-      "OBJ_89" = {
-         isa = "PBXFileReference";
-         path = "CustomBundle.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_9" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_10",
-            "OBJ_11",
-            "OBJ_14",
-            "OBJ_15",
-            "OBJ_16",
-            "OBJ_17"
-         );
-         name = "BaseAPI";
-         path = "BaseAPI";
-         sourceTree = "<group>";
-      };
-      "OBJ_90" = {
-         isa = "PBXFileReference";
-         path = "DocumentsFolder.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_91" = {
-         isa = "PBXFileReference";
-         path = "File.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_92" = {
-         isa = "PBXFileReference";
-         path = "FileStatus.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_93" = {
-         isa = "PBXFileReference";
-         path = "FileType.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_94" = {
-         isa = "PBXFileReference";
-         path = "Folder.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_95" = {
-         isa = "PBXFileReference";
-         path = "ReadWriteProtocol.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_96" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_97",
-            "OBJ_100",
-            "OBJ_102",
-            "OBJ_103",
-            "OBJ_104"
-         );
-         name = "Localization";
-         path = "Localization";
-         sourceTree = "<group>";
-      };
-      "OBJ_97" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_98",
-            "OBJ_99"
-         );
-         name = "Downloaders";
-         path = "Downloaders";
-         sourceTree = "<group>";
-      };
-      "OBJ_98" = {
-         isa = "PBXFileReference";
-         path = "CrowdinDownloader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_99" = {
-         isa = "PBXFileReference";
-         path = "CrowdinLocalizationDownloader.swift";
-         sourceTree = "<group>";
-      };
-      "Starscream::Starscream" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_341";
-         buildPhases = (
-            "OBJ_344",
-            "OBJ_349"
-         );
-         dependencies = (
-         );
-         name = "Starscream";
-         productName = "Starscream";
-         productReference = "Starscream::Starscream::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "Starscream::Starscream::Product" = {
-         isa = "PBXFileReference";
-         path = "Starscream.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "Starscream::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_351";
-         buildPhases = (
-            "OBJ_354"
-         );
-         dependencies = (
-         );
-         name = "StarscreamPackageDescription";
-         productName = "StarscreamPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-   };
-   rootObject = "OBJ_1";
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"CrowdinSDK::CrowdinSDKPackageTests::ProductTarget" /* CrowdinSDKPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_344 /* Build configuration list for PBXAggregateTarget "CrowdinSDKPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_347 /* PBXTargetDependency */,
+			);
+			name = CrowdinSDKPackageTests;
+			productName = CrowdinSDKPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_218 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BaseAPI.swift */; };
+		OBJ_219 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CharacterSet.swift */; };
+		OBJ_220 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* URLSession.swift */; };
+		OBJ_221 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Request.swift */; };
+		OBJ_222 /* RequestHeaderFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* RequestHeaderFields.swift */; };
+		OBJ_223 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* RequestMethod.swift */; };
+		OBJ_224 /* ResponsetHeaderFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ResponsetHeaderFields.swift */; };
+		OBJ_225 /* CrowdinContentDeliveryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CrowdinContentDeliveryAPI.swift */; };
+		OBJ_226 /* ManifestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ManifestResponse.swift */; };
+		OBJ_227 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* DownloadOperation.swift */; };
+		OBJ_228 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* DataParser.swift */; };
+		OBJ_229 /* CrowdinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CrowdinAPI.swift */; };
+		OBJ_230 /* DistributionsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* DistributionsAPI.swift */; };
+		OBJ_231 /* DistributionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* DistributionsResponse.swift */; };
+		OBJ_232 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* LoginAPI.swift */; };
+		OBJ_233 /* RefreshTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* RefreshTokenRequest.swift */; };
+		OBJ_234 /* TokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* TokenRequest.swift */; };
+		OBJ_235 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* TokenResponse.swift */; };
+		OBJ_236 /* ProjectDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ProjectDetailsResponse.swift */; };
+		OBJ_237 /* DownloadProjectInfoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* DownloadProjectInfoOperation.swift */; };
+		OBJ_238 /* ProjectAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* ProjectAPI.swift */; };
+		OBJ_239 /* CreateScreenshotRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* CreateScreenshotRequest.swift */; };
+		OBJ_240 /* CreateScreenshotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* CreateScreenshotResponse.swift */; };
+		OBJ_241 /* CreateScreenshotTagRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* CreateScreenshotTagRequest.swift */; };
+		OBJ_242 /* CreateScreenshotTagResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* CreateScreenshotTagResponse.swift */; };
+		OBJ_243 /* ScreenshotsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* ScreenshotsAPI.swift */; };
+		OBJ_244 /* ActionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* ActionRequest.swift */; };
+		OBJ_245 /* TopSuggestionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* TopSuggestionResponse.swift */; };
+		OBJ_246 /* UpdateDraftResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* UpdateDraftResponse.swift */; };
+		OBJ_247 /* SocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* SocketAPI.swift */; };
+		OBJ_248 /* StorageUploadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* StorageUploadResponse.swift */; };
+		OBJ_249 /* StorageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* StorageAPI.swift */; };
+		OBJ_250 /* SupportedLanguagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* SupportedLanguagesResponse.swift */; };
+		OBJ_251 /* DownloadSupportedLanguagesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* DownloadSupportedLanguagesOperation.swift */; };
+		OBJ_252 /* SupportedLanguagesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* SupportedLanguagesAPI.swift */; };
+		OBJ_253 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Constants.swift */; };
+		OBJ_254 /* CrowdinSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* CrowdinSDK.swift */; };
+		OBJ_255 /* CrowdinSDKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* CrowdinSDKConfig.swift */; };
+		OBJ_256 /* CrowdinTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* CrowdinTester.swift */; };
+		OBJ_257 /* Bundle+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* Bundle+Application.swift */; };
+		OBJ_258 /* Bundle+Crowdin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* Bundle+Crowdin.swift */; };
+		OBJ_259 /* Bundle+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* Bundle+Language.swift */; };
+		OBJ_260 /* Bundle+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Bundle+Swizzle.swift */; };
+		OBJ_261 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* Dictionary.swift */; };
+		OBJ_262 /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Locale.swift */; };
+		OBJ_263 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* String.swift */; };
+		OBJ_264 /* UIButton+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* UIButton+Swizzle.swift */; };
+		OBJ_265 /* UILabel+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* UILabel+Swizzle.swift */; };
+		OBJ_266 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* UIViewController.swift */; };
+		OBJ_267 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* UIWindow.swift */; };
+		OBJ_268 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* UserDefaults.swift */; };
+		OBJ_269 /* CrowdinFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* CrowdinFolder.swift */; };
+		OBJ_270 /* CustomBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* CustomBundle.swift */; };
+		OBJ_271 /* DocumentsFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* DocumentsFolder.swift */; };
+		OBJ_272 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* File.swift */; };
+		OBJ_273 /* FileStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* FileStatus.swift */; };
+		OBJ_274 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* FileType.swift */; };
+		OBJ_275 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* Folder.swift */; };
+		OBJ_276 /* ReadWriteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* ReadWriteProtocol.swift */; };
+		OBJ_277 /* CrowdinDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* CrowdinDownloader.swift */; };
+		OBJ_278 /* CrowdinLocalizationDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* CrowdinLocalizationDownloader.swift */; };
+		OBJ_279 /* LocalizationExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* LocalizationExtractor.swift */; };
+		OBJ_280 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* Localization.swift */; };
+		OBJ_281 /* LocalizationUpdateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* LocalizationUpdateObserver.swift */; };
+		OBJ_282 /* InBundleLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* InBundleLocalizationStorage.swift */; };
+		OBJ_283 /* LocalLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* LocalLocalizationStorage.swift */; };
+		OBJ_284 /* LocalizationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* LocalizationDataSource.swift */; };
+		OBJ_285 /* LocalizationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* LocalizationProvider.swift */; };
+		OBJ_286 /* LocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* LocalizationStorage.swift */; };
+		OBJ_287 /* RemoteLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* RemoteLocalizationStorage.swift */; };
+		OBJ_288 /* StringParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* StringParam.swift */; };
+		OBJ_289 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* Atomic.swift */; };
+		OBJ_290 /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* ObjectAssociation.swift */; };
+		OBJ_291 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* AsyncOperation.swift */; };
+		OBJ_292 /* BlockAsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* BlockAsyncOperation.swift */; };
+		OBJ_293 /* CrowdinSDK+IntervalUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* CrowdinSDK+IntervalUpdate.swift */; };
+		OBJ_294 /* CrowdinSDKConfig+IntervalUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* CrowdinSDKConfig+IntervalUpdate.swift */; };
+		OBJ_295 /* IntervalUpdateFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* IntervalUpdateFeature.swift */; };
+		OBJ_296 /* CrowdinLoginConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* CrowdinLoginConfig.swift */; };
+		OBJ_297 /* Bundle+URLScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* Bundle+URLScheme.swift */; };
+		OBJ_298 /* CrowdinSDK+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* CrowdinSDK+Login.swift */; };
+		OBJ_299 /* CrowdinSDKConfig +Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* CrowdinSDKConfig +Login.swift */; };
+		OBJ_300 /* LoginFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* LoginFeature.swift */; };
+		OBJ_301 /* CrowdinSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* CrowdinSocketManager.swift */; };
+		OBJ_302 /* CrowdinSDK+ReatimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* CrowdinSDK+ReatimeUpdates.swift */; };
+		OBJ_303 /* CrowdinSDKConfig+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* CrowdinSDKConfig+RealtimeUpdates.swift */; };
+		OBJ_304 /* UIButton+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* UIButton+RealtimeUpdates.swift */; };
+		OBJ_305 /* UILabel+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* UILabel+RealtimeUpdates.swift */; };
+		OBJ_306 /* RealtimeUpdateFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* RealtimeUpdateFeature.swift */; };
+		OBJ_307 /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* Refreshable.swift */; };
+		OBJ_308 /* CrowdinSDK+RefreshLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* CrowdinSDK+RefreshLocalization.swift */; };
+		OBJ_309 /* RefreshLocalizationFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* RefreshLocalizationFeature.swift */; };
+		OBJ_310 /* CrowdinScreenshotsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* CrowdinScreenshotsConfig.swift */; };
+		OBJ_311 /* CGRect+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* CGRect+Validation.swift */; };
+		OBJ_312 /* CrowdinSDK+Screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* CrowdinSDK+Screenshots.swift */; };
+		OBJ_313 /* CrowdinSDKConfig+Screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* CrowdinSDKConfig+Screenshots.swift */; };
+		OBJ_314 /* ScreenshotFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* ScreenshotFeature.swift */; };
+		OBJ_315 /* ScreenshotInformationCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* ScreenshotInformationCollector.swift */; };
+		OBJ_316 /* ScreenshotProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* ScreenshotProcessor.swift */; };
+		OBJ_317 /* ScreenshotUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* ScreenshotUploader.swift */; };
+		OBJ_318 /* CrowdinMappingDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* CrowdinMappingDownloader.swift */; };
+		OBJ_319 /* CrowdinMappingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* CrowdinMappingManager.swift */; };
+		OBJ_320 /* CrowdinProviderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* CrowdinProviderConfig.swift */; };
+		OBJ_321 /* CrowdinRemoteLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* CrowdinRemoteLocalizationStorage.swift */; };
+		OBJ_322 /* CrowdinSDKConfig+CrowdinProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* CrowdinSDKConfig+CrowdinProvider.swift */; };
+		OBJ_323 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* String+Extensions.swift */; };
+		OBJ_324 /* CrowdinPathsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* CrowdinPathsParser.swift */; };
+		OBJ_325 /* CrowdinSupportedLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* CrowdinSupportedLanguages.swift */; };
+		OBJ_326 /* Bundle+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_170 /* Bundle+Settings.swift */; };
+		OBJ_327 /* CrowdinSDK+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* CrowdinSDK+Settings.swift */; };
+		OBJ_328 /* CrowdinSDKConfig+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* CrowdinSDKConfig+Settings.swift */; };
+		OBJ_329 /* SettingsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* SettingsItemCell.swift */; };
+		OBJ_330 /* SettingsView+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* SettingsView+Gesture.swift */; };
+		OBJ_331 /* SettingsView+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* SettingsView+UITableView.swift */; };
+		OBJ_332 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* SettingsView.swift */; };
+		OBJ_334 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
+		OBJ_342 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_353 /* ConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* ConstantsTests.swift */; };
+		OBJ_354 /* CrowdinSDKConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* CrowdinSDKConfigTests.swift */; };
+		OBJ_355 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* DictionaryTests.swift */; };
+		OBJ_356 /* LocaleExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* LocaleExtensionTests.swift */; };
+		OBJ_357 /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* StringsTests.swift */; };
+		OBJ_358 /* CrowdinAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* CrowdinAPITests.swift */; };
+		OBJ_359 /* CrowdinContentDeliveryAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* CrowdinContentDeliveryAPITests.swift */; };
+		OBJ_360 /* CrowdinLoginAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* CrowdinLoginAPITests.swift */; };
+		OBJ_361 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* URLSessionMock.swift */; };
+		OBJ_362 /* CrowdinPathsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* CrowdinPathsParserTests.swift */; };
+		OBJ_363 /* CrowdinProviderConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* CrowdinProviderConfigTests.swift */; };
+		OBJ_365 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
+		OBJ_371 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* Compression.swift */; };
+		OBJ_372 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* SSLClientCertificate.swift */; };
+		OBJ_373 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_197 /* SSLSecurity.swift */; };
+		OBJ_374 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* WebSocket.swift */; };
+		OBJ_381 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8A6D6E0238228CE00FECA34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Starscream::Starscream";
+			remoteInfo = Starscream;
+		};
+		E8A6D6E1238228CE00FECA34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Starscream::Starscream";
+			remoteInfo = Starscream;
+		};
+		E8A6D6E2238228CE00FECA34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CrowdinSDK::CrowdinSDKTests";
+			remoteInfo = CrowdinSDKTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"CrowdinSDK::CrowdinSDK::Product" /* CrowdinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrowdinSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CrowdinSDK::CrowdinSDKTests::Product" /* CrowdinSDKTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CrowdinSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		OBJ_101 /* LocalizationExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationExtractor.swift; sourceTree = "<group>"; };
+		OBJ_102 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		OBJ_103 /* LocalizationUpdateObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationUpdateObserver.swift; sourceTree = "<group>"; };
+		OBJ_105 /* InBundleLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InBundleLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_106 /* LocalLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_107 /* LocalizationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationDataSource.swift; sourceTree = "<group>"; };
+		OBJ_108 /* LocalizationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProvider.swift; sourceTree = "<group>"; };
+		OBJ_109 /* LocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_110 /* RemoteLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_112 /* StringParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringParam.swift; sourceTree = "<group>"; };
+		OBJ_114 /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		OBJ_115 /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectAssociation.swift; sourceTree = "<group>"; };
+		OBJ_117 /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		OBJ_118 /* BlockAsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockAsyncOperation.swift; sourceTree = "<group>"; };
+		OBJ_12 /* CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSet.swift; sourceTree = "<group>"; };
+		OBJ_121 /* CrowdinSDK+IntervalUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+IntervalUpdate.swift"; sourceTree = "<group>"; };
+		OBJ_122 /* CrowdinSDKConfig+IntervalUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+IntervalUpdate.swift"; sourceTree = "<group>"; };
+		OBJ_123 /* IntervalUpdateFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalUpdateFeature.swift; sourceTree = "<group>"; };
+		OBJ_125 /* CrowdinLoginConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLoginConfig.swift; sourceTree = "<group>"; };
+		OBJ_127 /* Bundle+URLScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+URLScheme.swift"; sourceTree = "<group>"; };
+		OBJ_128 /* CrowdinSDK+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Login.swift"; sourceTree = "<group>"; };
+		OBJ_129 /* CrowdinSDKConfig +Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig +Login.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		OBJ_130 /* LoginFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFeature.swift; sourceTree = "<group>"; };
+		OBJ_133 /* CrowdinSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSocketManager.swift; sourceTree = "<group>"; };
+		OBJ_135 /* CrowdinSDK+ReatimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+ReatimeUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_136 /* CrowdinSDKConfig+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+RealtimeUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_137 /* UIButton+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+RealtimeUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_138 /* UILabel+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+RealtimeUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_139 /* RealtimeUpdateFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeUpdateFeature.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_140 /* Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshable.swift; sourceTree = "<group>"; };
+		OBJ_142 /* CrowdinSDK+RefreshLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+RefreshLocalization.swift"; sourceTree = "<group>"; };
+		OBJ_143 /* RefreshLocalizationFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshLocalizationFeature.swift; sourceTree = "<group>"; };
+		OBJ_145 /* CrowdinScreenshotsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinScreenshotsConfig.swift; sourceTree = "<group>"; };
+		OBJ_147 /* CGRect+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Validation.swift"; sourceTree = "<group>"; };
+		OBJ_148 /* CrowdinSDK+Screenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Screenshots.swift"; sourceTree = "<group>"; };
+		OBJ_149 /* CrowdinSDKConfig+Screenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+Screenshots.swift"; sourceTree = "<group>"; };
+		OBJ_15 /* RequestHeaderFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeaderFields.swift; sourceTree = "<group>"; };
+		OBJ_150 /* ScreenshotFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotFeature.swift; sourceTree = "<group>"; };
+		OBJ_151 /* ScreenshotInformationCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotInformationCollector.swift; sourceTree = "<group>"; };
+		OBJ_152 /* ScreenshotProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotProcessor.swift; sourceTree = "<group>"; };
+		OBJ_153 /* ScreenshotUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotUploader.swift; sourceTree = "<group>"; };
+		OBJ_155 /* CrowdinMappingDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinMappingDownloader.swift; sourceTree = "<group>"; };
+		OBJ_156 /* CrowdinMappingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinMappingManager.swift; sourceTree = "<group>"; };
+		OBJ_16 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		OBJ_160 /* CrowdinProviderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinProviderConfig.swift; sourceTree = "<group>"; };
+		OBJ_161 /* CrowdinRemoteLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinRemoteLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_163 /* CrowdinSDKConfig+CrowdinProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+CrowdinProvider.swift"; sourceTree = "<group>"; };
+		OBJ_164 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_166 /* CrowdinPathsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinPathsParser.swift; sourceTree = "<group>"; };
+		OBJ_168 /* CrowdinSupportedLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSupportedLanguages.swift; sourceTree = "<group>"; };
+		OBJ_17 /* ResponsetHeaderFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsetHeaderFields.swift; sourceTree = "<group>"; };
+		OBJ_170 /* Bundle+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Settings.swift"; sourceTree = "<group>"; };
+		OBJ_171 /* CrowdinSDK+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Settings.swift"; sourceTree = "<group>"; };
+		OBJ_172 /* CrowdinSDKConfig+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+Settings.swift"; sourceTree = "<group>"; };
+		OBJ_173 /* SettingsItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemCell.swift; sourceTree = "<group>"; };
+		OBJ_174 /* SettingsView+Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView+Gesture.swift"; sourceTree = "<group>"; };
+		OBJ_175 /* SettingsView+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView+UITableView.swift"; sourceTree = "<group>"; };
+		OBJ_176 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		OBJ_179 /* ConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTests.swift; sourceTree = "<group>"; };
+		OBJ_180 /* CrowdinSDKConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDKConfigTests.swift; sourceTree = "<group>"; };
+		OBJ_181 /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
+		OBJ_182 /* LocaleExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleExtensionTests.swift; sourceTree = "<group>"; };
+		OBJ_183 /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
+		OBJ_185 /* CrowdinAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinAPITests.swift; sourceTree = "<group>"; };
+		OBJ_186 /* CrowdinContentDeliveryAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinContentDeliveryAPITests.swift; sourceTree = "<group>"; };
+		OBJ_187 /* CrowdinLoginAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLoginAPITests.swift; sourceTree = "<group>"; };
+		OBJ_188 /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
+		OBJ_19 /* CrowdinContentDeliveryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinContentDeliveryAPI.swift; sourceTree = "<group>"; };
+		OBJ_190 /* CrowdinPathsParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinPathsParserTests.swift; sourceTree = "<group>"; };
+		OBJ_191 /* CrowdinProviderConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinProviderConfigTests.swift; sourceTree = "<group>"; };
+		OBJ_195 /* Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
+		OBJ_196 /* SSLClientCertificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLClientCertificate.swift; sourceTree = "<group>"; };
+		OBJ_197 /* SSLSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		OBJ_198 /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		OBJ_199 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/serhii-londar/Documents/GitHub/mobile-sdk-ios/.build/checkouts/Starscream/Package.swift"; sourceTree = "<group>"; };
+		OBJ_204 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
+		OBJ_205 /* ObjCExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ObjCExample; sourceTree = SOURCE_ROOT; };
+		OBJ_206 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
+		OBJ_207 /* CrowdinSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CrowdinSDK; sourceTree = SOURCE_ROOT; };
+		OBJ_208 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_209 /* CrowdinSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CrowdinSDK.podspec; sourceTree = "<group>"; };
+		OBJ_21 /* ManifestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestResponse.swift; sourceTree = "<group>"; };
+		OBJ_210 /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "azure-pipelines.yml"; sourceTree = "<group>"; };
+		OBJ_211 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_212 /* build_doc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_doc.sh; sourceTree = "<group>"; };
+		OBJ_23 /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
+		OBJ_25 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		OBJ_26 /* CrowdinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinAPI.swift; sourceTree = "<group>"; };
+		OBJ_28 /* DistributionsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionsAPI.swift; sourceTree = "<group>"; };
+		OBJ_30 /* DistributionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionsResponse.swift; sourceTree = "<group>"; };
+		OBJ_32 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		OBJ_34 /* RefreshTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenRequest.swift; sourceTree = "<group>"; };
+		OBJ_35 /* TokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRequest.swift; sourceTree = "<group>"; };
+		OBJ_36 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		OBJ_39 /* ProjectDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsResponse.swift; sourceTree = "<group>"; };
+		OBJ_41 /* DownloadProjectInfoOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProjectInfoOperation.swift; sourceTree = "<group>"; };
+		OBJ_42 /* ProjectAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAPI.swift; sourceTree = "<group>"; };
+		OBJ_45 /* CreateScreenshotRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotRequest.swift; sourceTree = "<group>"; };
+		OBJ_46 /* CreateScreenshotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotResponse.swift; sourceTree = "<group>"; };
+		OBJ_48 /* CreateScreenshotTagRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotTagRequest.swift; sourceTree = "<group>"; };
+		OBJ_49 /* CreateScreenshotTagResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotTagResponse.swift; sourceTree = "<group>"; };
+		OBJ_50 /* ScreenshotsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsAPI.swift; sourceTree = "<group>"; };
+		OBJ_53 /* ActionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequest.swift; sourceTree = "<group>"; };
+		OBJ_54 /* TopSuggestionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSuggestionResponse.swift; sourceTree = "<group>"; };
+		OBJ_55 /* UpdateDraftResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDraftResponse.swift; sourceTree = "<group>"; };
+		OBJ_56 /* SocketAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketAPI.swift; sourceTree = "<group>"; };
+		OBJ_59 /* StorageUploadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageUploadResponse.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* StorageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAPI.swift; sourceTree = "<group>"; };
+		OBJ_63 /* SupportedLanguagesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedLanguagesResponse.swift; sourceTree = "<group>"; };
+		OBJ_65 /* DownloadSupportedLanguagesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadSupportedLanguagesOperation.swift; sourceTree = "<group>"; };
+		OBJ_66 /* SupportedLanguagesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedLanguagesAPI.swift; sourceTree = "<group>"; };
+		OBJ_68 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		OBJ_69 /* CrowdinSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDK.swift; sourceTree = "<group>"; };
+		OBJ_70 /* CrowdinSDKConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDKConfig.swift; sourceTree = "<group>"; };
+		OBJ_71 /* CrowdinTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinTester.swift; sourceTree = "<group>"; };
+		OBJ_74 /* Bundle+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Application.swift"; sourceTree = "<group>"; };
+		OBJ_75 /* Bundle+Crowdin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Crowdin.swift"; sourceTree = "<group>"; };
+		OBJ_76 /* Bundle+Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Language.swift"; sourceTree = "<group>"; };
+		OBJ_77 /* Bundle+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Swizzle.swift"; sourceTree = "<group>"; };
+		OBJ_78 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		OBJ_80 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		OBJ_81 /* UIButton+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Swizzle.swift"; sourceTree = "<group>"; };
+		OBJ_82 /* UILabel+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Swizzle.swift"; sourceTree = "<group>"; };
+		OBJ_83 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		OBJ_84 /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		OBJ_85 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		OBJ_87 /* CrowdinFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinFolder.swift; sourceTree = "<group>"; };
+		OBJ_89 /* CustomBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBundle.swift; sourceTree = "<group>"; };
+		OBJ_90 /* DocumentsFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsFolder.swift; sourceTree = "<group>"; };
+		OBJ_91 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_92 /* FileStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStatus.swift; sourceTree = "<group>"; };
+		OBJ_93 /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
+		OBJ_94 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		OBJ_95 /* ReadWriteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWriteProtocol.swift; sourceTree = "<group>"; };
+		OBJ_98 /* CrowdinDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinDownloader.swift; sourceTree = "<group>"; };
+		OBJ_99 /* CrowdinLocalizationDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLocalizationDownloader.swift; sourceTree = "<group>"; };
+		"Starscream::Starscream::Product" /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_334 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_365 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_100 /* Extractor */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_101 /* LocalizationExtractor.swift */,
+			);
+			path = Extractor;
+			sourceTree = "<group>";
+		};
+		OBJ_104 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_105 /* InBundleLocalizationStorage.swift */,
+				OBJ_106 /* LocalLocalizationStorage.swift */,
+				OBJ_107 /* LocalizationDataSource.swift */,
+				OBJ_108 /* LocalizationProvider.swift */,
+				OBJ_109 /* LocalizationStorage.swift */,
+				OBJ_110 /* RemoteLocalizationStorage.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		OBJ_11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* CharacterSet.swift */,
+				OBJ_13 /* URLSession.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_111 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_112 /* StringParam.swift */,
+			);
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		OBJ_113 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_114 /* Atomic.swift */,
+				OBJ_115 /* ObjectAssociation.swift */,
+				OBJ_116 /* Operations */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		OBJ_116 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_117 /* AsyncOperation.swift */,
+				OBJ_118 /* BlockAsyncOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		OBJ_119 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_120 /* IntervalUpdateFeature */,
+				OBJ_124 /* LoginFeature */,
+				OBJ_131 /* RealtimeUpdateFeature */,
+				OBJ_141 /* RefreshLocalizationFeature */,
+				OBJ_144 /* ScreenshotFeature */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		OBJ_120 /* IntervalUpdateFeature */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_121 /* CrowdinSDK+IntervalUpdate.swift */,
+				OBJ_122 /* CrowdinSDKConfig+IntervalUpdate.swift */,
+				OBJ_123 /* IntervalUpdateFeature.swift */,
+			);
+			path = IntervalUpdateFeature;
+			sourceTree = "<group>";
+		};
+		OBJ_124 /* LoginFeature */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_125 /* CrowdinLoginConfig.swift */,
+				OBJ_126 /* Extensions */,
+				OBJ_130 /* LoginFeature.swift */,
+			);
+			path = LoginFeature;
+			sourceTree = "<group>";
+		};
+		OBJ_126 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_127 /* Bundle+URLScheme.swift */,
+				OBJ_128 /* CrowdinSDK+Login.swift */,
+				OBJ_129 /* CrowdinSDKConfig +Login.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_131 /* RealtimeUpdateFeature */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_132 /* CrowdinSocketManager */,
+				OBJ_134 /* Extensions */,
+				OBJ_139 /* RealtimeUpdateFeature.swift */,
+				OBJ_140 /* Refreshable.swift */,
+			);
+			path = RealtimeUpdateFeature;
+			sourceTree = "<group>";
+		};
+		OBJ_132 /* CrowdinSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_133 /* CrowdinSocketManager.swift */,
+			);
+			path = CrowdinSocketManager;
+			sourceTree = "<group>";
+		};
+		OBJ_134 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_135 /* CrowdinSDK+ReatimeUpdates.swift */,
+				OBJ_136 /* CrowdinSDKConfig+RealtimeUpdates.swift */,
+				OBJ_137 /* UIButton+RealtimeUpdates.swift */,
+				OBJ_138 /* UILabel+RealtimeUpdates.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_141 /* RefreshLocalizationFeature */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_142 /* CrowdinSDK+RefreshLocalization.swift */,
+				OBJ_143 /* RefreshLocalizationFeature.swift */,
+			);
+			path = RefreshLocalizationFeature;
+			sourceTree = "<group>";
+		};
+		OBJ_144 /* ScreenshotFeature */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_145 /* CrowdinScreenshotsConfig.swift */,
+				OBJ_146 /* Extensions */,
+				OBJ_150 /* ScreenshotFeature.swift */,
+				OBJ_151 /* ScreenshotInformationCollector.swift */,
+				OBJ_152 /* ScreenshotProcessor.swift */,
+				OBJ_153 /* ScreenshotUploader.swift */,
+			);
+			path = ScreenshotFeature;
+			sourceTree = "<group>";
+		};
+		OBJ_146 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_147 /* CGRect+Validation.swift */,
+				OBJ_148 /* CrowdinSDK+Screenshots.swift */,
+				OBJ_149 /* CrowdinSDKConfig+Screenshots.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_154 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_155 /* CrowdinMappingDownloader.swift */,
+				OBJ_156 /* CrowdinMappingManager.swift */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		OBJ_157 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_158 /* Crowdin */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		OBJ_158 /* Crowdin */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_159 /* Config */,
+				OBJ_161 /* CrowdinRemoteLocalizationStorage.swift */,
+				OBJ_162 /* Extensions */,
+				OBJ_165 /* PathParser */,
+				OBJ_167 /* SupportedLanguages */,
+			);
+			path = Crowdin;
+			sourceTree = "<group>";
+		};
+		OBJ_159 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_160 /* CrowdinProviderConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		OBJ_162 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_163 /* CrowdinSDKConfig+CrowdinProvider.swift */,
+				OBJ_164 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_165 /* PathParser */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_166 /* CrowdinPathsParser.swift */,
+			);
+			path = PathParser;
+			sourceTree = "<group>";
+		};
+		OBJ_167 /* SupportedLanguages */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_168 /* CrowdinSupportedLanguages.swift */,
+			);
+			path = SupportedLanguages;
+			sourceTree = "<group>";
+		};
+		OBJ_169 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_170 /* Bundle+Settings.swift */,
+				OBJ_171 /* CrowdinSDK+Settings.swift */,
+				OBJ_172 /* CrowdinSDKConfig+Settings.swift */,
+				OBJ_173 /* SettingsItemCell.swift */,
+				OBJ_174 /* SettingsView+Gesture.swift */,
+				OBJ_175 /* SettingsView+UITableView.swift */,
+				OBJ_176 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		OBJ_177 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_178 /* Core */,
+				OBJ_184 /* CrowdinAPI */,
+				OBJ_189 /* CrowdinProvider */,
+			);
+			name = Tests;
+			path = CrowdinSDK/Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_178 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_179 /* ConstantsTests.swift */,
+				OBJ_180 /* CrowdinSDKConfigTests.swift */,
+				OBJ_181 /* DictionaryTests.swift */,
+				OBJ_182 /* LocaleExtensionTests.swift */,
+				OBJ_183 /* StringsTests.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		OBJ_18 /* ContentDeliveryAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* CrowdinContentDeliveryAPI.swift */,
+				OBJ_20 /* Models */,
+				OBJ_22 /* Operations */,
+				OBJ_24 /* Parser */,
+			);
+			path = ContentDeliveryAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_184 /* CrowdinAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_185 /* CrowdinAPITests.swift */,
+				OBJ_186 /* CrowdinContentDeliveryAPITests.swift */,
+				OBJ_187 /* CrowdinLoginAPITests.swift */,
+				OBJ_188 /* URLSessionMock.swift */,
+			);
+			path = CrowdinAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_189 /* CrowdinProvider */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_190 /* CrowdinPathsParserTests.swift */,
+				OBJ_191 /* CrowdinProviderConfigTests.swift */,
+			);
+			path = CrowdinProvider;
+			sourceTree = "<group>";
+		};
+		OBJ_192 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_193 /* Starscream 3.1.1 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_193 /* Starscream 3.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_194 /* Starscream */,
+				OBJ_199 /* Package.swift */,
+			);
+			name = "Starscream 3.1.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_194 /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_195 /* Compression.swift */,
+				OBJ_196 /* SSLClientCertificate.swift */,
+				OBJ_197 /* SSLSecurity.swift */,
+				OBJ_198 /* WebSocket.swift */,
+			);
+			name = Starscream;
+			path = .build/checkouts/Starscream/Sources/Starscream;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* ManifestResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Starscream::Starscream::Product" /* Starscream.framework */,
+				"CrowdinSDK::CrowdinSDKTests::Product" /* CrowdinSDKTests.xctest */,
+				"CrowdinSDK::CrowdinSDK::Product" /* CrowdinSDK.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_22 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* DownloadOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		OBJ_24 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* DataParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		OBJ_27 /* DistributionsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_28 /* DistributionsAPI.swift */,
+				OBJ_29 /* Models */,
+			);
+			path = DistributionsAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* DistributionsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_31 /* LoginAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* LoginAPI.swift */,
+				OBJ_33 /* Models */,
+			);
+			path = LoginAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* RefreshTokenRequest.swift */,
+				OBJ_35 /* TokenRequest.swift */,
+				OBJ_36 /* TokenResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_37 /* ProjectAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* Models */,
+				OBJ_40 /* Operations */,
+				OBJ_42 /* ProjectAPI.swift */,
+			);
+			path = ProjectAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* ProjectDetailsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_40 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_41 /* DownloadProjectInfoOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		OBJ_43 /* ScreenshotsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_44 /* Models */,
+				OBJ_50 /* ScreenshotsAPI.swift */,
+			);
+			path = ScreenshotsAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_44 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_45 /* CreateScreenshotRequest.swift */,
+				OBJ_46 /* CreateScreenshotResponse.swift */,
+				OBJ_47 /* CreateScreenshotTag */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_47 /* CreateScreenshotTag */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_48 /* CreateScreenshotTagRequest.swift */,
+				OBJ_49 /* CreateScreenshotTagResponse.swift */,
+			);
+			path = CreateScreenshotTag;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_177 /* Tests */,
+				OBJ_192 /* Dependencies */,
+				OBJ_200 /* Products */,
+				OBJ_204 /* Documentation */,
+				OBJ_205 /* ObjCExample */,
+				OBJ_206 /* Example */,
+				OBJ_207 /* CrowdinSDK */,
+				OBJ_208 /* LICENSE */,
+				OBJ_209 /* CrowdinSDK.podspec */,
+				OBJ_210 /* azure-pipelines.yml */,
+				OBJ_211 /* README.md */,
+				OBJ_212 /* build_doc.sh */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_51 /* SocketAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_52 /* Models */,
+				OBJ_56 /* SocketAPI.swift */,
+			);
+			path = SocketAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_53 /* ActionRequest.swift */,
+				OBJ_54 /* TopSuggestionResponse.swift */,
+				OBJ_55 /* UpdateDraftResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_57 /* StorageAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_58 /* Models */,
+				OBJ_60 /* StorageAPI.swift */,
+			);
+			path = StorageAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_59 /* StorageUploadResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_61 /* SupportedLanguagesAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_62 /* Models */,
+				OBJ_64 /* Operations */,
+				OBJ_66 /* SupportedLanguagesAPI.swift */,
+			);
+			path = SupportedLanguagesAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_63 /* SupportedLanguagesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_64 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_65 /* DownloadSupportedLanguagesOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		OBJ_67 /* CrowdinSDK */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_68 /* Constants.swift */,
+				OBJ_69 /* CrowdinSDK.swift */,
+				OBJ_70 /* CrowdinSDKConfig.swift */,
+				OBJ_71 /* CrowdinTester.swift */,
+				OBJ_72 /* Extensions */,
+				OBJ_86 /* FileSystem */,
+				OBJ_96 /* Localization */,
+				OBJ_111 /* R.swift */,
+				OBJ_113 /* Utils */,
+			);
+			path = CrowdinSDK;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* CrowdinAPI */,
+				OBJ_67 /* CrowdinSDK */,
+				OBJ_119 /* Features */,
+				OBJ_154 /* Mapping */,
+				OBJ_157 /* Providers */,
+				OBJ_169 /* Settings */,
+			);
+			name = Sources;
+			path = CrowdinSDK/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_72 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_73 /* Bundle */,
+				OBJ_78 /* Dictionary.swift */,
+				OBJ_79 /* Locale.swift */,
+				OBJ_80 /* String.swift */,
+				OBJ_81 /* UIButton+Swizzle.swift */,
+				OBJ_82 /* UILabel+Swizzle.swift */,
+				OBJ_83 /* UIViewController.swift */,
+				OBJ_84 /* UIWindow.swift */,
+				OBJ_85 /* UserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_73 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_74 /* Bundle+Application.swift */,
+				OBJ_75 /* Bundle+Crowdin.swift */,
+				OBJ_76 /* Bundle+Language.swift */,
+				OBJ_77 /* Bundle+Swizzle.swift */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* CrowdinAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* BaseAPI */,
+				OBJ_18 /* ContentDeliveryAPI */,
+				OBJ_26 /* CrowdinAPI.swift */,
+				OBJ_27 /* DistributionsAPI */,
+				OBJ_31 /* LoginAPI */,
+				OBJ_37 /* ProjectAPI */,
+				OBJ_43 /* ScreenshotsAPI */,
+				OBJ_51 /* SocketAPI */,
+				OBJ_57 /* StorageAPI */,
+				OBJ_61 /* SupportedLanguagesAPI */,
+			);
+			path = CrowdinAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_86 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_87 /* CrowdinFolder.swift */,
+				OBJ_88 /* CustomBundle */,
+				OBJ_90 /* DocumentsFolder.swift */,
+				OBJ_91 /* File.swift */,
+				OBJ_92 /* FileStatus.swift */,
+				OBJ_93 /* FileType.swift */,
+				OBJ_94 /* Folder.swift */,
+				OBJ_95 /* ReadWriteProtocol.swift */,
+			);
+			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		OBJ_88 /* CustomBundle */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_89 /* CustomBundle.swift */,
+			);
+			path = CustomBundle;
+			sourceTree = "<group>";
+		};
+		OBJ_9 /* BaseAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* BaseAPI.swift */,
+				OBJ_11 /* Extensions */,
+				OBJ_14 /* Request.swift */,
+				OBJ_15 /* RequestHeaderFields.swift */,
+				OBJ_16 /* RequestMethod.swift */,
+				OBJ_17 /* ResponsetHeaderFields.swift */,
+			);
+			path = BaseAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_96 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_97 /* Downloaders */,
+				OBJ_100 /* Extractor */,
+				OBJ_102 /* Localization.swift */,
+				OBJ_103 /* LocalizationUpdateObserver.swift */,
+				OBJ_104 /* Provider */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		OBJ_97 /* Downloaders */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_98 /* CrowdinDownloader.swift */,
+				OBJ_99 /* CrowdinLocalizationDownloader.swift */,
+			);
+			path = Downloaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"CrowdinSDK::CrowdinSDK" /* CrowdinSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_214 /* Build configuration list for PBXNativeTarget "CrowdinSDK" */;
+			buildPhases = (
+				OBJ_217 /* Sources */,
+				OBJ_333 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_335 /* PBXTargetDependency */,
+			);
+			name = CrowdinSDK;
+			productName = CrowdinSDK;
+			productReference = "CrowdinSDK::CrowdinSDK::Product" /* CrowdinSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CrowdinSDK::CrowdinSDKTests" /* CrowdinSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_349 /* Build configuration list for PBXNativeTarget "CrowdinSDKTests" */;
+			buildPhases = (
+				OBJ_352 /* Sources */,
+				OBJ_364 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_366 /* PBXTargetDependency */,
+			);
+			name = CrowdinSDKTests;
+			productName = CrowdinSDKTests;
+			productReference = "CrowdinSDK::CrowdinSDKTests::Product" /* CrowdinSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CrowdinSDK::SwiftPMPackageDescription" /* CrowdinSDKPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_338 /* Build configuration list for PBXNativeTarget "CrowdinSDKPackageDescription" */;
+			buildPhases = (
+				OBJ_341 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrowdinSDKPackageDescription;
+			productName = CrowdinSDKPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"Starscream::Starscream" /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_367 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				OBJ_370 /* Sources */,
+				OBJ_375 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = "Starscream::Starscream::Product" /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Starscream::SwiftPMPackageDescription" /* StarscreamPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_377 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */;
+			buildPhases = (
+				OBJ_380 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarscreamPackageDescription;
+			productName = StarscreamPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CrowdinSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"CrowdinSDK::CrowdinSDK" /* CrowdinSDK */,
+				"CrowdinSDK::SwiftPMPackageDescription" /* CrowdinSDKPackageDescription */,
+				"CrowdinSDK::CrowdinSDKPackageTests::ProductTarget" /* CrowdinSDKPackageTests */,
+				"CrowdinSDK::CrowdinSDKTests" /* CrowdinSDKTests */,
+				"Starscream::Starscream" /* Starscream */,
+				"Starscream::SwiftPMPackageDescription" /* StarscreamPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_218 /* BaseAPI.swift in Sources */,
+				OBJ_219 /* CharacterSet.swift in Sources */,
+				OBJ_220 /* URLSession.swift in Sources */,
+				OBJ_221 /* Request.swift in Sources */,
+				OBJ_222 /* RequestHeaderFields.swift in Sources */,
+				OBJ_223 /* RequestMethod.swift in Sources */,
+				OBJ_224 /* ResponsetHeaderFields.swift in Sources */,
+				OBJ_225 /* CrowdinContentDeliveryAPI.swift in Sources */,
+				OBJ_226 /* ManifestResponse.swift in Sources */,
+				OBJ_227 /* DownloadOperation.swift in Sources */,
+				OBJ_228 /* DataParser.swift in Sources */,
+				OBJ_229 /* CrowdinAPI.swift in Sources */,
+				OBJ_230 /* DistributionsAPI.swift in Sources */,
+				OBJ_231 /* DistributionsResponse.swift in Sources */,
+				OBJ_232 /* LoginAPI.swift in Sources */,
+				OBJ_233 /* RefreshTokenRequest.swift in Sources */,
+				OBJ_234 /* TokenRequest.swift in Sources */,
+				OBJ_235 /* TokenResponse.swift in Sources */,
+				OBJ_236 /* ProjectDetailsResponse.swift in Sources */,
+				OBJ_237 /* DownloadProjectInfoOperation.swift in Sources */,
+				OBJ_238 /* ProjectAPI.swift in Sources */,
+				OBJ_239 /* CreateScreenshotRequest.swift in Sources */,
+				OBJ_240 /* CreateScreenshotResponse.swift in Sources */,
+				OBJ_241 /* CreateScreenshotTagRequest.swift in Sources */,
+				OBJ_242 /* CreateScreenshotTagResponse.swift in Sources */,
+				OBJ_243 /* ScreenshotsAPI.swift in Sources */,
+				OBJ_244 /* ActionRequest.swift in Sources */,
+				OBJ_245 /* TopSuggestionResponse.swift in Sources */,
+				OBJ_246 /* UpdateDraftResponse.swift in Sources */,
+				OBJ_247 /* SocketAPI.swift in Sources */,
+				OBJ_248 /* StorageUploadResponse.swift in Sources */,
+				OBJ_249 /* StorageAPI.swift in Sources */,
+				OBJ_250 /* SupportedLanguagesResponse.swift in Sources */,
+				OBJ_251 /* DownloadSupportedLanguagesOperation.swift in Sources */,
+				OBJ_252 /* SupportedLanguagesAPI.swift in Sources */,
+				OBJ_253 /* Constants.swift in Sources */,
+				OBJ_254 /* CrowdinSDK.swift in Sources */,
+				OBJ_255 /* CrowdinSDKConfig.swift in Sources */,
+				OBJ_256 /* CrowdinTester.swift in Sources */,
+				OBJ_257 /* Bundle+Application.swift in Sources */,
+				OBJ_258 /* Bundle+Crowdin.swift in Sources */,
+				OBJ_259 /* Bundle+Language.swift in Sources */,
+				OBJ_260 /* Bundle+Swizzle.swift in Sources */,
+				OBJ_261 /* Dictionary.swift in Sources */,
+				OBJ_262 /* Locale.swift in Sources */,
+				OBJ_263 /* String.swift in Sources */,
+				OBJ_264 /* UIButton+Swizzle.swift in Sources */,
+				OBJ_265 /* UILabel+Swizzle.swift in Sources */,
+				OBJ_266 /* UIViewController.swift in Sources */,
+				OBJ_267 /* UIWindow.swift in Sources */,
+				OBJ_268 /* UserDefaults.swift in Sources */,
+				OBJ_269 /* CrowdinFolder.swift in Sources */,
+				OBJ_270 /* CustomBundle.swift in Sources */,
+				OBJ_271 /* DocumentsFolder.swift in Sources */,
+				OBJ_272 /* File.swift in Sources */,
+				OBJ_273 /* FileStatus.swift in Sources */,
+				OBJ_274 /* FileType.swift in Sources */,
+				OBJ_275 /* Folder.swift in Sources */,
+				OBJ_276 /* ReadWriteProtocol.swift in Sources */,
+				OBJ_277 /* CrowdinDownloader.swift in Sources */,
+				OBJ_278 /* CrowdinLocalizationDownloader.swift in Sources */,
+				OBJ_279 /* LocalizationExtractor.swift in Sources */,
+				OBJ_280 /* Localization.swift in Sources */,
+				OBJ_281 /* LocalizationUpdateObserver.swift in Sources */,
+				OBJ_282 /* InBundleLocalizationStorage.swift in Sources */,
+				OBJ_283 /* LocalLocalizationStorage.swift in Sources */,
+				OBJ_284 /* LocalizationDataSource.swift in Sources */,
+				OBJ_285 /* LocalizationProvider.swift in Sources */,
+				OBJ_286 /* LocalizationStorage.swift in Sources */,
+				OBJ_287 /* RemoteLocalizationStorage.swift in Sources */,
+				OBJ_288 /* StringParam.swift in Sources */,
+				OBJ_289 /* Atomic.swift in Sources */,
+				OBJ_290 /* ObjectAssociation.swift in Sources */,
+				OBJ_291 /* AsyncOperation.swift in Sources */,
+				OBJ_292 /* BlockAsyncOperation.swift in Sources */,
+				OBJ_293 /* CrowdinSDK+IntervalUpdate.swift in Sources */,
+				OBJ_294 /* CrowdinSDKConfig+IntervalUpdate.swift in Sources */,
+				OBJ_295 /* IntervalUpdateFeature.swift in Sources */,
+				OBJ_296 /* CrowdinLoginConfig.swift in Sources */,
+				OBJ_297 /* Bundle+URLScheme.swift in Sources */,
+				OBJ_298 /* CrowdinSDK+Login.swift in Sources */,
+				OBJ_299 /* CrowdinSDKConfig +Login.swift in Sources */,
+				OBJ_300 /* LoginFeature.swift in Sources */,
+				OBJ_301 /* CrowdinSocketManager.swift in Sources */,
+				OBJ_302 /* CrowdinSDK+ReatimeUpdates.swift in Sources */,
+				OBJ_303 /* CrowdinSDKConfig+RealtimeUpdates.swift in Sources */,
+				OBJ_304 /* UIButton+RealtimeUpdates.swift in Sources */,
+				OBJ_305 /* UILabel+RealtimeUpdates.swift in Sources */,
+				OBJ_306 /* RealtimeUpdateFeature.swift in Sources */,
+				OBJ_307 /* Refreshable.swift in Sources */,
+				OBJ_308 /* CrowdinSDK+RefreshLocalization.swift in Sources */,
+				OBJ_309 /* RefreshLocalizationFeature.swift in Sources */,
+				OBJ_310 /* CrowdinScreenshotsConfig.swift in Sources */,
+				OBJ_311 /* CGRect+Validation.swift in Sources */,
+				OBJ_312 /* CrowdinSDK+Screenshots.swift in Sources */,
+				OBJ_313 /* CrowdinSDKConfig+Screenshots.swift in Sources */,
+				OBJ_314 /* ScreenshotFeature.swift in Sources */,
+				OBJ_315 /* ScreenshotInformationCollector.swift in Sources */,
+				OBJ_316 /* ScreenshotProcessor.swift in Sources */,
+				OBJ_317 /* ScreenshotUploader.swift in Sources */,
+				OBJ_318 /* CrowdinMappingDownloader.swift in Sources */,
+				OBJ_319 /* CrowdinMappingManager.swift in Sources */,
+				OBJ_320 /* CrowdinProviderConfig.swift in Sources */,
+				OBJ_321 /* CrowdinRemoteLocalizationStorage.swift in Sources */,
+				OBJ_322 /* CrowdinSDKConfig+CrowdinProvider.swift in Sources */,
+				OBJ_323 /* String+Extensions.swift in Sources */,
+				OBJ_324 /* CrowdinPathsParser.swift in Sources */,
+				OBJ_325 /* CrowdinSupportedLanguages.swift in Sources */,
+				OBJ_326 /* Bundle+Settings.swift in Sources */,
+				OBJ_327 /* CrowdinSDK+Settings.swift in Sources */,
+				OBJ_328 /* CrowdinSDKConfig+Settings.swift in Sources */,
+				OBJ_329 /* SettingsItemCell.swift in Sources */,
+				OBJ_330 /* SettingsView+Gesture.swift in Sources */,
+				OBJ_331 /* SettingsView+UITableView.swift in Sources */,
+				OBJ_332 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_342 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_353 /* ConstantsTests.swift in Sources */,
+				OBJ_354 /* CrowdinSDKConfigTests.swift in Sources */,
+				OBJ_355 /* DictionaryTests.swift in Sources */,
+				OBJ_356 /* LocaleExtensionTests.swift in Sources */,
+				OBJ_357 /* StringsTests.swift in Sources */,
+				OBJ_358 /* CrowdinAPITests.swift in Sources */,
+				OBJ_359 /* CrowdinContentDeliveryAPITests.swift in Sources */,
+				OBJ_360 /* CrowdinLoginAPITests.swift in Sources */,
+				OBJ_361 /* URLSessionMock.swift in Sources */,
+				OBJ_362 /* CrowdinPathsParserTests.swift in Sources */,
+				OBJ_363 /* CrowdinProviderConfigTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_371 /* Compression.swift in Sources */,
+				OBJ_372 /* SSLClientCertificate.swift in Sources */,
+				OBJ_373 /* SSLSecurity.swift in Sources */,
+				OBJ_374 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_381 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Starscream::Starscream" /* Starscream */;
+			targetProxy = E8A6D6E0238228CE00FECA34 /* PBXContainerItemProxy */;
+		};
+		OBJ_347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CrowdinSDK::CrowdinSDKTests" /* CrowdinSDKTests */;
+			targetProxy = E8A6D6E2238228CE00FECA34 /* PBXContainerItemProxy */;
+		};
+		OBJ_366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Starscream::Starscream" /* Starscream */;
+			targetProxy = E8A6D6E1238228CE00FECA34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
+				);
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/CrowdinSDK_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CrowdinSDK;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CrowdinSDK;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
+				);
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/CrowdinSDK_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CrowdinSDK;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CrowdinSDK;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
+				);
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/CrowdinSDKTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CrowdinSDKTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
+				);
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/CrowdinSDKTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CrowdinSDKTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
+				);
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/Starscream_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Starscream;
+			};
+			name = Debug;
+		};
+		OBJ_369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
+				);
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/Starscream_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Starscream;
+			};
+			name = Release;
+		};
+		OBJ_378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "CrowdinSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_214 /* Build configuration list for PBXNativeTarget "CrowdinSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_215 /* Debug */,
+				OBJ_216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_338 /* Build configuration list for PBXNativeTarget "CrowdinSDKPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_339 /* Debug */,
+				OBJ_340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_344 /* Build configuration list for PBXAggregateTarget "CrowdinSDKPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_345 /* Debug */,
+				OBJ_346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_349 /* Build configuration list for PBXNativeTarget "CrowdinSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_350 /* Debug */,
+				OBJ_351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_367 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_368 /* Debug */,
+				OBJ_369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_377 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_378 /* Debug */,
+				OBJ_379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
 }

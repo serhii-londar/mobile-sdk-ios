@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class ScreenshotsAPI: CrowdinAPI {
     override var apiPath: String {

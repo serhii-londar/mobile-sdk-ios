@@ -5,7 +5,7 @@
 //  Created by Serhii Londar on 29.10.2019.
 //
 
-import Foundation
+import UIKit
 
 class LoginAPI: BaseAPI {
     var organizationName: String?

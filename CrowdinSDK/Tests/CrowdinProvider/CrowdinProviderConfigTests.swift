@@ -1,7 +1,7 @@
 import XCTest
 @testable import CrowdinSDK
 
-class CrowdinSDKConfigTests: XCTestCase {
+class CrowdinProviderConfigTests: XCTestCase {
     var providerConfig: CrowdinProviderConfig!
     
     override func setUp() {

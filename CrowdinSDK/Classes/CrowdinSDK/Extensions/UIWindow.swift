@@ -5,7 +5,8 @@
 //  Created by Serhii Londar on 5/14/19.
 //
 
-import Foundation
+import UIKit
+import CoreGraphics
 
 // MARK: - Extension for window screenshot creation.
 extension UIWindow {

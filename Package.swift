@@ -23,10 +23,12 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "CrowdinSDK",
-            dependencies: ["Starscream", "CrowdinProvider"],
-            path: "CrowdinSDK/Classes/CrowdinSDK"),
-        .target(
-            name: "CrowdinProvider",
-            path: "CrowdinSDK/Classes/Providers/Crowdin")
+            dependencies: ["Starscream"],
+            path: "CrowdinSDK/Classes",
+            exclude: ["Providers/Firebase"]),
+        .testTarget(name: "CrowdinSDKTests",
+            dependencies: ["Starscream"],
+            path: "CrowdinSDK/Tests")
+        
     ]
 )
