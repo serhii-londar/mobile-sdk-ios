@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"CrowdinSDK::CrowdinSDKPackageTests::ProductTarget" /* CrowdinSDKPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_344 /* Build configuration list for PBXAggregateTarget "CrowdinSDKPackageTests" */;
+			buildConfigurationList = OBJ_378 /* Build configuration list for PBXAggregateTarget "CrowdinSDKPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_347 /* PBXTargetDependency */,
+				OBJ_381 /* PBXTargetDependency */,
 			);
 			name = CrowdinSDKPackageTests;
 			productName = CrowdinSDKPackageTests;
@@ -21,158 +21,191 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_218 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BaseAPI.swift */; };
-		OBJ_219 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CharacterSet.swift */; };
-		OBJ_220 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* URLSession.swift */; };
-		OBJ_221 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Request.swift */; };
-		OBJ_222 /* RequestHeaderFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* RequestHeaderFields.swift */; };
-		OBJ_223 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* RequestMethod.swift */; };
-		OBJ_224 /* ResponsetHeaderFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ResponsetHeaderFields.swift */; };
-		OBJ_225 /* CrowdinContentDeliveryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CrowdinContentDeliveryAPI.swift */; };
-		OBJ_226 /* ManifestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ManifestResponse.swift */; };
-		OBJ_227 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* DownloadOperation.swift */; };
-		OBJ_228 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* DataParser.swift */; };
-		OBJ_229 /* CrowdinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CrowdinAPI.swift */; };
-		OBJ_230 /* DistributionsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* DistributionsAPI.swift */; };
-		OBJ_231 /* DistributionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* DistributionsResponse.swift */; };
-		OBJ_232 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* LoginAPI.swift */; };
-		OBJ_233 /* RefreshTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* RefreshTokenRequest.swift */; };
-		OBJ_234 /* TokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* TokenRequest.swift */; };
-		OBJ_235 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* TokenResponse.swift */; };
-		OBJ_236 /* ProjectDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ProjectDetailsResponse.swift */; };
-		OBJ_237 /* DownloadProjectInfoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* DownloadProjectInfoOperation.swift */; };
-		OBJ_238 /* ProjectAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* ProjectAPI.swift */; };
-		OBJ_239 /* CreateScreenshotRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* CreateScreenshotRequest.swift */; };
-		OBJ_240 /* CreateScreenshotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* CreateScreenshotResponse.swift */; };
-		OBJ_241 /* CreateScreenshotTagRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* CreateScreenshotTagRequest.swift */; };
-		OBJ_242 /* CreateScreenshotTagResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* CreateScreenshotTagResponse.swift */; };
-		OBJ_243 /* ScreenshotsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* ScreenshotsAPI.swift */; };
-		OBJ_244 /* ActionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* ActionRequest.swift */; };
-		OBJ_245 /* TopSuggestionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* TopSuggestionResponse.swift */; };
-		OBJ_246 /* UpdateDraftResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* UpdateDraftResponse.swift */; };
-		OBJ_247 /* SocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* SocketAPI.swift */; };
-		OBJ_248 /* StorageUploadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* StorageUploadResponse.swift */; };
-		OBJ_249 /* StorageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* StorageAPI.swift */; };
-		OBJ_250 /* SupportedLanguagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* SupportedLanguagesResponse.swift */; };
-		OBJ_251 /* DownloadSupportedLanguagesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* DownloadSupportedLanguagesOperation.swift */; };
-		OBJ_252 /* SupportedLanguagesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* SupportedLanguagesAPI.swift */; };
-		OBJ_253 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Constants.swift */; };
-		OBJ_254 /* CrowdinSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* CrowdinSDK.swift */; };
-		OBJ_255 /* CrowdinSDKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* CrowdinSDKConfig.swift */; };
-		OBJ_256 /* CrowdinTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* CrowdinTester.swift */; };
-		OBJ_257 /* Bundle+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* Bundle+Application.swift */; };
-		OBJ_258 /* Bundle+Crowdin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* Bundle+Crowdin.swift */; };
-		OBJ_259 /* Bundle+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* Bundle+Language.swift */; };
-		OBJ_260 /* Bundle+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* Bundle+Swizzle.swift */; };
-		OBJ_261 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* Dictionary.swift */; };
-		OBJ_262 /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Locale.swift */; };
-		OBJ_263 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* String.swift */; };
-		OBJ_264 /* UIButton+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* UIButton+Swizzle.swift */; };
-		OBJ_265 /* UILabel+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* UILabel+Swizzle.swift */; };
-		OBJ_266 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* UIViewController.swift */; };
-		OBJ_267 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* UIWindow.swift */; };
-		OBJ_268 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* UserDefaults.swift */; };
-		OBJ_269 /* CrowdinFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* CrowdinFolder.swift */; };
-		OBJ_270 /* CustomBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* CustomBundle.swift */; };
-		OBJ_271 /* DocumentsFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* DocumentsFolder.swift */; };
-		OBJ_272 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* File.swift */; };
-		OBJ_273 /* FileStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* FileStatus.swift */; };
-		OBJ_274 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* FileType.swift */; };
-		OBJ_275 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* Folder.swift */; };
-		OBJ_276 /* ReadWriteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* ReadWriteProtocol.swift */; };
-		OBJ_277 /* CrowdinDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* CrowdinDownloader.swift */; };
-		OBJ_278 /* CrowdinLocalizationDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* CrowdinLocalizationDownloader.swift */; };
-		OBJ_279 /* LocalizationExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* LocalizationExtractor.swift */; };
-		OBJ_280 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* Localization.swift */; };
-		OBJ_281 /* LocalizationUpdateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* LocalizationUpdateObserver.swift */; };
-		OBJ_282 /* InBundleLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* InBundleLocalizationStorage.swift */; };
-		OBJ_283 /* LocalLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* LocalLocalizationStorage.swift */; };
-		OBJ_284 /* LocalizationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* LocalizationDataSource.swift */; };
-		OBJ_285 /* LocalizationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* LocalizationProvider.swift */; };
-		OBJ_286 /* LocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* LocalizationStorage.swift */; };
-		OBJ_287 /* RemoteLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* RemoteLocalizationStorage.swift */; };
-		OBJ_288 /* StringParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* StringParam.swift */; };
-		OBJ_289 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* Atomic.swift */; };
-		OBJ_290 /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* ObjectAssociation.swift */; };
-		OBJ_291 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* AsyncOperation.swift */; };
-		OBJ_292 /* BlockAsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* BlockAsyncOperation.swift */; };
-		OBJ_293 /* CrowdinSDK+IntervalUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* CrowdinSDK+IntervalUpdate.swift */; };
-		OBJ_294 /* CrowdinSDKConfig+IntervalUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* CrowdinSDKConfig+IntervalUpdate.swift */; };
-		OBJ_295 /* IntervalUpdateFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* IntervalUpdateFeature.swift */; };
-		OBJ_296 /* CrowdinLoginConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* CrowdinLoginConfig.swift */; };
-		OBJ_297 /* Bundle+URLScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* Bundle+URLScheme.swift */; };
-		OBJ_298 /* CrowdinSDK+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* CrowdinSDK+Login.swift */; };
-		OBJ_299 /* CrowdinSDKConfig +Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* CrowdinSDKConfig +Login.swift */; };
-		OBJ_300 /* LoginFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* LoginFeature.swift */; };
-		OBJ_301 /* CrowdinSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* CrowdinSocketManager.swift */; };
-		OBJ_302 /* CrowdinSDK+ReatimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* CrowdinSDK+ReatimeUpdates.swift */; };
-		OBJ_303 /* CrowdinSDKConfig+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* CrowdinSDKConfig+RealtimeUpdates.swift */; };
-		OBJ_304 /* UIButton+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* UIButton+RealtimeUpdates.swift */; };
-		OBJ_305 /* UILabel+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* UILabel+RealtimeUpdates.swift */; };
-		OBJ_306 /* RealtimeUpdateFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* RealtimeUpdateFeature.swift */; };
-		OBJ_307 /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* Refreshable.swift */; };
-		OBJ_308 /* CrowdinSDK+RefreshLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* CrowdinSDK+RefreshLocalization.swift */; };
-		OBJ_309 /* RefreshLocalizationFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* RefreshLocalizationFeature.swift */; };
-		OBJ_310 /* CrowdinScreenshotsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* CrowdinScreenshotsConfig.swift */; };
-		OBJ_311 /* CGRect+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* CGRect+Validation.swift */; };
-		OBJ_312 /* CrowdinSDK+Screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* CrowdinSDK+Screenshots.swift */; };
-		OBJ_313 /* CrowdinSDKConfig+Screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* CrowdinSDKConfig+Screenshots.swift */; };
-		OBJ_314 /* ScreenshotFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* ScreenshotFeature.swift */; };
-		OBJ_315 /* ScreenshotInformationCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* ScreenshotInformationCollector.swift */; };
-		OBJ_316 /* ScreenshotProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* ScreenshotProcessor.swift */; };
-		OBJ_317 /* ScreenshotUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* ScreenshotUploader.swift */; };
-		OBJ_318 /* CrowdinMappingDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* CrowdinMappingDownloader.swift */; };
-		OBJ_319 /* CrowdinMappingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* CrowdinMappingManager.swift */; };
-		OBJ_320 /* CrowdinProviderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* CrowdinProviderConfig.swift */; };
-		OBJ_321 /* CrowdinRemoteLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* CrowdinRemoteLocalizationStorage.swift */; };
-		OBJ_322 /* CrowdinSDKConfig+CrowdinProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* CrowdinSDKConfig+CrowdinProvider.swift */; };
-		OBJ_323 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_164 /* String+Extensions.swift */; };
-		OBJ_324 /* CrowdinPathsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* CrowdinPathsParser.swift */; };
-		OBJ_325 /* CrowdinSupportedLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* CrowdinSupportedLanguages.swift */; };
-		OBJ_326 /* Bundle+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_170 /* Bundle+Settings.swift */; };
-		OBJ_327 /* CrowdinSDK+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* CrowdinSDK+Settings.swift */; };
-		OBJ_328 /* CrowdinSDKConfig+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* CrowdinSDKConfig+Settings.swift */; };
-		OBJ_329 /* SettingsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* SettingsItemCell.swift */; };
-		OBJ_330 /* SettingsView+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* SettingsView+Gesture.swift */; };
-		OBJ_331 /* SettingsView+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* SettingsView+UITableView.swift */; };
-		OBJ_332 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* SettingsView.swift */; };
-		OBJ_334 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
-		OBJ_342 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_353 /* ConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* ConstantsTests.swift */; };
-		OBJ_354 /* CrowdinSDKConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* CrowdinSDKConfigTests.swift */; };
-		OBJ_355 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* DictionaryTests.swift */; };
-		OBJ_356 /* LocaleExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* LocaleExtensionTests.swift */; };
-		OBJ_357 /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* StringsTests.swift */; };
-		OBJ_358 /* CrowdinAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* CrowdinAPITests.swift */; };
-		OBJ_359 /* CrowdinContentDeliveryAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* CrowdinContentDeliveryAPITests.swift */; };
-		OBJ_360 /* CrowdinLoginAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* CrowdinLoginAPITests.swift */; };
-		OBJ_361 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* URLSessionMock.swift */; };
-		OBJ_362 /* CrowdinPathsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* CrowdinPathsParserTests.swift */; };
-		OBJ_363 /* CrowdinProviderConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* CrowdinProviderConfigTests.swift */; };
-		OBJ_365 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
-		OBJ_371 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* Compression.swift */; };
-		OBJ_372 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* SSLClientCertificate.swift */; };
-		OBJ_373 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_197 /* SSLSecurity.swift */; };
-		OBJ_374 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* WebSocket.swift */; };
-		OBJ_381 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* Package.swift */; };
+		OBJ_230 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* BaseAPI.swift */; };
+		OBJ_231 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* CharacterSet.swift */; };
+		OBJ_232 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_199 /* URLSession.swift */; };
+		OBJ_233 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_200 /* Request.swift */; };
+		OBJ_234 /* RequestHeaderFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_201 /* RequestHeaderFields.swift */; };
+		OBJ_235 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_202 /* RequestMethod.swift */; };
+		OBJ_236 /* ResponsetHeaderFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_203 /* ResponsetHeaderFields.swift */; };
+		OBJ_243 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* Package.swift */; };
+		OBJ_249 /* CrowdinContentDeliveryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* CrowdinContentDeliveryAPI.swift */; };
+		OBJ_250 /* ManifestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ManifestResponse.swift */; };
+		OBJ_251 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* DataParser.swift */; };
+		OBJ_252 /* CrowdinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* CrowdinAPI.swift */; };
+		OBJ_253 /* DistributionsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* DistributionsAPI.swift */; };
+		OBJ_254 /* DistributionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* DistributionsResponse.swift */; };
+		OBJ_255 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* LoginAPI.swift */; };
+		OBJ_256 /* RefreshTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* RefreshTokenRequest.swift */; };
+		OBJ_257 /* TokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* TokenRequest.swift */; };
+		OBJ_258 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* TokenResponse.swift */; };
+		OBJ_259 /* ProjectDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ProjectDetailsResponse.swift */; };
+		OBJ_260 /* ProjectAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ProjectAPI.swift */; };
+		OBJ_261 /* CreateScreenshotRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* CreateScreenshotRequest.swift */; };
+		OBJ_262 /* CreateScreenshotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* CreateScreenshotResponse.swift */; };
+		OBJ_263 /* CreateScreenshotTagRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* CreateScreenshotTagRequest.swift */; };
+		OBJ_264 /* CreateScreenshotTagResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* CreateScreenshotTagResponse.swift */; };
+		OBJ_265 /* ScreenshotsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ScreenshotsAPI.swift */; };
+		OBJ_266 /* ActionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ActionRequest.swift */; };
+		OBJ_267 /* TopSuggestionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* TopSuggestionResponse.swift */; };
+		OBJ_268 /* UpdateDraftResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* UpdateDraftResponse.swift */; };
+		OBJ_269 /* SocketAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* SocketAPI.swift */; };
+		OBJ_270 /* StorageUploadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* StorageUploadResponse.swift */; };
+		OBJ_271 /* StorageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* StorageAPI.swift */; };
+		OBJ_272 /* SupportedLanguagesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* SupportedLanguagesResponse.swift */; };
+		OBJ_273 /* SupportedLanguagesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* SupportedLanguagesAPI.swift */; };
+		OBJ_274 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Constants.swift */; };
+		OBJ_275 /* CrowdinSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* CrowdinSDK.swift */; };
+		OBJ_276 /* CrowdinSDKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* CrowdinSDKConfig.swift */; };
+		OBJ_277 /* CrowdinTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* CrowdinTester.swift */; };
+		OBJ_278 /* Bundle+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Bundle+Application.swift */; };
+		OBJ_279 /* Bundle+Crowdin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Bundle+Crowdin.swift */; };
+		OBJ_280 /* Bundle+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Bundle+Language.swift */; };
+		OBJ_281 /* Bundle+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Bundle+Swizzle.swift */; };
+		OBJ_282 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Dictionary.swift */; };
+		OBJ_283 /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* Locale.swift */; };
+		OBJ_284 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* String.swift */; };
+		OBJ_285 /* UIButton+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* UIButton+Swizzle.swift */; };
+		OBJ_286 /* UILabel+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* UILabel+Swizzle.swift */; };
+		OBJ_287 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* UIViewController.swift */; };
+		OBJ_288 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* UIWindow.swift */; };
+		OBJ_289 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* UserDefaults.swift */; };
+		OBJ_290 /* CrowdinFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* CrowdinFolder.swift */; };
+		OBJ_291 /* CustomBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* CustomBundle.swift */; };
+		OBJ_292 /* DocumentsFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* DocumentsFolder.swift */; };
+		OBJ_293 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* File.swift */; };
+		OBJ_294 /* FileStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* FileStatus.swift */; };
+		OBJ_295 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* FileType.swift */; };
+		OBJ_296 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Folder.swift */; };
+		OBJ_297 /* ReadWriteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* ReadWriteProtocol.swift */; };
+		OBJ_298 /* CrowdinDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* CrowdinDownloader.swift */; };
+		OBJ_299 /* LocalizationExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* LocalizationExtractor.swift */; };
+		OBJ_300 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* Localization.swift */; };
+		OBJ_301 /* LocalizationUpdateObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* LocalizationUpdateObserver.swift */; };
+		OBJ_302 /* InBundleLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* InBundleLocalizationStorage.swift */; };
+		OBJ_303 /* LocalLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* LocalLocalizationStorage.swift */; };
+		OBJ_304 /* LocalizationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* LocalizationDataSource.swift */; };
+		OBJ_305 /* LocalizationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* LocalizationProvider.swift */; };
+		OBJ_306 /* LocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* LocalizationStorage.swift */; };
+		OBJ_307 /* RemoteLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* RemoteLocalizationStorage.swift */; };
+		OBJ_308 /* StringParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* StringParam.swift */; };
+		OBJ_309 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* Atomic.swift */; };
+		OBJ_310 /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* ObjectAssociation.swift */; };
+		OBJ_311 /* CrowdinSDK+IntervalUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* CrowdinSDK+IntervalUpdate.swift */; };
+		OBJ_312 /* CrowdinSDKConfig+IntervalUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* CrowdinSDKConfig+IntervalUpdate.swift */; };
+		OBJ_313 /* IntervalUpdateFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* IntervalUpdateFeature.swift */; };
+		OBJ_314 /* CrowdinLoginConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* CrowdinLoginConfig.swift */; };
+		OBJ_315 /* Bundle+URLScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* Bundle+URLScheme.swift */; };
+		OBJ_316 /* CrowdinSDK+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* CrowdinSDK+Login.swift */; };
+		OBJ_317 /* CrowdinSDKConfig +Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* CrowdinSDKConfig +Login.swift */; };
+		OBJ_318 /* LoginFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* LoginFeature.swift */; };
+		OBJ_319 /* CrowdinSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* CrowdinSocketManager.swift */; };
+		OBJ_320 /* CrowdinSDK+ReatimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* CrowdinSDK+ReatimeUpdates.swift */; };
+		OBJ_321 /* CrowdinSDKConfig+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* CrowdinSDKConfig+RealtimeUpdates.swift */; };
+		OBJ_322 /* UIButton+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* UIButton+RealtimeUpdates.swift */; };
+		OBJ_323 /* UILabel+RealtimeUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* UILabel+RealtimeUpdates.swift */; };
+		OBJ_324 /* RealtimeUpdateFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* RealtimeUpdateFeature.swift */; };
+		OBJ_325 /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* Refreshable.swift */; };
+		OBJ_326 /* CrowdinSDK+RefreshLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* CrowdinSDK+RefreshLocalization.swift */; };
+		OBJ_327 /* RefreshLocalizationFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* RefreshLocalizationFeature.swift */; };
+		OBJ_328 /* CrowdinScreenshotsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* CrowdinScreenshotsConfig.swift */; };
+		OBJ_329 /* CGRect+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* CGRect+Validation.swift */; };
+		OBJ_330 /* CrowdinSDK+Screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* CrowdinSDK+Screenshots.swift */; };
+		OBJ_331 /* CrowdinSDKConfig+Screenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* CrowdinSDKConfig+Screenshots.swift */; };
+		OBJ_332 /* ScreenshotFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* ScreenshotFeature.swift */; };
+		OBJ_333 /* ScreenshotInformationCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* ScreenshotInformationCollector.swift */; };
+		OBJ_334 /* ScreenshotProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* ScreenshotProcessor.swift */; };
+		OBJ_335 /* ScreenshotUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* ScreenshotUploader.swift */; };
+		OBJ_336 /* CrowdinProviderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* CrowdinProviderConfig.swift */; };
+		OBJ_337 /* CrowdinRemoteLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* CrowdinRemoteLocalizationStorage.swift */; };
+		OBJ_338 /* CrowdinSDK+CrowdinProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* CrowdinSDK+CrowdinProvider.swift */; };
+		OBJ_339 /* CrowdinSDKConfig+CrowdinProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* CrowdinSDKConfig+CrowdinProvider.swift */; };
+		OBJ_340 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* String+Extensions.swift */; };
+		OBJ_341 /* CrowdinLocalizationDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* CrowdinLocalizationDownloader.swift */; };
+		OBJ_342 /* CrowdinPluralsDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* CrowdinPluralsDownloadOperation.swift */; };
+		OBJ_343 /* CrowdinStringsDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* CrowdinStringsDownloadOperation.swift */; };
+		OBJ_344 /* CrowdinMappingDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* CrowdinMappingDownloader.swift */; };
+		OBJ_345 /* CrowdinMappingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* CrowdinMappingManager.swift */; };
+		OBJ_346 /* CrowdinPluralsMappingDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* CrowdinPluralsMappingDownloadOperation.swift */; };
+		OBJ_347 /* CrowdinStringsMappingDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* CrowdinStringsMappingDownloadOperation.swift */; };
+		OBJ_348 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* AsyncOperation.swift */; };
+		OBJ_349 /* BlockAsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* BlockAsyncOperation.swift */; };
+		OBJ_350 /* CrowdinDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* CrowdinDownloadOperation.swift */; };
+		OBJ_351 /* CrowdinPathsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* CrowdinPathsParser.swift */; };
+		OBJ_352 /* CrowdinSupportedLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* CrowdinSupportedLanguages.swift */; };
+		OBJ_353 /* Dictionary+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* Dictionary+Firebase.swift */; };
+		OBJ_354 /* String+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* String+Firebase.swift */; };
+		OBJ_355 /* FirebaseLocalLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* FirebaseLocalLocalizationStorage.swift */; };
+		OBJ_356 /* FirebaseLocalizationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* FirebaseLocalizationProvider.swift */; };
+		OBJ_357 /* FirebaseRemoteLocalizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* FirebaseRemoteLocalizationStorage.swift */; };
+		OBJ_358 /* Bundle+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* Bundle+Settings.swift */; };
+		OBJ_359 /* CrowdinSDK+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_172 /* CrowdinSDK+Settings.swift */; };
+		OBJ_360 /* CrowdinSDKConfig+Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* CrowdinSDKConfig+Settings.swift */; };
+		OBJ_361 /* SettingsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_174 /* SettingsItemCell.swift */; };
+		OBJ_362 /* SettingsView+Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* SettingsView+Gesture.swift */; };
+		OBJ_363 /* SettingsView+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* SettingsView+UITableView.swift */; };
+		OBJ_364 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* SettingsView.swift */; };
+		OBJ_366 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
+		OBJ_367 /* BaseAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "BaseAPI::BaseAPI::Product" /* BaseAPI.framework */; };
+		OBJ_376 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_387 /* ConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_180 /* ConstantsTests.swift */; };
+		OBJ_388 /* CrowdinSDKConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* CrowdinSDKConfigTests.swift */; };
+		OBJ_389 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* DictionaryTests.swift */; };
+		OBJ_390 /* LocaleExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* LocaleExtensionTests.swift */; };
+		OBJ_391 /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* StringsTests.swift */; };
+		OBJ_392 /* CrowdinAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_186 /* CrowdinAPITests.swift */; };
+		OBJ_393 /* CrowdinContentDeliveryAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* CrowdinContentDeliveryAPITests.swift */; };
+		OBJ_394 /* CrowdinLoginAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* CrowdinLoginAPITests.swift */; };
+		OBJ_395 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* URLSessionMock.swift */; };
+		OBJ_396 /* CrowdinPathsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* CrowdinPathsParserTests.swift */; };
+		OBJ_397 /* CrowdinProviderConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_192 /* CrowdinProviderConfigTests.swift */; };
+		OBJ_399 /* CrowdinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CrowdinSDK::CrowdinSDK::Product" /* CrowdinSDK.framework */; };
+		OBJ_400 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
+		OBJ_401 /* BaseAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "BaseAPI::BaseAPI::Product" /* BaseAPI.framework */; };
+		OBJ_409 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_206 /* Compression.swift */; };
+		OBJ_410 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_207 /* SSLClientCertificate.swift */; };
+		OBJ_411 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_208 /* SSLSecurity.swift */; };
+		OBJ_412 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_209 /* WebSocket.swift */; };
+		OBJ_419 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_210 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E8A6D6E0238228CE00FECA34 /* PBXContainerItemProxy */ = {
+		E8DF5E8A239BE02300C1DA3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Starscream::Starscream";
 			remoteInfo = Starscream;
 		};
-		E8A6D6E1238228CE00FECA34 /* PBXContainerItemProxy */ = {
+		E8DF5E8B239BE02300C1DA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "BaseAPI::BaseAPI";
+			remoteInfo = BaseAPI;
+		};
+		E8DF5E8C239BE02400C1DA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CrowdinSDK::CrowdinSDK";
+			remoteInfo = CrowdinSDK;
+		};
+		E8DF5E8D239BE02400C1DA3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Starscream::Starscream";
 			remoteInfo = Starscream;
 		};
-		E8A6D6E2238228CE00FECA34 /* PBXContainerItemProxy */ = {
+		E8DF5E8E239BE02400C1DA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "BaseAPI::BaseAPI";
+			remoteInfo = BaseAPI;
+		};
+		E8DF5E8F239BE02400C1DA3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -182,170 +215,190 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		"BaseAPI::BaseAPI::Product" /* BaseAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BaseAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"CrowdinSDK::CrowdinSDK::Product" /* CrowdinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrowdinSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"CrowdinSDK::CrowdinSDKTests::Product" /* CrowdinSDKTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CrowdinSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_10 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
-		OBJ_101 /* LocalizationExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationExtractor.swift; sourceTree = "<group>"; };
-		OBJ_102 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
-		OBJ_103 /* LocalizationUpdateObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationUpdateObserver.swift; sourceTree = "<group>"; };
-		OBJ_105 /* InBundleLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InBundleLocalizationStorage.swift; sourceTree = "<group>"; };
-		OBJ_106 /* LocalLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLocalizationStorage.swift; sourceTree = "<group>"; };
-		OBJ_107 /* LocalizationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationDataSource.swift; sourceTree = "<group>"; };
-		OBJ_108 /* LocalizationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProvider.swift; sourceTree = "<group>"; };
-		OBJ_109 /* LocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationStorage.swift; sourceTree = "<group>"; };
-		OBJ_110 /* RemoteLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLocalizationStorage.swift; sourceTree = "<group>"; };
-		OBJ_112 /* StringParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringParam.swift; sourceTree = "<group>"; };
-		OBJ_114 /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
-		OBJ_115 /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectAssociation.swift; sourceTree = "<group>"; };
-		OBJ_117 /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
-		OBJ_118 /* BlockAsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockAsyncOperation.swift; sourceTree = "<group>"; };
-		OBJ_12 /* CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSet.swift; sourceTree = "<group>"; };
-		OBJ_121 /* CrowdinSDK+IntervalUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+IntervalUpdate.swift"; sourceTree = "<group>"; };
-		OBJ_122 /* CrowdinSDKConfig+IntervalUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+IntervalUpdate.swift"; sourceTree = "<group>"; };
-		OBJ_123 /* IntervalUpdateFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalUpdateFeature.swift; sourceTree = "<group>"; };
-		OBJ_125 /* CrowdinLoginConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLoginConfig.swift; sourceTree = "<group>"; };
-		OBJ_127 /* Bundle+URLScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+URLScheme.swift"; sourceTree = "<group>"; };
-		OBJ_128 /* CrowdinSDK+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Login.swift"; sourceTree = "<group>"; };
-		OBJ_129 /* CrowdinSDKConfig +Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig +Login.swift"; sourceTree = "<group>"; };
-		OBJ_13 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
-		OBJ_130 /* LoginFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFeature.swift; sourceTree = "<group>"; };
-		OBJ_133 /* CrowdinSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSocketManager.swift; sourceTree = "<group>"; };
-		OBJ_135 /* CrowdinSDK+ReatimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+ReatimeUpdates.swift"; sourceTree = "<group>"; };
-		OBJ_136 /* CrowdinSDKConfig+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+RealtimeUpdates.swift"; sourceTree = "<group>"; };
-		OBJ_137 /* UIButton+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+RealtimeUpdates.swift"; sourceTree = "<group>"; };
-		OBJ_138 /* UILabel+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+RealtimeUpdates.swift"; sourceTree = "<group>"; };
-		OBJ_139 /* RealtimeUpdateFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeUpdateFeature.swift; sourceTree = "<group>"; };
-		OBJ_14 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		OBJ_140 /* Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshable.swift; sourceTree = "<group>"; };
-		OBJ_142 /* CrowdinSDK+RefreshLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+RefreshLocalization.swift"; sourceTree = "<group>"; };
-		OBJ_143 /* RefreshLocalizationFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshLocalizationFeature.swift; sourceTree = "<group>"; };
-		OBJ_145 /* CrowdinScreenshotsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinScreenshotsConfig.swift; sourceTree = "<group>"; };
-		OBJ_147 /* CGRect+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Validation.swift"; sourceTree = "<group>"; };
-		OBJ_148 /* CrowdinSDK+Screenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Screenshots.swift"; sourceTree = "<group>"; };
-		OBJ_149 /* CrowdinSDKConfig+Screenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+Screenshots.swift"; sourceTree = "<group>"; };
-		OBJ_15 /* RequestHeaderFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeaderFields.swift; sourceTree = "<group>"; };
-		OBJ_150 /* ScreenshotFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotFeature.swift; sourceTree = "<group>"; };
-		OBJ_151 /* ScreenshotInformationCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotInformationCollector.swift; sourceTree = "<group>"; };
-		OBJ_152 /* ScreenshotProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotProcessor.swift; sourceTree = "<group>"; };
-		OBJ_153 /* ScreenshotUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotUploader.swift; sourceTree = "<group>"; };
-		OBJ_155 /* CrowdinMappingDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinMappingDownloader.swift; sourceTree = "<group>"; };
-		OBJ_156 /* CrowdinMappingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinMappingManager.swift; sourceTree = "<group>"; };
-		OBJ_16 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
-		OBJ_160 /* CrowdinProviderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinProviderConfig.swift; sourceTree = "<group>"; };
-		OBJ_161 /* CrowdinRemoteLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinRemoteLocalizationStorage.swift; sourceTree = "<group>"; };
-		OBJ_163 /* CrowdinSDKConfig+CrowdinProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+CrowdinProvider.swift"; sourceTree = "<group>"; };
-		OBJ_164 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		OBJ_166 /* CrowdinPathsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinPathsParser.swift; sourceTree = "<group>"; };
-		OBJ_168 /* CrowdinSupportedLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSupportedLanguages.swift; sourceTree = "<group>"; };
-		OBJ_17 /* ResponsetHeaderFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsetHeaderFields.swift; sourceTree = "<group>"; };
-		OBJ_170 /* Bundle+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Settings.swift"; sourceTree = "<group>"; };
-		OBJ_171 /* CrowdinSDK+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Settings.swift"; sourceTree = "<group>"; };
-		OBJ_172 /* CrowdinSDKConfig+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+Settings.swift"; sourceTree = "<group>"; };
-		OBJ_173 /* SettingsItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemCell.swift; sourceTree = "<group>"; };
-		OBJ_174 /* SettingsView+Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView+Gesture.swift"; sourceTree = "<group>"; };
-		OBJ_175 /* SettingsView+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView+UITableView.swift"; sourceTree = "<group>"; };
-		OBJ_176 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		OBJ_179 /* ConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTests.swift; sourceTree = "<group>"; };
-		OBJ_180 /* CrowdinSDKConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDKConfigTests.swift; sourceTree = "<group>"; };
-		OBJ_181 /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
-		OBJ_182 /* LocaleExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleExtensionTests.swift; sourceTree = "<group>"; };
-		OBJ_183 /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
-		OBJ_185 /* CrowdinAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinAPITests.swift; sourceTree = "<group>"; };
-		OBJ_186 /* CrowdinContentDeliveryAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinContentDeliveryAPITests.swift; sourceTree = "<group>"; };
-		OBJ_187 /* CrowdinLoginAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLoginAPITests.swift; sourceTree = "<group>"; };
-		OBJ_188 /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
-		OBJ_19 /* CrowdinContentDeliveryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinContentDeliveryAPI.swift; sourceTree = "<group>"; };
-		OBJ_190 /* CrowdinPathsParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinPathsParserTests.swift; sourceTree = "<group>"; };
-		OBJ_191 /* CrowdinProviderConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinProviderConfigTests.swift; sourceTree = "<group>"; };
-		OBJ_195 /* Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
-		OBJ_196 /* SSLClientCertificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLClientCertificate.swift; sourceTree = "<group>"; };
-		OBJ_197 /* SSLSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
-		OBJ_198 /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
-		OBJ_199 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/serhii-londar/Documents/GitHub/mobile-sdk-ios/.build/checkouts/Starscream/Package.swift"; sourceTree = "<group>"; };
-		OBJ_204 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
-		OBJ_205 /* ObjCExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ObjCExample; sourceTree = SOURCE_ROOT; };
-		OBJ_206 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
-		OBJ_207 /* CrowdinSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CrowdinSDK; sourceTree = SOURCE_ROOT; };
-		OBJ_208 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		OBJ_209 /* CrowdinSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CrowdinSDK.podspec; sourceTree = "<group>"; };
-		OBJ_21 /* ManifestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestResponse.swift; sourceTree = "<group>"; };
-		OBJ_210 /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "azure-pipelines.yml"; sourceTree = "<group>"; };
-		OBJ_211 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		OBJ_212 /* build_doc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_doc.sh; sourceTree = "<group>"; };
-		OBJ_23 /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
-		OBJ_25 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
-		OBJ_26 /* CrowdinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinAPI.swift; sourceTree = "<group>"; };
-		OBJ_28 /* DistributionsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionsAPI.swift; sourceTree = "<group>"; };
-		OBJ_30 /* DistributionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionsResponse.swift; sourceTree = "<group>"; };
-		OBJ_32 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
-		OBJ_34 /* RefreshTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenRequest.swift; sourceTree = "<group>"; };
-		OBJ_35 /* TokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRequest.swift; sourceTree = "<group>"; };
-		OBJ_36 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
-		OBJ_39 /* ProjectDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsResponse.swift; sourceTree = "<group>"; };
-		OBJ_41 /* DownloadProjectInfoOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProjectInfoOperation.swift; sourceTree = "<group>"; };
-		OBJ_42 /* ProjectAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAPI.swift; sourceTree = "<group>"; };
-		OBJ_45 /* CreateScreenshotRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotRequest.swift; sourceTree = "<group>"; };
-		OBJ_46 /* CreateScreenshotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotResponse.swift; sourceTree = "<group>"; };
-		OBJ_48 /* CreateScreenshotTagRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotTagRequest.swift; sourceTree = "<group>"; };
-		OBJ_49 /* CreateScreenshotTagResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotTagResponse.swift; sourceTree = "<group>"; };
-		OBJ_50 /* ScreenshotsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsAPI.swift; sourceTree = "<group>"; };
-		OBJ_53 /* ActionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequest.swift; sourceTree = "<group>"; };
-		OBJ_54 /* TopSuggestionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSuggestionResponse.swift; sourceTree = "<group>"; };
-		OBJ_55 /* UpdateDraftResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDraftResponse.swift; sourceTree = "<group>"; };
-		OBJ_56 /* SocketAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketAPI.swift; sourceTree = "<group>"; };
-		OBJ_59 /* StorageUploadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageUploadResponse.swift; sourceTree = "<group>"; };
+		OBJ_10 /* CrowdinContentDeliveryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinContentDeliveryAPI.swift; sourceTree = "<group>"; };
+		OBJ_102 /* CrowdinSDK+IntervalUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+IntervalUpdate.swift"; sourceTree = "<group>"; };
+		OBJ_103 /* CrowdinSDKConfig+IntervalUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+IntervalUpdate.swift"; sourceTree = "<group>"; };
+		OBJ_104 /* IntervalUpdateFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalUpdateFeature.swift; sourceTree = "<group>"; };
+		OBJ_106 /* CrowdinLoginConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLoginConfig.swift; sourceTree = "<group>"; };
+		OBJ_108 /* Bundle+URLScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+URLScheme.swift"; sourceTree = "<group>"; };
+		OBJ_109 /* CrowdinSDK+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Login.swift"; sourceTree = "<group>"; };
+		OBJ_110 /* CrowdinSDKConfig +Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig +Login.swift"; sourceTree = "<group>"; };
+		OBJ_111 /* LoginFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFeature.swift; sourceTree = "<group>"; };
+		OBJ_114 /* CrowdinSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSocketManager.swift; sourceTree = "<group>"; };
+		OBJ_116 /* CrowdinSDK+ReatimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+ReatimeUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_117 /* CrowdinSDKConfig+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+RealtimeUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_118 /* UIButton+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+RealtimeUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_119 /* UILabel+RealtimeUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+RealtimeUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* ManifestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestResponse.swift; sourceTree = "<group>"; };
+		OBJ_120 /* RealtimeUpdateFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeUpdateFeature.swift; sourceTree = "<group>"; };
+		OBJ_121 /* Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshable.swift; sourceTree = "<group>"; };
+		OBJ_123 /* CrowdinSDK+RefreshLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+RefreshLocalization.swift"; sourceTree = "<group>"; };
+		OBJ_124 /* RefreshLocalizationFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshLocalizationFeature.swift; sourceTree = "<group>"; };
+		OBJ_126 /* CrowdinScreenshotsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinScreenshotsConfig.swift; sourceTree = "<group>"; };
+		OBJ_128 /* CGRect+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Validation.swift"; sourceTree = "<group>"; };
+		OBJ_129 /* CrowdinSDK+Screenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Screenshots.swift"; sourceTree = "<group>"; };
+		OBJ_130 /* CrowdinSDKConfig+Screenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+Screenshots.swift"; sourceTree = "<group>"; };
+		OBJ_131 /* ScreenshotFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotFeature.swift; sourceTree = "<group>"; };
+		OBJ_132 /* ScreenshotInformationCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotInformationCollector.swift; sourceTree = "<group>"; };
+		OBJ_133 /* ScreenshotProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotProcessor.swift; sourceTree = "<group>"; };
+		OBJ_134 /* ScreenshotUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotUploader.swift; sourceTree = "<group>"; };
+		OBJ_138 /* CrowdinProviderConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinProviderConfig.swift; sourceTree = "<group>"; };
+		OBJ_139 /* CrowdinRemoteLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinRemoteLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_14 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		OBJ_141 /* CrowdinSDK+CrowdinProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+CrowdinProvider.swift"; sourceTree = "<group>"; };
+		OBJ_142 /* CrowdinSDKConfig+CrowdinProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+CrowdinProvider.swift"; sourceTree = "<group>"; };
+		OBJ_143 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_145 /* CrowdinLocalizationDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLocalizationDownloader.swift; sourceTree = "<group>"; };
+		OBJ_147 /* CrowdinPluralsDownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinPluralsDownloadOperation.swift; sourceTree = "<group>"; };
+		OBJ_148 /* CrowdinStringsDownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinStringsDownloadOperation.swift; sourceTree = "<group>"; };
+		OBJ_15 /* CrowdinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinAPI.swift; sourceTree = "<group>"; };
+		OBJ_150 /* CrowdinMappingDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinMappingDownloader.swift; sourceTree = "<group>"; };
+		OBJ_151 /* CrowdinMappingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinMappingManager.swift; sourceTree = "<group>"; };
+		OBJ_153 /* CrowdinPluralsMappingDownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinPluralsMappingDownloadOperation.swift; sourceTree = "<group>"; };
+		OBJ_154 /* CrowdinStringsMappingDownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinStringsMappingDownloadOperation.swift; sourceTree = "<group>"; };
+		OBJ_156 /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		OBJ_157 /* BlockAsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockAsyncOperation.swift; sourceTree = "<group>"; };
+		OBJ_158 /* CrowdinDownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinDownloadOperation.swift; sourceTree = "<group>"; };
+		OBJ_160 /* CrowdinPathsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinPathsParser.swift; sourceTree = "<group>"; };
+		OBJ_162 /* CrowdinSupportedLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSupportedLanguages.swift; sourceTree = "<group>"; };
+		OBJ_165 /* Dictionary+Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Firebase.swift"; sourceTree = "<group>"; };
+		OBJ_166 /* String+Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Firebase.swift"; sourceTree = "<group>"; };
+		OBJ_167 /* FirebaseLocalLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLocalLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_168 /* FirebaseLocalizationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLocalizationProvider.swift; sourceTree = "<group>"; };
+		OBJ_169 /* FirebaseRemoteLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRemoteLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_17 /* DistributionsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionsAPI.swift; sourceTree = "<group>"; };
+		OBJ_171 /* Bundle+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Settings.swift"; sourceTree = "<group>"; };
+		OBJ_172 /* CrowdinSDK+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDK+Settings.swift"; sourceTree = "<group>"; };
+		OBJ_173 /* CrowdinSDKConfig+Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrowdinSDKConfig+Settings.swift"; sourceTree = "<group>"; };
+		OBJ_174 /* SettingsItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemCell.swift; sourceTree = "<group>"; };
+		OBJ_175 /* SettingsView+Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView+Gesture.swift"; sourceTree = "<group>"; };
+		OBJ_176 /* SettingsView+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView+UITableView.swift"; sourceTree = "<group>"; };
+		OBJ_177 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		OBJ_180 /* ConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTests.swift; sourceTree = "<group>"; };
+		OBJ_181 /* CrowdinSDKConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDKConfigTests.swift; sourceTree = "<group>"; };
+		OBJ_182 /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
+		OBJ_183 /* LocaleExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleExtensionTests.swift; sourceTree = "<group>"; };
+		OBJ_184 /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
+		OBJ_186 /* CrowdinAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinAPITests.swift; sourceTree = "<group>"; };
+		OBJ_187 /* CrowdinContentDeliveryAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinContentDeliveryAPITests.swift; sourceTree = "<group>"; };
+		OBJ_188 /* CrowdinLoginAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLoginAPITests.swift; sourceTree = "<group>"; };
+		OBJ_189 /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
+		OBJ_19 /* DistributionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionsResponse.swift; sourceTree = "<group>"; };
+		OBJ_191 /* CrowdinPathsParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinPathsParserTests.swift; sourceTree = "<group>"; };
+		OBJ_192 /* CrowdinProviderConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinProviderConfigTests.swift; sourceTree = "<group>"; };
+		OBJ_195 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/serhii-londar/Documents/GitHub/mobile-sdk-ios/.build/checkouts/BaseAPI/Package.swift"; sourceTree = "<group>"; };
+		OBJ_196 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		OBJ_198 /* CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSet.swift; sourceTree = "<group>"; };
+		OBJ_199 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		OBJ_200 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_201 /* RequestHeaderFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHeaderFields.swift; sourceTree = "<group>"; };
+		OBJ_202 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		OBJ_203 /* ResponsetHeaderFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsetHeaderFields.swift; sourceTree = "<group>"; };
+		OBJ_206 /* Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
+		OBJ_207 /* SSLClientCertificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLClientCertificate.swift; sourceTree = "<group>"; };
+		OBJ_208 /* SSLSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		OBJ_209 /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		OBJ_21 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		OBJ_210 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/serhii-londar/Documents/GitHub/mobile-sdk-ios/.build/checkouts/Starscream/Package.swift"; sourceTree = "<group>"; };
+		OBJ_216 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = SOURCE_ROOT; };
+		OBJ_217 /* ObjCExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ObjCExample; sourceTree = SOURCE_ROOT; };
+		OBJ_218 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
+		OBJ_219 /* CrowdinSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CrowdinSDK; sourceTree = SOURCE_ROOT; };
+		OBJ_220 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_221 /* CrowdinSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CrowdinSDK.podspec; sourceTree = "<group>"; };
+		OBJ_222 /* azure-pipelines.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = "azure-pipelines.yml"; sourceTree = "<group>"; };
+		OBJ_223 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_224 /* build_doc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_doc.sh; sourceTree = "<group>"; };
+		OBJ_23 /* RefreshTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenRequest.swift; sourceTree = "<group>"; };
+		OBJ_24 /* TokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRequest.swift; sourceTree = "<group>"; };
+		OBJ_25 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ProjectDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailsResponse.swift; sourceTree = "<group>"; };
+		OBJ_29 /* ProjectAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAPI.swift; sourceTree = "<group>"; };
+		OBJ_32 /* CreateScreenshotRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotRequest.swift; sourceTree = "<group>"; };
+		OBJ_33 /* CreateScreenshotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotResponse.swift; sourceTree = "<group>"; };
+		OBJ_35 /* CreateScreenshotTagRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotTagRequest.swift; sourceTree = "<group>"; };
+		OBJ_36 /* CreateScreenshotTagResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreenshotTagResponse.swift; sourceTree = "<group>"; };
+		OBJ_37 /* ScreenshotsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsAPI.swift; sourceTree = "<group>"; };
+		OBJ_40 /* ActionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequest.swift; sourceTree = "<group>"; };
+		OBJ_41 /* TopSuggestionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSuggestionResponse.swift; sourceTree = "<group>"; };
+		OBJ_42 /* UpdateDraftResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDraftResponse.swift; sourceTree = "<group>"; };
+		OBJ_43 /* SocketAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketAPI.swift; sourceTree = "<group>"; };
+		OBJ_46 /* StorageUploadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageUploadResponse.swift; sourceTree = "<group>"; };
+		OBJ_47 /* StorageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAPI.swift; sourceTree = "<group>"; };
+		OBJ_50 /* SupportedLanguagesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedLanguagesResponse.swift; sourceTree = "<group>"; };
+		OBJ_51 /* SupportedLanguagesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedLanguagesAPI.swift; sourceTree = "<group>"; };
+		OBJ_53 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		OBJ_54 /* CrowdinSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDK.swift; sourceTree = "<group>"; };
+		OBJ_55 /* CrowdinSDKConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDKConfig.swift; sourceTree = "<group>"; };
+		OBJ_56 /* CrowdinTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinTester.swift; sourceTree = "<group>"; };
+		OBJ_59 /* Bundle+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Application.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_60 /* StorageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageAPI.swift; sourceTree = "<group>"; };
-		OBJ_63 /* SupportedLanguagesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedLanguagesResponse.swift; sourceTree = "<group>"; };
-		OBJ_65 /* DownloadSupportedLanguagesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadSupportedLanguagesOperation.swift; sourceTree = "<group>"; };
-		OBJ_66 /* SupportedLanguagesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedLanguagesAPI.swift; sourceTree = "<group>"; };
-		OBJ_68 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		OBJ_69 /* CrowdinSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDK.swift; sourceTree = "<group>"; };
-		OBJ_70 /* CrowdinSDKConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinSDKConfig.swift; sourceTree = "<group>"; };
-		OBJ_71 /* CrowdinTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinTester.swift; sourceTree = "<group>"; };
-		OBJ_74 /* Bundle+Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Application.swift"; sourceTree = "<group>"; };
-		OBJ_75 /* Bundle+Crowdin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Crowdin.swift"; sourceTree = "<group>"; };
-		OBJ_76 /* Bundle+Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Language.swift"; sourceTree = "<group>"; };
-		OBJ_77 /* Bundle+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Swizzle.swift"; sourceTree = "<group>"; };
-		OBJ_78 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
-		OBJ_79 /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
-		OBJ_80 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		OBJ_81 /* UIButton+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Swizzle.swift"; sourceTree = "<group>"; };
-		OBJ_82 /* UILabel+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Swizzle.swift"; sourceTree = "<group>"; };
-		OBJ_83 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		OBJ_84 /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
-		OBJ_85 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
-		OBJ_87 /* CrowdinFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinFolder.swift; sourceTree = "<group>"; };
-		OBJ_89 /* CustomBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBundle.swift; sourceTree = "<group>"; };
-		OBJ_90 /* DocumentsFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsFolder.swift; sourceTree = "<group>"; };
-		OBJ_91 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		OBJ_92 /* FileStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStatus.swift; sourceTree = "<group>"; };
-		OBJ_93 /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
-		OBJ_94 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
-		OBJ_95 /* ReadWriteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWriteProtocol.swift; sourceTree = "<group>"; };
-		OBJ_98 /* CrowdinDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinDownloader.swift; sourceTree = "<group>"; };
-		OBJ_99 /* CrowdinLocalizationDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinLocalizationDownloader.swift; sourceTree = "<group>"; };
+		OBJ_60 /* Bundle+Crowdin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Crowdin.swift"; sourceTree = "<group>"; };
+		OBJ_61 /* Bundle+Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Language.swift"; sourceTree = "<group>"; };
+		OBJ_62 /* Bundle+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Swizzle.swift"; sourceTree = "<group>"; };
+		OBJ_63 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		OBJ_64 /* Locale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		OBJ_65 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		OBJ_66 /* UIButton+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Swizzle.swift"; sourceTree = "<group>"; };
+		OBJ_67 /* UILabel+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Swizzle.swift"; sourceTree = "<group>"; };
+		OBJ_68 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		OBJ_69 /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		OBJ_70 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		OBJ_72 /* CrowdinFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinFolder.swift; sourceTree = "<group>"; };
+		OBJ_74 /* CustomBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBundle.swift; sourceTree = "<group>"; };
+		OBJ_75 /* DocumentsFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsFolder.swift; sourceTree = "<group>"; };
+		OBJ_76 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_77 /* FileStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStatus.swift; sourceTree = "<group>"; };
+		OBJ_78 /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		OBJ_80 /* ReadWriteProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWriteProtocol.swift; sourceTree = "<group>"; };
+		OBJ_83 /* CrowdinDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdinDownloader.swift; sourceTree = "<group>"; };
+		OBJ_85 /* LocalizationExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationExtractor.swift; sourceTree = "<group>"; };
+		OBJ_86 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		OBJ_87 /* LocalizationUpdateObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationUpdateObserver.swift; sourceTree = "<group>"; };
+		OBJ_89 /* InBundleLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InBundleLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_90 /* LocalLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_91 /* LocalizationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationDataSource.swift; sourceTree = "<group>"; };
+		OBJ_92 /* LocalizationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProvider.swift; sourceTree = "<group>"; };
+		OBJ_93 /* LocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_94 /* RemoteLocalizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLocalizationStorage.swift; sourceTree = "<group>"; };
+		OBJ_96 /* StringParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringParam.swift; sourceTree = "<group>"; };
+		OBJ_98 /* Atomic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atomic.swift; sourceTree = "<group>"; };
+		OBJ_99 /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectAssociation.swift; sourceTree = "<group>"; };
 		"Starscream::Starscream::Product" /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_333 /* Frameworks */ = {
+		OBJ_237 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_334 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_364 /* Frameworks */ = {
+		OBJ_365 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_365 /* Starscream.framework in Frameworks */,
+				OBJ_366 /* Starscream.framework in Frameworks */,
+				OBJ_367 /* BaseAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_375 /* Frameworks */ = {
+		OBJ_398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_399 /* CrowdinSDK.framework in Frameworks */,
+				OBJ_400 /* Starscream.framework in Frameworks */,
+				OBJ_401 /* BaseAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_413 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -355,448 +408,505 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_100 /* Extractor */ = {
+		OBJ_100 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_101 /* LocalizationExtractor.swift */,
-			);
-			path = Extractor;
-			sourceTree = "<group>";
-		};
-		OBJ_104 /* Provider */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_105 /* InBundleLocalizationStorage.swift */,
-				OBJ_106 /* LocalLocalizationStorage.swift */,
-				OBJ_107 /* LocalizationDataSource.swift */,
-				OBJ_108 /* LocalizationProvider.swift */,
-				OBJ_109 /* LocalizationStorage.swift */,
-				OBJ_110 /* RemoteLocalizationStorage.swift */,
-			);
-			path = Provider;
-			sourceTree = "<group>";
-		};
-		OBJ_11 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_12 /* CharacterSet.swift */,
-				OBJ_13 /* URLSession.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		OBJ_111 /* R.swift */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_112 /* StringParam.swift */,
-			);
-			path = R.swift;
-			sourceTree = "<group>";
-		};
-		OBJ_113 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_114 /* Atomic.swift */,
-				OBJ_115 /* ObjectAssociation.swift */,
-				OBJ_116 /* Operations */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		OBJ_116 /* Operations */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_117 /* AsyncOperation.swift */,
-				OBJ_118 /* BlockAsyncOperation.swift */,
-			);
-			path = Operations;
-			sourceTree = "<group>";
-		};
-		OBJ_119 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_120 /* IntervalUpdateFeature */,
-				OBJ_124 /* LoginFeature */,
-				OBJ_131 /* RealtimeUpdateFeature */,
-				OBJ_141 /* RefreshLocalizationFeature */,
-				OBJ_144 /* ScreenshotFeature */,
+				OBJ_101 /* IntervalUpdateFeature */,
+				OBJ_105 /* LoginFeature */,
+				OBJ_112 /* RealtimeUpdateFeature */,
+				OBJ_122 /* RefreshLocalizationFeature */,
+				OBJ_125 /* ScreenshotFeature */,
 			);
 			path = Features;
 			sourceTree = "<group>";
 		};
-		OBJ_120 /* IntervalUpdateFeature */ = {
+		OBJ_101 /* IntervalUpdateFeature */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_121 /* CrowdinSDK+IntervalUpdate.swift */,
-				OBJ_122 /* CrowdinSDKConfig+IntervalUpdate.swift */,
-				OBJ_123 /* IntervalUpdateFeature.swift */,
+				OBJ_102 /* CrowdinSDK+IntervalUpdate.swift */,
+				OBJ_103 /* CrowdinSDKConfig+IntervalUpdate.swift */,
+				OBJ_104 /* IntervalUpdateFeature.swift */,
 			);
 			path = IntervalUpdateFeature;
 			sourceTree = "<group>";
 		};
-		OBJ_124 /* LoginFeature */ = {
+		OBJ_105 /* LoginFeature */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_125 /* CrowdinLoginConfig.swift */,
-				OBJ_126 /* Extensions */,
-				OBJ_130 /* LoginFeature.swift */,
+				OBJ_106 /* CrowdinLoginConfig.swift */,
+				OBJ_107 /* Extensions */,
+				OBJ_111 /* LoginFeature.swift */,
 			);
 			path = LoginFeature;
 			sourceTree = "<group>";
 		};
-		OBJ_126 /* Extensions */ = {
+		OBJ_107 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_127 /* Bundle+URLScheme.swift */,
-				OBJ_128 /* CrowdinSDK+Login.swift */,
-				OBJ_129 /* CrowdinSDKConfig +Login.swift */,
+				OBJ_108 /* Bundle+URLScheme.swift */,
+				OBJ_109 /* CrowdinSDK+Login.swift */,
+				OBJ_110 /* CrowdinSDKConfig +Login.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		OBJ_131 /* RealtimeUpdateFeature */ = {
+		OBJ_11 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_132 /* CrowdinSocketManager */,
-				OBJ_134 /* Extensions */,
-				OBJ_139 /* RealtimeUpdateFeature.swift */,
-				OBJ_140 /* Refreshable.swift */,
+				OBJ_12 /* ManifestResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_112 /* RealtimeUpdateFeature */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_113 /* CrowdinSocketManager */,
+				OBJ_115 /* Extensions */,
+				OBJ_120 /* RealtimeUpdateFeature.swift */,
+				OBJ_121 /* Refreshable.swift */,
 			);
 			path = RealtimeUpdateFeature;
 			sourceTree = "<group>";
 		};
-		OBJ_132 /* CrowdinSocketManager */ = {
+		OBJ_113 /* CrowdinSocketManager */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_133 /* CrowdinSocketManager.swift */,
+				OBJ_114 /* CrowdinSocketManager.swift */,
 			);
 			path = CrowdinSocketManager;
 			sourceTree = "<group>";
 		};
-		OBJ_134 /* Extensions */ = {
+		OBJ_115 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_135 /* CrowdinSDK+ReatimeUpdates.swift */,
-				OBJ_136 /* CrowdinSDKConfig+RealtimeUpdates.swift */,
-				OBJ_137 /* UIButton+RealtimeUpdates.swift */,
-				OBJ_138 /* UILabel+RealtimeUpdates.swift */,
+				OBJ_116 /* CrowdinSDK+ReatimeUpdates.swift */,
+				OBJ_117 /* CrowdinSDKConfig+RealtimeUpdates.swift */,
+				OBJ_118 /* UIButton+RealtimeUpdates.swift */,
+				OBJ_119 /* UILabel+RealtimeUpdates.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		OBJ_141 /* RefreshLocalizationFeature */ = {
+		OBJ_122 /* RefreshLocalizationFeature */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_142 /* CrowdinSDK+RefreshLocalization.swift */,
-				OBJ_143 /* RefreshLocalizationFeature.swift */,
+				OBJ_123 /* CrowdinSDK+RefreshLocalization.swift */,
+				OBJ_124 /* RefreshLocalizationFeature.swift */,
 			);
 			path = RefreshLocalizationFeature;
 			sourceTree = "<group>";
 		};
-		OBJ_144 /* ScreenshotFeature */ = {
+		OBJ_125 /* ScreenshotFeature */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_145 /* CrowdinScreenshotsConfig.swift */,
-				OBJ_146 /* Extensions */,
-				OBJ_150 /* ScreenshotFeature.swift */,
-				OBJ_151 /* ScreenshotInformationCollector.swift */,
-				OBJ_152 /* ScreenshotProcessor.swift */,
-				OBJ_153 /* ScreenshotUploader.swift */,
+				OBJ_126 /* CrowdinScreenshotsConfig.swift */,
+				OBJ_127 /* Extensions */,
+				OBJ_131 /* ScreenshotFeature.swift */,
+				OBJ_132 /* ScreenshotInformationCollector.swift */,
+				OBJ_133 /* ScreenshotProcessor.swift */,
+				OBJ_134 /* ScreenshotUploader.swift */,
 			);
 			path = ScreenshotFeature;
 			sourceTree = "<group>";
 		};
-		OBJ_146 /* Extensions */ = {
+		OBJ_127 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_147 /* CGRect+Validation.swift */,
-				OBJ_148 /* CrowdinSDK+Screenshots.swift */,
-				OBJ_149 /* CrowdinSDKConfig+Screenshots.swift */,
+				OBJ_128 /* CGRect+Validation.swift */,
+				OBJ_129 /* CrowdinSDK+Screenshots.swift */,
+				OBJ_130 /* CrowdinSDKConfig+Screenshots.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		OBJ_154 /* Mapping */ = {
+		OBJ_13 /* Parser */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_155 /* CrowdinMappingDownloader.swift */,
-				OBJ_156 /* CrowdinMappingManager.swift */,
+				OBJ_14 /* DataParser.swift */,
 			);
-			path = Mapping;
+			path = Parser;
 			sourceTree = "<group>";
 		};
-		OBJ_157 /* Providers */ = {
+		OBJ_135 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_158 /* Crowdin */,
+				OBJ_136 /* Crowdin */,
+				OBJ_163 /* Firebase */,
 			);
 			path = Providers;
 			sourceTree = "<group>";
 		};
-		OBJ_158 /* Crowdin */ = {
+		OBJ_136 /* Crowdin */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_159 /* Config */,
-				OBJ_161 /* CrowdinRemoteLocalizationStorage.swift */,
-				OBJ_162 /* Extensions */,
-				OBJ_165 /* PathParser */,
-				OBJ_167 /* SupportedLanguages */,
+				OBJ_137 /* Config */,
+				OBJ_139 /* CrowdinRemoteLocalizationStorage.swift */,
+				OBJ_140 /* Extensions */,
+				OBJ_144 /* LocalizationDownloader */,
+				OBJ_149 /* MappingDownloader */,
+				OBJ_155 /* Operations */,
+				OBJ_159 /* PathParser */,
+				OBJ_161 /* SupportedLanguages */,
 			);
 			path = Crowdin;
 			sourceTree = "<group>";
 		};
-		OBJ_159 /* Config */ = {
+		OBJ_137 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_160 /* CrowdinProviderConfig.swift */,
+				OBJ_138 /* CrowdinProviderConfig.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
 		};
-		OBJ_162 /* Extensions */ = {
+		OBJ_140 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_163 /* CrowdinSDKConfig+CrowdinProvider.swift */,
-				OBJ_164 /* String+Extensions.swift */,
+				OBJ_141 /* CrowdinSDK+CrowdinProvider.swift */,
+				OBJ_142 /* CrowdinSDKConfig+CrowdinProvider.swift */,
+				OBJ_143 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		OBJ_165 /* PathParser */ = {
+		OBJ_144 /* LocalizationDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_166 /* CrowdinPathsParser.swift */,
+				OBJ_145 /* CrowdinLocalizationDownloader.swift */,
+				OBJ_146 /* Operations */,
+			);
+			path = LocalizationDownloader;
+			sourceTree = "<group>";
+		};
+		OBJ_146 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_147 /* CrowdinPluralsDownloadOperation.swift */,
+				OBJ_148 /* CrowdinStringsDownloadOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		OBJ_149 /* MappingDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_150 /* CrowdinMappingDownloader.swift */,
+				OBJ_151 /* CrowdinMappingManager.swift */,
+				OBJ_152 /* Operations */,
+			);
+			path = MappingDownloader;
+			sourceTree = "<group>";
+		};
+		OBJ_152 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_153 /* CrowdinPluralsMappingDownloadOperation.swift */,
+				OBJ_154 /* CrowdinStringsMappingDownloadOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		OBJ_155 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_156 /* AsyncOperation.swift */,
+				OBJ_157 /* BlockAsyncOperation.swift */,
+				OBJ_158 /* CrowdinDownloadOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		OBJ_159 /* PathParser */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_160 /* CrowdinPathsParser.swift */,
 			);
 			path = PathParser;
 			sourceTree = "<group>";
 		};
-		OBJ_167 /* SupportedLanguages */ = {
+		OBJ_16 /* DistributionsAPI */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_168 /* CrowdinSupportedLanguages.swift */,
+				OBJ_17 /* DistributionsAPI.swift */,
+				OBJ_18 /* Models */,
+			);
+			path = DistributionsAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_161 /* SupportedLanguages */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_162 /* CrowdinSupportedLanguages.swift */,
 			);
 			path = SupportedLanguages;
 			sourceTree = "<group>";
 		};
-		OBJ_169 /* Settings */ = {
+		OBJ_163 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_170 /* Bundle+Settings.swift */,
-				OBJ_171 /* CrowdinSDK+Settings.swift */,
-				OBJ_172 /* CrowdinSDKConfig+Settings.swift */,
-				OBJ_173 /* SettingsItemCell.swift */,
-				OBJ_174 /* SettingsView+Gesture.swift */,
-				OBJ_175 /* SettingsView+UITableView.swift */,
-				OBJ_176 /* SettingsView.swift */,
+				OBJ_164 /* Extensions */,
+				OBJ_167 /* FirebaseLocalLocalizationStorage.swift */,
+				OBJ_168 /* FirebaseLocalizationProvider.swift */,
+				OBJ_169 /* FirebaseRemoteLocalizationStorage.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		OBJ_164 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_165 /* Dictionary+Firebase.swift */,
+				OBJ_166 /* String+Firebase.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_170 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_171 /* Bundle+Settings.swift */,
+				OBJ_172 /* CrowdinSDK+Settings.swift */,
+				OBJ_173 /* CrowdinSDKConfig+Settings.swift */,
+				OBJ_174 /* SettingsItemCell.swift */,
+				OBJ_175 /* SettingsView+Gesture.swift */,
+				OBJ_176 /* SettingsView+UITableView.swift */,
+				OBJ_177 /* SettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		OBJ_177 /* Tests */ = {
+		OBJ_178 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_178 /* Core */,
-				OBJ_184 /* CrowdinAPI */,
-				OBJ_189 /* CrowdinProvider */,
+				OBJ_179 /* Core */,
+				OBJ_185 /* CrowdinAPI */,
+				OBJ_190 /* CrowdinProvider */,
 			);
 			name = Tests;
 			path = CrowdinSDK/Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_178 /* Core */ = {
+		OBJ_179 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_179 /* ConstantsTests.swift */,
-				OBJ_180 /* CrowdinSDKConfigTests.swift */,
-				OBJ_181 /* DictionaryTests.swift */,
-				OBJ_182 /* LocaleExtensionTests.swift */,
-				OBJ_183 /* StringsTests.swift */,
+				OBJ_180 /* ConstantsTests.swift */,
+				OBJ_181 /* CrowdinSDKConfigTests.swift */,
+				OBJ_182 /* DictionaryTests.swift */,
+				OBJ_183 /* LocaleExtensionTests.swift */,
+				OBJ_184 /* StringsTests.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
 		};
-		OBJ_18 /* ContentDeliveryAPI */ = {
+		OBJ_18 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_19 /* CrowdinContentDeliveryAPI.swift */,
-				OBJ_20 /* Models */,
-				OBJ_22 /* Operations */,
-				OBJ_24 /* Parser */,
+				OBJ_19 /* DistributionsResponse.swift */,
 			);
-			path = ContentDeliveryAPI;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		OBJ_184 /* CrowdinAPI */ = {
+		OBJ_185 /* CrowdinAPI */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_185 /* CrowdinAPITests.swift */,
-				OBJ_186 /* CrowdinContentDeliveryAPITests.swift */,
-				OBJ_187 /* CrowdinLoginAPITests.swift */,
-				OBJ_188 /* URLSessionMock.swift */,
+				OBJ_186 /* CrowdinAPITests.swift */,
+				OBJ_187 /* CrowdinContentDeliveryAPITests.swift */,
+				OBJ_188 /* CrowdinLoginAPITests.swift */,
+				OBJ_189 /* URLSessionMock.swift */,
 			);
 			path = CrowdinAPI;
 			sourceTree = "<group>";
 		};
-		OBJ_189 /* CrowdinProvider */ = {
+		OBJ_190 /* CrowdinProvider */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_190 /* CrowdinPathsParserTests.swift */,
-				OBJ_191 /* CrowdinProviderConfigTests.swift */,
+				OBJ_191 /* CrowdinPathsParserTests.swift */,
+				OBJ_192 /* CrowdinProviderConfigTests.swift */,
 			);
 			path = CrowdinProvider;
 			sourceTree = "<group>";
 		};
-		OBJ_192 /* Dependencies */ = {
+		OBJ_193 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_193 /* Starscream 3.1.1 */,
+				OBJ_194 /* BaseAPI 0.1.7 */,
+				OBJ_204 /* Starscream 3.1.1 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_193 /* Starscream 3.1.1 */ = {
+		OBJ_194 /* BaseAPI 0.1.7 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_194 /* Starscream */,
-				OBJ_199 /* Package.swift */,
+				OBJ_195 /* Package.swift */,
+				OBJ_196 /* BaseAPI.swift */,
+				OBJ_197 /* Extensions */,
+				OBJ_200 /* Request.swift */,
+				OBJ_201 /* RequestHeaderFields.swift */,
+				OBJ_202 /* RequestMethod.swift */,
+				OBJ_203 /* ResponsetHeaderFields.swift */,
+			);
+			name = "BaseAPI 0.1.7";
+			path = .build/checkouts/BaseAPI/BaseAPI/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_197 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_198 /* CharacterSet.swift */,
+				OBJ_199 /* URLSession.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_20 /* LoginAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* LoginAPI.swift */,
+				OBJ_22 /* Models */,
+			);
+			path = LoginAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_204 /* Starscream 3.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_205 /* Starscream */,
+				OBJ_210 /* Package.swift */,
 			);
 			name = "Starscream 3.1.1";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_194 /* Starscream */ = {
+		OBJ_205 /* Starscream */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_195 /* Compression.swift */,
-				OBJ_196 /* SSLClientCertificate.swift */,
-				OBJ_197 /* SSLSecurity.swift */,
-				OBJ_198 /* WebSocket.swift */,
+				OBJ_206 /* Compression.swift */,
+				OBJ_207 /* SSLClientCertificate.swift */,
+				OBJ_208 /* SSLSecurity.swift */,
+				OBJ_209 /* WebSocket.swift */,
 			);
 			name = Starscream;
 			path = .build/checkouts/Starscream/Sources/Starscream;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_20 /* Models */ = {
+		OBJ_211 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_21 /* ManifestResponse.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		OBJ_200 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"Starscream::Starscream::Product" /* Starscream.framework */,
 				"CrowdinSDK::CrowdinSDKTests::Product" /* CrowdinSDKTests.xctest */,
+				"BaseAPI::BaseAPI::Product" /* BaseAPI.framework */,
 				"CrowdinSDK::CrowdinSDK::Product" /* CrowdinSDK.framework */,
+				"Starscream::Starscream::Product" /* Starscream.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_22 /* Operations */ = {
+		OBJ_22 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_23 /* DownloadOperation.swift */,
-			);
-			path = Operations;
-			sourceTree = "<group>";
-		};
-		OBJ_24 /* Parser */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_25 /* DataParser.swift */,
-			);
-			path = Parser;
-			sourceTree = "<group>";
-		};
-		OBJ_27 /* DistributionsAPI */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_28 /* DistributionsAPI.swift */,
-				OBJ_29 /* Models */,
-			);
-			path = DistributionsAPI;
-			sourceTree = "<group>";
-		};
-		OBJ_29 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_30 /* DistributionsResponse.swift */,
+				OBJ_23 /* RefreshTokenRequest.swift */,
+				OBJ_24 /* TokenRequest.swift */,
+				OBJ_25 /* TokenResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		OBJ_31 /* LoginAPI */ = {
+		OBJ_26 /* ProjectAPI */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_32 /* LoginAPI.swift */,
-				OBJ_33 /* Models */,
-			);
-			path = LoginAPI;
-			sourceTree = "<group>";
-		};
-		OBJ_33 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_34 /* RefreshTokenRequest.swift */,
-				OBJ_35 /* TokenRequest.swift */,
-				OBJ_36 /* TokenResponse.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		OBJ_37 /* ProjectAPI */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_38 /* Models */,
-				OBJ_40 /* Operations */,
-				OBJ_42 /* ProjectAPI.swift */,
+				OBJ_27 /* Models */,
+				OBJ_29 /* ProjectAPI.swift */,
 			);
 			path = ProjectAPI;
 			sourceTree = "<group>";
 		};
-		OBJ_38 /* Models */ = {
+		OBJ_27 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_39 /* ProjectDetailsResponse.swift */,
+				OBJ_28 /* ProjectDetailsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		OBJ_40 /* Operations */ = {
+		OBJ_30 /* ScreenshotsAPI */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_41 /* DownloadProjectInfoOperation.swift */,
-			);
-			path = Operations;
-			sourceTree = "<group>";
-		};
-		OBJ_43 /* ScreenshotsAPI */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_44 /* Models */,
-				OBJ_50 /* ScreenshotsAPI.swift */,
+				OBJ_31 /* Models */,
+				OBJ_37 /* ScreenshotsAPI.swift */,
 			);
 			path = ScreenshotsAPI;
 			sourceTree = "<group>";
 		};
-		OBJ_44 /* Models */ = {
+		OBJ_31 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_45 /* CreateScreenshotRequest.swift */,
-				OBJ_46 /* CreateScreenshotResponse.swift */,
-				OBJ_47 /* CreateScreenshotTag */,
+				OBJ_32 /* CreateScreenshotRequest.swift */,
+				OBJ_33 /* CreateScreenshotResponse.swift */,
+				OBJ_34 /* CreateScreenshotTag */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		OBJ_47 /* CreateScreenshotTag */ = {
+		OBJ_34 /* CreateScreenshotTag */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_48 /* CreateScreenshotTagRequest.swift */,
-				OBJ_49 /* CreateScreenshotTagResponse.swift */,
+				OBJ_35 /* CreateScreenshotTagRequest.swift */,
+				OBJ_36 /* CreateScreenshotTagResponse.swift */,
 			);
 			path = CreateScreenshotTag;
+			sourceTree = "<group>";
+		};
+		OBJ_38 /* SocketAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* Models */,
+				OBJ_43 /* SocketAPI.swift */,
+			);
+			path = SocketAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_40 /* ActionRequest.swift */,
+				OBJ_41 /* TopSuggestionResponse.swift */,
+				OBJ_42 /* UpdateDraftResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_44 /* StorageAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_45 /* Models */,
+				OBJ_47 /* StorageAPI.swift */,
+			);
+			path = StorageAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_46 /* StorageUploadResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_48 /* SupportedLanguagesAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_49 /* Models */,
+				OBJ_51 /* SupportedLanguagesAPI.swift */,
+			);
+			path = SupportedLanguagesAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_50 /* SupportedLanguagesResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		OBJ_5 /*  */ = {
@@ -804,229 +914,230 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_177 /* Tests */,
-				OBJ_192 /* Dependencies */,
-				OBJ_200 /* Products */,
-				OBJ_204 /* Documentation */,
-				OBJ_205 /* ObjCExample */,
-				OBJ_206 /* Example */,
-				OBJ_207 /* CrowdinSDK */,
-				OBJ_208 /* LICENSE */,
-				OBJ_209 /* CrowdinSDK.podspec */,
-				OBJ_210 /* azure-pipelines.yml */,
-				OBJ_211 /* README.md */,
-				OBJ_212 /* build_doc.sh */,
+				OBJ_178 /* Tests */,
+				OBJ_193 /* Dependencies */,
+				OBJ_211 /* Products */,
+				OBJ_216 /* Documentation */,
+				OBJ_217 /* ObjCExample */,
+				OBJ_218 /* Example */,
+				OBJ_219 /* CrowdinSDK */,
+				OBJ_220 /* LICENSE */,
+				OBJ_221 /* CrowdinSDK.podspec */,
+				OBJ_222 /* azure-pipelines.yml */,
+				OBJ_223 /* README.md */,
+				OBJ_224 /* build_doc.sh */,
 			);
 			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_51 /* SocketAPI */ = {
+		OBJ_52 /* CrowdinSDK */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_52 /* Models */,
-				OBJ_56 /* SocketAPI.swift */,
-			);
-			path = SocketAPI;
-			sourceTree = "<group>";
-		};
-		OBJ_52 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_53 /* ActionRequest.swift */,
-				OBJ_54 /* TopSuggestionResponse.swift */,
-				OBJ_55 /* UpdateDraftResponse.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		OBJ_57 /* StorageAPI */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_58 /* Models */,
-				OBJ_60 /* StorageAPI.swift */,
-			);
-			path = StorageAPI;
-			sourceTree = "<group>";
-		};
-		OBJ_58 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_59 /* StorageUploadResponse.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		OBJ_61 /* SupportedLanguagesAPI */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_62 /* Models */,
-				OBJ_64 /* Operations */,
-				OBJ_66 /* SupportedLanguagesAPI.swift */,
-			);
-			path = SupportedLanguagesAPI;
-			sourceTree = "<group>";
-		};
-		OBJ_62 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_63 /* SupportedLanguagesResponse.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		OBJ_64 /* Operations */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_65 /* DownloadSupportedLanguagesOperation.swift */,
-			);
-			path = Operations;
-			sourceTree = "<group>";
-		};
-		OBJ_67 /* CrowdinSDK */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_68 /* Constants.swift */,
-				OBJ_69 /* CrowdinSDK.swift */,
-				OBJ_70 /* CrowdinSDKConfig.swift */,
-				OBJ_71 /* CrowdinTester.swift */,
-				OBJ_72 /* Extensions */,
-				OBJ_86 /* FileSystem */,
-				OBJ_96 /* Localization */,
-				OBJ_111 /* R.swift */,
-				OBJ_113 /* Utils */,
+				OBJ_53 /* Constants.swift */,
+				OBJ_54 /* CrowdinSDK.swift */,
+				OBJ_55 /* CrowdinSDKConfig.swift */,
+				OBJ_56 /* CrowdinTester.swift */,
+				OBJ_57 /* Extensions */,
+				OBJ_71 /* FileSystem */,
+				OBJ_81 /* Localization */,
+				OBJ_95 /* R.swift */,
+				OBJ_97 /* Utils */,
 			);
 			path = CrowdinSDK;
+			sourceTree = "<group>";
+		};
+		OBJ_57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_58 /* Bundle */,
+				OBJ_63 /* Dictionary.swift */,
+				OBJ_64 /* Locale.swift */,
+				OBJ_65 /* String.swift */,
+				OBJ_66 /* UIButton+Swizzle.swift */,
+				OBJ_67 /* UILabel+Swizzle.swift */,
+				OBJ_68 /* UIViewController.swift */,
+				OBJ_69 /* UIWindow.swift */,
+				OBJ_70 /* UserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_58 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_59 /* Bundle+Application.swift */,
+				OBJ_60 /* Bundle+Crowdin.swift */,
+				OBJ_61 /* Bundle+Language.swift */,
+				OBJ_62 /* Bundle+Swizzle.swift */,
+			);
+			path = Bundle;
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* CrowdinAPI */,
-				OBJ_67 /* CrowdinSDK */,
-				OBJ_119 /* Features */,
-				OBJ_154 /* Mapping */,
-				OBJ_157 /* Providers */,
-				OBJ_169 /* Settings */,
+				OBJ_52 /* CrowdinSDK */,
+				OBJ_100 /* Features */,
+				OBJ_135 /* Providers */,
+				OBJ_170 /* Settings */,
 			);
 			name = Sources;
 			path = CrowdinSDK/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_72 /* Extensions */ = {
+		OBJ_71 /* FileSystem */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_73 /* Bundle */,
-				OBJ_78 /* Dictionary.swift */,
-				OBJ_79 /* Locale.swift */,
-				OBJ_80 /* String.swift */,
-				OBJ_81 /* UIButton+Swizzle.swift */,
-				OBJ_82 /* UILabel+Swizzle.swift */,
-				OBJ_83 /* UIViewController.swift */,
-				OBJ_84 /* UIWindow.swift */,
-				OBJ_85 /* UserDefaults.swift */,
+				OBJ_72 /* CrowdinFolder.swift */,
+				OBJ_73 /* CustomBundle */,
+				OBJ_75 /* DocumentsFolder.swift */,
+				OBJ_76 /* File.swift */,
+				OBJ_77 /* FileStatus.swift */,
+				OBJ_78 /* FileType.swift */,
+				OBJ_79 /* Folder.swift */,
+				OBJ_80 /* ReadWriteProtocol.swift */,
 			);
-			path = Extensions;
+			path = FileSystem;
 			sourceTree = "<group>";
 		};
-		OBJ_73 /* Bundle */ = {
+		OBJ_73 /* CustomBundle */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_74 /* Bundle+Application.swift */,
-				OBJ_75 /* Bundle+Crowdin.swift */,
-				OBJ_76 /* Bundle+Language.swift */,
-				OBJ_77 /* Bundle+Swizzle.swift */,
+				OBJ_74 /* CustomBundle.swift */,
 			);
-			path = Bundle;
+			path = CustomBundle;
 			sourceTree = "<group>";
 		};
 		OBJ_8 /* CrowdinAPI */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* BaseAPI */,
-				OBJ_18 /* ContentDeliveryAPI */,
-				OBJ_26 /* CrowdinAPI.swift */,
-				OBJ_27 /* DistributionsAPI */,
-				OBJ_31 /* LoginAPI */,
-				OBJ_37 /* ProjectAPI */,
-				OBJ_43 /* ScreenshotsAPI */,
-				OBJ_51 /* SocketAPI */,
-				OBJ_57 /* StorageAPI */,
-				OBJ_61 /* SupportedLanguagesAPI */,
+				OBJ_9 /* ContentDeliveryAPI */,
+				OBJ_15 /* CrowdinAPI.swift */,
+				OBJ_16 /* DistributionsAPI */,
+				OBJ_20 /* LoginAPI */,
+				OBJ_26 /* ProjectAPI */,
+				OBJ_30 /* ScreenshotsAPI */,
+				OBJ_38 /* SocketAPI */,
+				OBJ_44 /* StorageAPI */,
+				OBJ_48 /* SupportedLanguagesAPI */,
 			);
 			path = CrowdinAPI;
 			sourceTree = "<group>";
 		};
-		OBJ_86 /* FileSystem */ = {
+		OBJ_81 /* Localization */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_87 /* CrowdinFolder.swift */,
-				OBJ_88 /* CustomBundle */,
-				OBJ_90 /* DocumentsFolder.swift */,
-				OBJ_91 /* File.swift */,
-				OBJ_92 /* FileStatus.swift */,
-				OBJ_93 /* FileType.swift */,
-				OBJ_94 /* Folder.swift */,
-				OBJ_95 /* ReadWriteProtocol.swift */,
-			);
-			path = FileSystem;
-			sourceTree = "<group>";
-		};
-		OBJ_88 /* CustomBundle */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_89 /* CustomBundle.swift */,
-			);
-			path = CustomBundle;
-			sourceTree = "<group>";
-		};
-		OBJ_9 /* BaseAPI */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_10 /* BaseAPI.swift */,
-				OBJ_11 /* Extensions */,
-				OBJ_14 /* Request.swift */,
-				OBJ_15 /* RequestHeaderFields.swift */,
-				OBJ_16 /* RequestMethod.swift */,
-				OBJ_17 /* ResponsetHeaderFields.swift */,
-			);
-			path = BaseAPI;
-			sourceTree = "<group>";
-		};
-		OBJ_96 /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_97 /* Downloaders */,
-				OBJ_100 /* Extractor */,
-				OBJ_102 /* Localization.swift */,
-				OBJ_103 /* LocalizationUpdateObserver.swift */,
-				OBJ_104 /* Provider */,
+				OBJ_82 /* Downloader */,
+				OBJ_84 /* Extractor */,
+				OBJ_86 /* Localization.swift */,
+				OBJ_87 /* LocalizationUpdateObserver.swift */,
+				OBJ_88 /* Provider */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
 		};
-		OBJ_97 /* Downloaders */ = {
+		OBJ_82 /* Downloader */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_98 /* CrowdinDownloader.swift */,
-				OBJ_99 /* CrowdinLocalizationDownloader.swift */,
+				OBJ_83 /* CrowdinDownloader.swift */,
 			);
-			path = Downloaders;
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		OBJ_84 /* Extractor */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_85 /* LocalizationExtractor.swift */,
+			);
+			path = Extractor;
+			sourceTree = "<group>";
+		};
+		OBJ_88 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_89 /* InBundleLocalizationStorage.swift */,
+				OBJ_90 /* LocalLocalizationStorage.swift */,
+				OBJ_91 /* LocalizationDataSource.swift */,
+				OBJ_92 /* LocalizationProvider.swift */,
+				OBJ_93 /* LocalizationStorage.swift */,
+				OBJ_94 /* RemoteLocalizationStorage.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		OBJ_9 /* ContentDeliveryAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* CrowdinContentDeliveryAPI.swift */,
+				OBJ_11 /* Models */,
+				OBJ_13 /* Parser */,
+			);
+			path = ContentDeliveryAPI;
+			sourceTree = "<group>";
+		};
+		OBJ_95 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_96 /* StringParam.swift */,
+			);
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		OBJ_97 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_98 /* Atomic.swift */,
+				OBJ_99 /* ObjectAssociation.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"CrowdinSDK::CrowdinSDK" /* CrowdinSDK */ = {
+		"BaseAPI::BaseAPI" /* BaseAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_214 /* Build configuration list for PBXNativeTarget "CrowdinSDK" */;
+			buildConfigurationList = OBJ_226 /* Build configuration list for PBXNativeTarget "BaseAPI" */;
 			buildPhases = (
-				OBJ_217 /* Sources */,
-				OBJ_333 /* Frameworks */,
+				OBJ_229 /* Sources */,
+				OBJ_237 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_335 /* PBXTargetDependency */,
+			);
+			name = BaseAPI;
+			productName = BaseAPI;
+			productReference = "BaseAPI::BaseAPI::Product" /* BaseAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"BaseAPI::SwiftPMPackageDescription" /* BaseAPIPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_239 /* Build configuration list for PBXNativeTarget "BaseAPIPackageDescription" */;
+			buildPhases = (
+				OBJ_242 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaseAPIPackageDescription;
+			productName = BaseAPIPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"CrowdinSDK::CrowdinSDK" /* CrowdinSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_245 /* Build configuration list for PBXNativeTarget "CrowdinSDK" */;
+			buildPhases = (
+				OBJ_248 /* Sources */,
+				OBJ_365 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_368 /* PBXTargetDependency */,
+				OBJ_370 /* PBXTargetDependency */,
 			);
 			name = CrowdinSDK;
 			productName = CrowdinSDK;
@@ -1035,15 +1146,17 @@
 		};
 		"CrowdinSDK::CrowdinSDKTests" /* CrowdinSDKTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_349 /* Build configuration list for PBXNativeTarget "CrowdinSDKTests" */;
+			buildConfigurationList = OBJ_383 /* Build configuration list for PBXNativeTarget "CrowdinSDKTests" */;
 			buildPhases = (
-				OBJ_352 /* Sources */,
-				OBJ_364 /* Frameworks */,
+				OBJ_386 /* Sources */,
+				OBJ_398 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_366 /* PBXTargetDependency */,
+				OBJ_402 /* PBXTargetDependency */,
+				OBJ_403 /* PBXTargetDependency */,
+				OBJ_404 /* PBXTargetDependency */,
 			);
 			name = CrowdinSDKTests;
 			productName = CrowdinSDKTests;
@@ -1052,9 +1165,9 @@
 		};
 		"CrowdinSDK::SwiftPMPackageDescription" /* CrowdinSDKPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_338 /* Build configuration list for PBXNativeTarget "CrowdinSDKPackageDescription" */;
+			buildConfigurationList = OBJ_372 /* Build configuration list for PBXNativeTarget "CrowdinSDKPackageDescription" */;
 			buildPhases = (
-				OBJ_341 /* Sources */,
+				OBJ_375 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1066,10 +1179,10 @@
 		};
 		"Starscream::Starscream" /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_367 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildConfigurationList = OBJ_405 /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				OBJ_370 /* Sources */,
-				OBJ_375 /* Frameworks */,
+				OBJ_408 /* Sources */,
+				OBJ_413 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1082,9 +1195,9 @@
 		};
 		"Starscream::SwiftPMPackageDescription" /* StarscreamPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_377 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */;
+			buildConfigurationList = OBJ_415 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */;
 			buildPhases = (
-				OBJ_380 /* Sources */,
+				OBJ_418 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1111,10 +1224,12 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_200 /* Products */;
+			productRefGroup = OBJ_211 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				"BaseAPI::BaseAPI" /* BaseAPI */,
+				"BaseAPI::SwiftPMPackageDescription" /* BaseAPIPackageDescription */,
 				"CrowdinSDK::CrowdinSDK" /* CrowdinSDK */,
 				"CrowdinSDK::SwiftPMPackageDescription" /* CrowdinSDKPackageDescription */,
 				"CrowdinSDK::CrowdinSDKPackageTests::ProductTarget" /* CrowdinSDKPackageTests */,
@@ -1126,195 +1241,301 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_217 /* Sources */ = {
+		OBJ_229 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_218 /* BaseAPI.swift in Sources */,
-				OBJ_219 /* CharacterSet.swift in Sources */,
-				OBJ_220 /* URLSession.swift in Sources */,
-				OBJ_221 /* Request.swift in Sources */,
-				OBJ_222 /* RequestHeaderFields.swift in Sources */,
-				OBJ_223 /* RequestMethod.swift in Sources */,
-				OBJ_224 /* ResponsetHeaderFields.swift in Sources */,
-				OBJ_225 /* CrowdinContentDeliveryAPI.swift in Sources */,
-				OBJ_226 /* ManifestResponse.swift in Sources */,
-				OBJ_227 /* DownloadOperation.swift in Sources */,
-				OBJ_228 /* DataParser.swift in Sources */,
-				OBJ_229 /* CrowdinAPI.swift in Sources */,
-				OBJ_230 /* DistributionsAPI.swift in Sources */,
-				OBJ_231 /* DistributionsResponse.swift in Sources */,
-				OBJ_232 /* LoginAPI.swift in Sources */,
-				OBJ_233 /* RefreshTokenRequest.swift in Sources */,
-				OBJ_234 /* TokenRequest.swift in Sources */,
-				OBJ_235 /* TokenResponse.swift in Sources */,
-				OBJ_236 /* ProjectDetailsResponse.swift in Sources */,
-				OBJ_237 /* DownloadProjectInfoOperation.swift in Sources */,
-				OBJ_238 /* ProjectAPI.swift in Sources */,
-				OBJ_239 /* CreateScreenshotRequest.swift in Sources */,
-				OBJ_240 /* CreateScreenshotResponse.swift in Sources */,
-				OBJ_241 /* CreateScreenshotTagRequest.swift in Sources */,
-				OBJ_242 /* CreateScreenshotTagResponse.swift in Sources */,
-				OBJ_243 /* ScreenshotsAPI.swift in Sources */,
-				OBJ_244 /* ActionRequest.swift in Sources */,
-				OBJ_245 /* TopSuggestionResponse.swift in Sources */,
-				OBJ_246 /* UpdateDraftResponse.swift in Sources */,
-				OBJ_247 /* SocketAPI.swift in Sources */,
-				OBJ_248 /* StorageUploadResponse.swift in Sources */,
-				OBJ_249 /* StorageAPI.swift in Sources */,
-				OBJ_250 /* SupportedLanguagesResponse.swift in Sources */,
-				OBJ_251 /* DownloadSupportedLanguagesOperation.swift in Sources */,
-				OBJ_252 /* SupportedLanguagesAPI.swift in Sources */,
-				OBJ_253 /* Constants.swift in Sources */,
-				OBJ_254 /* CrowdinSDK.swift in Sources */,
-				OBJ_255 /* CrowdinSDKConfig.swift in Sources */,
-				OBJ_256 /* CrowdinTester.swift in Sources */,
-				OBJ_257 /* Bundle+Application.swift in Sources */,
-				OBJ_258 /* Bundle+Crowdin.swift in Sources */,
-				OBJ_259 /* Bundle+Language.swift in Sources */,
-				OBJ_260 /* Bundle+Swizzle.swift in Sources */,
-				OBJ_261 /* Dictionary.swift in Sources */,
-				OBJ_262 /* Locale.swift in Sources */,
-				OBJ_263 /* String.swift in Sources */,
-				OBJ_264 /* UIButton+Swizzle.swift in Sources */,
-				OBJ_265 /* UILabel+Swizzle.swift in Sources */,
-				OBJ_266 /* UIViewController.swift in Sources */,
-				OBJ_267 /* UIWindow.swift in Sources */,
-				OBJ_268 /* UserDefaults.swift in Sources */,
-				OBJ_269 /* CrowdinFolder.swift in Sources */,
-				OBJ_270 /* CustomBundle.swift in Sources */,
-				OBJ_271 /* DocumentsFolder.swift in Sources */,
-				OBJ_272 /* File.swift in Sources */,
-				OBJ_273 /* FileStatus.swift in Sources */,
-				OBJ_274 /* FileType.swift in Sources */,
-				OBJ_275 /* Folder.swift in Sources */,
-				OBJ_276 /* ReadWriteProtocol.swift in Sources */,
-				OBJ_277 /* CrowdinDownloader.swift in Sources */,
-				OBJ_278 /* CrowdinLocalizationDownloader.swift in Sources */,
-				OBJ_279 /* LocalizationExtractor.swift in Sources */,
-				OBJ_280 /* Localization.swift in Sources */,
-				OBJ_281 /* LocalizationUpdateObserver.swift in Sources */,
-				OBJ_282 /* InBundleLocalizationStorage.swift in Sources */,
-				OBJ_283 /* LocalLocalizationStorage.swift in Sources */,
-				OBJ_284 /* LocalizationDataSource.swift in Sources */,
-				OBJ_285 /* LocalizationProvider.swift in Sources */,
-				OBJ_286 /* LocalizationStorage.swift in Sources */,
-				OBJ_287 /* RemoteLocalizationStorage.swift in Sources */,
-				OBJ_288 /* StringParam.swift in Sources */,
-				OBJ_289 /* Atomic.swift in Sources */,
-				OBJ_290 /* ObjectAssociation.swift in Sources */,
-				OBJ_291 /* AsyncOperation.swift in Sources */,
-				OBJ_292 /* BlockAsyncOperation.swift in Sources */,
-				OBJ_293 /* CrowdinSDK+IntervalUpdate.swift in Sources */,
-				OBJ_294 /* CrowdinSDKConfig+IntervalUpdate.swift in Sources */,
-				OBJ_295 /* IntervalUpdateFeature.swift in Sources */,
-				OBJ_296 /* CrowdinLoginConfig.swift in Sources */,
-				OBJ_297 /* Bundle+URLScheme.swift in Sources */,
-				OBJ_298 /* CrowdinSDK+Login.swift in Sources */,
-				OBJ_299 /* CrowdinSDKConfig +Login.swift in Sources */,
-				OBJ_300 /* LoginFeature.swift in Sources */,
-				OBJ_301 /* CrowdinSocketManager.swift in Sources */,
-				OBJ_302 /* CrowdinSDK+ReatimeUpdates.swift in Sources */,
-				OBJ_303 /* CrowdinSDKConfig+RealtimeUpdates.swift in Sources */,
-				OBJ_304 /* UIButton+RealtimeUpdates.swift in Sources */,
-				OBJ_305 /* UILabel+RealtimeUpdates.swift in Sources */,
-				OBJ_306 /* RealtimeUpdateFeature.swift in Sources */,
-				OBJ_307 /* Refreshable.swift in Sources */,
-				OBJ_308 /* CrowdinSDK+RefreshLocalization.swift in Sources */,
-				OBJ_309 /* RefreshLocalizationFeature.swift in Sources */,
-				OBJ_310 /* CrowdinScreenshotsConfig.swift in Sources */,
-				OBJ_311 /* CGRect+Validation.swift in Sources */,
-				OBJ_312 /* CrowdinSDK+Screenshots.swift in Sources */,
-				OBJ_313 /* CrowdinSDKConfig+Screenshots.swift in Sources */,
-				OBJ_314 /* ScreenshotFeature.swift in Sources */,
-				OBJ_315 /* ScreenshotInformationCollector.swift in Sources */,
-				OBJ_316 /* ScreenshotProcessor.swift in Sources */,
-				OBJ_317 /* ScreenshotUploader.swift in Sources */,
-				OBJ_318 /* CrowdinMappingDownloader.swift in Sources */,
-				OBJ_319 /* CrowdinMappingManager.swift in Sources */,
-				OBJ_320 /* CrowdinProviderConfig.swift in Sources */,
-				OBJ_321 /* CrowdinRemoteLocalizationStorage.swift in Sources */,
-				OBJ_322 /* CrowdinSDKConfig+CrowdinProvider.swift in Sources */,
-				OBJ_323 /* String+Extensions.swift in Sources */,
-				OBJ_324 /* CrowdinPathsParser.swift in Sources */,
-				OBJ_325 /* CrowdinSupportedLanguages.swift in Sources */,
-				OBJ_326 /* Bundle+Settings.swift in Sources */,
-				OBJ_327 /* CrowdinSDK+Settings.swift in Sources */,
-				OBJ_328 /* CrowdinSDKConfig+Settings.swift in Sources */,
-				OBJ_329 /* SettingsItemCell.swift in Sources */,
-				OBJ_330 /* SettingsView+Gesture.swift in Sources */,
-				OBJ_331 /* SettingsView+UITableView.swift in Sources */,
-				OBJ_332 /* SettingsView.swift in Sources */,
+				OBJ_230 /* BaseAPI.swift in Sources */,
+				OBJ_231 /* CharacterSet.swift in Sources */,
+				OBJ_232 /* URLSession.swift in Sources */,
+				OBJ_233 /* Request.swift in Sources */,
+				OBJ_234 /* RequestHeaderFields.swift in Sources */,
+				OBJ_235 /* RequestMethod.swift in Sources */,
+				OBJ_236 /* ResponsetHeaderFields.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_341 /* Sources */ = {
+		OBJ_242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_342 /* Package.swift in Sources */,
+				OBJ_243 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_352 /* Sources */ = {
+		OBJ_248 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_353 /* ConstantsTests.swift in Sources */,
-				OBJ_354 /* CrowdinSDKConfigTests.swift in Sources */,
-				OBJ_355 /* DictionaryTests.swift in Sources */,
-				OBJ_356 /* LocaleExtensionTests.swift in Sources */,
-				OBJ_357 /* StringsTests.swift in Sources */,
-				OBJ_358 /* CrowdinAPITests.swift in Sources */,
-				OBJ_359 /* CrowdinContentDeliveryAPITests.swift in Sources */,
-				OBJ_360 /* CrowdinLoginAPITests.swift in Sources */,
-				OBJ_361 /* URLSessionMock.swift in Sources */,
-				OBJ_362 /* CrowdinPathsParserTests.swift in Sources */,
-				OBJ_363 /* CrowdinProviderConfigTests.swift in Sources */,
+				OBJ_249 /* CrowdinContentDeliveryAPI.swift in Sources */,
+				OBJ_250 /* ManifestResponse.swift in Sources */,
+				OBJ_251 /* DataParser.swift in Sources */,
+				OBJ_252 /* CrowdinAPI.swift in Sources */,
+				OBJ_253 /* DistributionsAPI.swift in Sources */,
+				OBJ_254 /* DistributionsResponse.swift in Sources */,
+				OBJ_255 /* LoginAPI.swift in Sources */,
+				OBJ_256 /* RefreshTokenRequest.swift in Sources */,
+				OBJ_257 /* TokenRequest.swift in Sources */,
+				OBJ_258 /* TokenResponse.swift in Sources */,
+				OBJ_259 /* ProjectDetailsResponse.swift in Sources */,
+				OBJ_260 /* ProjectAPI.swift in Sources */,
+				OBJ_261 /* CreateScreenshotRequest.swift in Sources */,
+				OBJ_262 /* CreateScreenshotResponse.swift in Sources */,
+				OBJ_263 /* CreateScreenshotTagRequest.swift in Sources */,
+				OBJ_264 /* CreateScreenshotTagResponse.swift in Sources */,
+				OBJ_265 /* ScreenshotsAPI.swift in Sources */,
+				OBJ_266 /* ActionRequest.swift in Sources */,
+				OBJ_267 /* TopSuggestionResponse.swift in Sources */,
+				OBJ_268 /* UpdateDraftResponse.swift in Sources */,
+				OBJ_269 /* SocketAPI.swift in Sources */,
+				OBJ_270 /* StorageUploadResponse.swift in Sources */,
+				OBJ_271 /* StorageAPI.swift in Sources */,
+				OBJ_272 /* SupportedLanguagesResponse.swift in Sources */,
+				OBJ_273 /* SupportedLanguagesAPI.swift in Sources */,
+				OBJ_274 /* Constants.swift in Sources */,
+				OBJ_275 /* CrowdinSDK.swift in Sources */,
+				OBJ_276 /* CrowdinSDKConfig.swift in Sources */,
+				OBJ_277 /* CrowdinTester.swift in Sources */,
+				OBJ_278 /* Bundle+Application.swift in Sources */,
+				OBJ_279 /* Bundle+Crowdin.swift in Sources */,
+				OBJ_280 /* Bundle+Language.swift in Sources */,
+				OBJ_281 /* Bundle+Swizzle.swift in Sources */,
+				OBJ_282 /* Dictionary.swift in Sources */,
+				OBJ_283 /* Locale.swift in Sources */,
+				OBJ_284 /* String.swift in Sources */,
+				OBJ_285 /* UIButton+Swizzle.swift in Sources */,
+				OBJ_286 /* UILabel+Swizzle.swift in Sources */,
+				OBJ_287 /* UIViewController.swift in Sources */,
+				OBJ_288 /* UIWindow.swift in Sources */,
+				OBJ_289 /* UserDefaults.swift in Sources */,
+				OBJ_290 /* CrowdinFolder.swift in Sources */,
+				OBJ_291 /* CustomBundle.swift in Sources */,
+				OBJ_292 /* DocumentsFolder.swift in Sources */,
+				OBJ_293 /* File.swift in Sources */,
+				OBJ_294 /* FileStatus.swift in Sources */,
+				OBJ_295 /* FileType.swift in Sources */,
+				OBJ_296 /* Folder.swift in Sources */,
+				OBJ_297 /* ReadWriteProtocol.swift in Sources */,
+				OBJ_298 /* CrowdinDownloader.swift in Sources */,
+				OBJ_299 /* LocalizationExtractor.swift in Sources */,
+				OBJ_300 /* Localization.swift in Sources */,
+				OBJ_301 /* LocalizationUpdateObserver.swift in Sources */,
+				OBJ_302 /* InBundleLocalizationStorage.swift in Sources */,
+				OBJ_303 /* LocalLocalizationStorage.swift in Sources */,
+				OBJ_304 /* LocalizationDataSource.swift in Sources */,
+				OBJ_305 /* LocalizationProvider.swift in Sources */,
+				OBJ_306 /* LocalizationStorage.swift in Sources */,
+				OBJ_307 /* RemoteLocalizationStorage.swift in Sources */,
+				OBJ_308 /* StringParam.swift in Sources */,
+				OBJ_309 /* Atomic.swift in Sources */,
+				OBJ_310 /* ObjectAssociation.swift in Sources */,
+				OBJ_311 /* CrowdinSDK+IntervalUpdate.swift in Sources */,
+				OBJ_312 /* CrowdinSDKConfig+IntervalUpdate.swift in Sources */,
+				OBJ_313 /* IntervalUpdateFeature.swift in Sources */,
+				OBJ_314 /* CrowdinLoginConfig.swift in Sources */,
+				OBJ_315 /* Bundle+URLScheme.swift in Sources */,
+				OBJ_316 /* CrowdinSDK+Login.swift in Sources */,
+				OBJ_317 /* CrowdinSDKConfig +Login.swift in Sources */,
+				OBJ_318 /* LoginFeature.swift in Sources */,
+				OBJ_319 /* CrowdinSocketManager.swift in Sources */,
+				OBJ_320 /* CrowdinSDK+ReatimeUpdates.swift in Sources */,
+				OBJ_321 /* CrowdinSDKConfig+RealtimeUpdates.swift in Sources */,
+				OBJ_322 /* UIButton+RealtimeUpdates.swift in Sources */,
+				OBJ_323 /* UILabel+RealtimeUpdates.swift in Sources */,
+				OBJ_324 /* RealtimeUpdateFeature.swift in Sources */,
+				OBJ_325 /* Refreshable.swift in Sources */,
+				OBJ_326 /* CrowdinSDK+RefreshLocalization.swift in Sources */,
+				OBJ_327 /* RefreshLocalizationFeature.swift in Sources */,
+				OBJ_328 /* CrowdinScreenshotsConfig.swift in Sources */,
+				OBJ_329 /* CGRect+Validation.swift in Sources */,
+				OBJ_330 /* CrowdinSDK+Screenshots.swift in Sources */,
+				OBJ_331 /* CrowdinSDKConfig+Screenshots.swift in Sources */,
+				OBJ_332 /* ScreenshotFeature.swift in Sources */,
+				OBJ_333 /* ScreenshotInformationCollector.swift in Sources */,
+				OBJ_334 /* ScreenshotProcessor.swift in Sources */,
+				OBJ_335 /* ScreenshotUploader.swift in Sources */,
+				OBJ_336 /* CrowdinProviderConfig.swift in Sources */,
+				OBJ_337 /* CrowdinRemoteLocalizationStorage.swift in Sources */,
+				OBJ_338 /* CrowdinSDK+CrowdinProvider.swift in Sources */,
+				OBJ_339 /* CrowdinSDKConfig+CrowdinProvider.swift in Sources */,
+				OBJ_340 /* String+Extensions.swift in Sources */,
+				OBJ_341 /* CrowdinLocalizationDownloader.swift in Sources */,
+				OBJ_342 /* CrowdinPluralsDownloadOperation.swift in Sources */,
+				OBJ_343 /* CrowdinStringsDownloadOperation.swift in Sources */,
+				OBJ_344 /* CrowdinMappingDownloader.swift in Sources */,
+				OBJ_345 /* CrowdinMappingManager.swift in Sources */,
+				OBJ_346 /* CrowdinPluralsMappingDownloadOperation.swift in Sources */,
+				OBJ_347 /* CrowdinStringsMappingDownloadOperation.swift in Sources */,
+				OBJ_348 /* AsyncOperation.swift in Sources */,
+				OBJ_349 /* BlockAsyncOperation.swift in Sources */,
+				OBJ_350 /* CrowdinDownloadOperation.swift in Sources */,
+				OBJ_351 /* CrowdinPathsParser.swift in Sources */,
+				OBJ_352 /* CrowdinSupportedLanguages.swift in Sources */,
+				OBJ_353 /* Dictionary+Firebase.swift in Sources */,
+				OBJ_354 /* String+Firebase.swift in Sources */,
+				OBJ_355 /* FirebaseLocalLocalizationStorage.swift in Sources */,
+				OBJ_356 /* FirebaseLocalizationProvider.swift in Sources */,
+				OBJ_357 /* FirebaseRemoteLocalizationStorage.swift in Sources */,
+				OBJ_358 /* Bundle+Settings.swift in Sources */,
+				OBJ_359 /* CrowdinSDK+Settings.swift in Sources */,
+				OBJ_360 /* CrowdinSDKConfig+Settings.swift in Sources */,
+				OBJ_361 /* SettingsItemCell.swift in Sources */,
+				OBJ_362 /* SettingsView+Gesture.swift in Sources */,
+				OBJ_363 /* SettingsView+UITableView.swift in Sources */,
+				OBJ_364 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_370 /* Sources */ = {
+		OBJ_375 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_371 /* Compression.swift in Sources */,
-				OBJ_372 /* SSLClientCertificate.swift in Sources */,
-				OBJ_373 /* SSLSecurity.swift in Sources */,
-				OBJ_374 /* WebSocket.swift in Sources */,
+				OBJ_376 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_380 /* Sources */ = {
+		OBJ_386 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_381 /* Package.swift in Sources */,
+				OBJ_387 /* ConstantsTests.swift in Sources */,
+				OBJ_388 /* CrowdinSDKConfigTests.swift in Sources */,
+				OBJ_389 /* DictionaryTests.swift in Sources */,
+				OBJ_390 /* LocaleExtensionTests.swift in Sources */,
+				OBJ_391 /* StringsTests.swift in Sources */,
+				OBJ_392 /* CrowdinAPITests.swift in Sources */,
+				OBJ_393 /* CrowdinContentDeliveryAPITests.swift in Sources */,
+				OBJ_394 /* CrowdinLoginAPITests.swift in Sources */,
+				OBJ_395 /* URLSessionMock.swift in Sources */,
+				OBJ_396 /* CrowdinPathsParserTests.swift in Sources */,
+				OBJ_397 /* CrowdinProviderConfigTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_409 /* Compression.swift in Sources */,
+				OBJ_410 /* SSLClientCertificate.swift in Sources */,
+				OBJ_411 /* SSLSecurity.swift in Sources */,
+				OBJ_412 /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_419 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_335 /* PBXTargetDependency */ = {
+		OBJ_368 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Starscream::Starscream" /* Starscream */;
-			targetProxy = E8A6D6E0238228CE00FECA34 /* PBXContainerItemProxy */;
+			targetProxy = E8DF5E8A239BE02300C1DA3B /* PBXContainerItemProxy */;
 		};
-		OBJ_347 /* PBXTargetDependency */ = {
+		OBJ_370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "BaseAPI::BaseAPI" /* BaseAPI */;
+			targetProxy = E8DF5E8B239BE02300C1DA3B /* PBXContainerItemProxy */;
+		};
+		OBJ_381 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "CrowdinSDK::CrowdinSDKTests" /* CrowdinSDKTests */;
-			targetProxy = E8A6D6E2238228CE00FECA34 /* PBXContainerItemProxy */;
+			targetProxy = E8DF5E8F239BE02400C1DA3B /* PBXContainerItemProxy */;
 		};
-		OBJ_366 /* PBXTargetDependency */ = {
+		OBJ_402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CrowdinSDK::CrowdinSDK" /* CrowdinSDK */;
+			targetProxy = E8DF5E8C239BE02400C1DA3B /* PBXContainerItemProxy */;
+		};
+		OBJ_403 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Starscream::Starscream" /* Starscream */;
-			targetProxy = E8A6D6E1238228CE00FECA34 /* PBXContainerItemProxy */;
+			targetProxy = E8DF5E8D239BE02400C1DA3B /* PBXContainerItemProxy */;
+		};
+		OBJ_404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "BaseAPI::BaseAPI" /* BaseAPI */;
+			targetProxy = E8DF5E8E239BE02400C1DA3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_215 /* Debug */ = {
+		OBJ_227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/BaseAPI_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = BaseAPI;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = BaseAPI;
+			};
+			name = Debug;
+		};
+		OBJ_228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/BaseAPI_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = BaseAPI;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = BaseAPI;
+			};
+			name = Release;
+		};
+		OBJ_240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_246 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1348,7 +1569,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_216 /* Release */ = {
+		OBJ_247 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1409,7 +1630,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_339 /* Debug */ = {
+		OBJ_373 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1418,7 +1639,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_340 /* Release */ = {
+		OBJ_374 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1427,19 +1648,19 @@
 			};
 			name = Release;
 		};
-		OBJ_345 /* Debug */ = {
+		OBJ_379 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_346 /* Release */ = {
+		OBJ_380 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		OBJ_350 /* Debug */ = {
+		OBJ_384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1470,7 +1691,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_351 /* Release */ = {
+		OBJ_385 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1498,86 +1719,6 @@
 				TARGET_NAME = CrowdinSDKTests;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		OBJ_368 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
-				);
-				INFOPLIST_FILE = CrowdinSDK.xcodeproj/Starscream_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = Starscream;
-			};
-			name = Debug;
-		};
-		OBJ_369 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
-				);
-				INFOPLIST_FILE = CrowdinSDK.xcodeproj/Starscream_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-lz",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = Starscream;
-			};
-			name = Release;
-		};
-		OBJ_378 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		OBJ_379 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
-				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1605,6 +1746,86 @@
 			};
 			name = Release;
 		};
+		OBJ_406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
+				);
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/Starscream_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Starscream;
+			};
+			name = Debug;
+		};
+		OBJ_407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
+				);
+				INFOPLIST_FILE = CrowdinSDK.xcodeproj/Starscream_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lz",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Starscream;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = Starscream;
+			};
+			name = Release;
+		};
+		OBJ_416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 4.2";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1617,56 +1838,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_214 /* Build configuration list for PBXNativeTarget "CrowdinSDK" */ = {
+		OBJ_226 /* Build configuration list for PBXNativeTarget "BaseAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_215 /* Debug */,
-				OBJ_216 /* Release */,
+				OBJ_227 /* Debug */,
+				OBJ_228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_338 /* Build configuration list for PBXNativeTarget "CrowdinSDKPackageDescription" */ = {
+		OBJ_239 /* Build configuration list for PBXNativeTarget "BaseAPIPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_339 /* Debug */,
-				OBJ_340 /* Release */,
+				OBJ_240 /* Debug */,
+				OBJ_241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_344 /* Build configuration list for PBXAggregateTarget "CrowdinSDKPackageTests" */ = {
+		OBJ_245 /* Build configuration list for PBXNativeTarget "CrowdinSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_345 /* Debug */,
-				OBJ_346 /* Release */,
+				OBJ_246 /* Debug */,
+				OBJ_247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_349 /* Build configuration list for PBXNativeTarget "CrowdinSDKTests" */ = {
+		OBJ_372 /* Build configuration list for PBXNativeTarget "CrowdinSDKPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_350 /* Debug */,
-				OBJ_351 /* Release */,
+				OBJ_373 /* Debug */,
+				OBJ_374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_367 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+		OBJ_378 /* Build configuration list for PBXAggregateTarget "CrowdinSDKPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_368 /* Debug */,
-				OBJ_369 /* Release */,
+				OBJ_379 /* Debug */,
+				OBJ_380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_377 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */ = {
+		OBJ_383 /* Build configuration list for PBXNativeTarget "CrowdinSDKTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_378 /* Debug */,
-				OBJ_379 /* Release */,
+				OBJ_384 /* Debug */,
+				OBJ_385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_405 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_406 /* Debug */,
+				OBJ_407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_415 /* Build configuration list for PBXNativeTarget "StarscreamPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_416 /* Debug */,
+				OBJ_417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
