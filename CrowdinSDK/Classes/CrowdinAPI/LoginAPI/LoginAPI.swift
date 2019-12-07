@@ -5,9 +5,11 @@
 //  Created by Serhii Londar on 29.10.2019.
 //
 
-import UIKit
+import Foundation
+import BaseAPI
 
 class LoginAPI: BaseAPI {
+    fileprivate let defaultCrowdinErrorCode = 9999
     var organizationName: String?
     var clientId: String
     var clientSecret: String
@@ -82,13 +84,14 @@ class LoginAPI: BaseAPI {
             } else if let error = error {
                 errorHandler?(error)
             } else {
-                errorHandler?(NSError(domain: "Unknown error", code: defaultCrowdinErrorCode, userInfo: nil))
+                errorHandler?(NSError(domain: "Unknown error", code: self.defaultCrowdinErrorCode, userInfo: nil))
             }
         }
     }
     
     func refreshToken(refreshToken: String, success: ((TokenResponse) -> Void)?, error: ((Error) -> Void)?) {
-        var request = URLRequest(url: URL(string: tokenStringURL)!)
+        guard let url = URL(string: tokenStringURL) else { return }
+        var request = URLRequest(url: url)
         let tokenRequest = RefreshTokenRequest(clientId: clientId, clientSecret: clientSecret, redirectURI: redirectURI, refreshToken: refreshToken)
         request.httpBody = try? JSONEncoder().encode(tokenRequest)
         request.allHTTPHeaderFields = [:]
@@ -106,7 +109,7 @@ class LoginAPI: BaseAPI {
             } else if let error = error {
                 errorHandler?(error)
             } else {
-                errorHandler?(NSError(domain: "Unknown error", code: defaultCrowdinErrorCode, userInfo: nil))
+                errorHandler?(NSError(domain: "Unknown error", code: self.defaultCrowdinErrorCode, userInfo: nil))
             }
         }
     }
