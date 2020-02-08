@@ -8,23 +8,23 @@
 import Foundation
 
 // MARK: - DistributionsResponse
-public struct DistributionsResponse: Codable {
-    public let data: DistributionsResponseData
+struct DistributionsResponse: Codable {
+    let data: DistributionsResponseData
     
     enum CodingKeys: String, CodingKey {
         case data
     }
     
-    public init(data: DistributionsResponseData) {
+    init(data: DistributionsResponseData) {
         self.data = data
     }
 }
 
 // MARK: - DistributionsResponseData
-public struct DistributionsResponseData: Codable {
-    public let project: DistributionsResponseProject
-    public let user: DistributionsResponseUser
-	public let wsUrl: String
+struct DistributionsResponseData: Codable {
+    let project: DistributionsResponseProject
+    let user: DistributionsResponseUser
+	let wsUrl: String
 	
     enum CodingKeys: String, CodingKey {
         case project
@@ -32,7 +32,7 @@ public struct DistributionsResponseData: Codable {
 		case wsUrl
     }
     
-    public init(project: DistributionsResponseProject, user: DistributionsResponseUser, wsUrl: String) {
+    init(project: DistributionsResponseProject, user: DistributionsResponseUser, wsUrl: String) {
         self.project = project
         self.user = user
 		self.wsUrl = wsUrl
@@ -40,30 +40,30 @@ public struct DistributionsResponseData: Codable {
 }
 
 // MARK: - DistributionsResponseProject
-public struct DistributionsResponseProject: Codable {
-    public let id: String
-    public let wsHash: String
+struct DistributionsResponseProject: Codable {
+    let id: String
+    let wsHash: String
     
     enum CodingKeys: String, CodingKey {
         case id
         case wsHash
     }
     
-    public init(id: String, wsHash: String) {
+    init(id: String, wsHash: String) {
         self.id = id
         self.wsHash = wsHash
     }
 }
 
 // MARK: - DistributionsResponseUser
-public struct DistributionsResponseUser: Codable {
-    public let id: String
+struct DistributionsResponseUser: Codable {
+    let id: String
     
     enum CodingKeys: String, CodingKey {
         case id
     }
     
-    public init(id: String) {
+    init(id: String) {
         self.id = id
     }
 }

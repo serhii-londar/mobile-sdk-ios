@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Protocol classes 
 public protocol CrowdinMappingManagerProtocol {
     func stringLocalizationKey(for id: Int) -> String?
     func pluralLocalizationKey(for id: Int) -> String?

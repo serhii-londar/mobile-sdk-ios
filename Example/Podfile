@@ -1,3 +1,4 @@
+#ios:platform ""
 use_frameworks!
 
 target 'CrowdinSDK_Example' do

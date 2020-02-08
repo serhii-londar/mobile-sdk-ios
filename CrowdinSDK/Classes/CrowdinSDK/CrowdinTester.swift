@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// Class for SDK testing.
+/// Class for SDK testing. After localization is downloaded you can get all localization strings/plurals key for some language.
 public class CrowdinTester {
     /// Concrete localization code for testing.
     var localization: String
@@ -24,7 +24,7 @@ public class CrowdinTester {
         self.localizationFile = DictionaryFile(path: path)
     }
     
-    /// List of all downloaded localizations.
+    /// List of all currently downloaded localizations.
     public class var downloadedLocalizations: [String] {
         return CrowdinFolder.shared.files.map({ $0.name })
     }

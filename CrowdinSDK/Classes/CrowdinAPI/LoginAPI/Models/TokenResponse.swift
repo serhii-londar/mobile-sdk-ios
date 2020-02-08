@@ -7,11 +7,11 @@
 
 import Foundation
 
-public struct TokenResponse: Codable {
-	public let tokenType: String
-	public let expiresIn: Int
-	public let accessToken: String
-	public let refreshToken: String
+struct TokenResponse: Codable {
+	let tokenType: String
+	let expiresIn: Int
+	let accessToken: String
+	let refreshToken: String
 	
 	enum CodingKeys: String, CodingKey {
 		case tokenType = "token_type"

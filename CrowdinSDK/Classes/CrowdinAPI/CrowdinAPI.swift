@@ -13,6 +13,7 @@ protocol CrowdinAuth {
 }
 
 extension Notification.Name {
+    /// Notification constant for detecting unauthorized api calls.
     public static let CrowdinAPIUnautorizedNotification = Notification.Name("CrowdinAPIUnautorizedNotification")
 }
 

@@ -34,13 +34,12 @@ class RealtimeUpdateFeature: RealtimeUpdateFeatureProtocol {
 	
 	var distributionResponse: DistributionsResponse? = nil
 	
-    var active: Bool { return socketManger?.active ?? false }
     var enabled: Bool {
         set {
             newValue ? start() : stop()
         }
         get {
-            return active
+            return socketManger?.active ?? false
         }
     }
     

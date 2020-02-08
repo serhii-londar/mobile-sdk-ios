@@ -8,50 +8,50 @@
 import Foundation
 
 // MARK: - LanguagesResponse
-public struct LanguagesResponse: Codable {
-    public let data: [LanguagesResponseDatum]
-    public let pagination: LanguagesResponsePagination
+struct LanguagesResponse: Codable {
+    let data: [LanguagesResponseDatum]
+    let pagination: LanguagesResponsePagination
 
     enum CodingKeys: String, CodingKey {
         case data
         case pagination
     }
 
-    public init(data: [LanguagesResponseDatum], pagination: LanguagesResponsePagination) {
+    init(data: [LanguagesResponseDatum], pagination: LanguagesResponsePagination) {
         self.data = data
         self.pagination = pagination
     }
 }
 
 // MARK: - LanguagesResponseDatum
-public struct LanguagesResponseDatum: Codable {
-    public let data: LanguagesResponseData
+struct LanguagesResponseDatum: Codable {
+    let data: LanguagesResponseData
 
     enum CodingKeys: String, CodingKey {
         case data
     }
 
-    public init(data: LanguagesResponseData) {
+    init(data: LanguagesResponseData) {
         self.data = data
     }
 }
 
 // MARK: - LanguagesResponseData
-public struct LanguagesResponseData: Codable {
-    public let id: String
-    public let name: String
-    public let editorCode: String
-    public let twoLettersCode: String
-    public let threeLettersCode: String
-    public let locale: String
-    public let androidCode: String
-    public let osxCode: String
-    public let osxLocale: String
-    public let pluralCategoryNames: [LanguagesResponsePluralCategoryName]
-    public let pluralRules: String
-    public let pluralExamples: [String]
-    public let textDirection: LanguagesResponseTextDirection
-    public let dialectOf: String?
+struct LanguagesResponseData: Codable {
+    let id: String
+    let name: String
+    let editorCode: String
+    let twoLettersCode: String
+    let threeLettersCode: String
+    let locale: String
+    let androidCode: String
+    let osxCode: String
+    let osxLocale: String
+    let pluralCategoryNames: [LanguagesResponsePluralCategoryName]
+    let pluralRules: String
+    let pluralExamples: [String]
+    let textDirection: LanguagesResponseTextDirection
+    let dialectOf: String?
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -70,7 +70,7 @@ public struct LanguagesResponseData: Codable {
         case dialectOf
     }
 
-    public init(id: String, name: String, editorCode: String, twoLettersCode: String, threeLettersCode: String, locale: String, androidCode: String, osxCode: String, osxLocale: String, pluralCategoryNames: [LanguagesResponsePluralCategoryName], pluralRules: String, pluralExamples: [String], textDirection: LanguagesResponseTextDirection, dialectOf: String?) {
+    init(id: String, name: String, editorCode: String, twoLettersCode: String, threeLettersCode: String, locale: String, androidCode: String, osxCode: String, osxLocale: String, pluralCategoryNames: [LanguagesResponsePluralCategoryName], pluralRules: String, pluralExamples: [String], textDirection: LanguagesResponseTextDirection, dialectOf: String?) {
         self.id = id
         self.name = name
         self.editorCode = editorCode
@@ -88,7 +88,7 @@ public struct LanguagesResponseData: Codable {
     }
 }
 
-public enum LanguagesResponsePluralCategoryName: String, Codable {
+enum LanguagesResponsePluralCategoryName: String, Codable {
     case few
     case many
     case one
@@ -97,22 +97,22 @@ public enum LanguagesResponsePluralCategoryName: String, Codable {
     case zero
 }
 
-public enum LanguagesResponseTextDirection: String, Codable {
+enum LanguagesResponseTextDirection: String, Codable {
     case ltr
     case rtl
 }
 
 // MARK: - LanguagesResponsePagination
-public struct LanguagesResponsePagination: Codable {
-    public let offset: Int
-    public let limit: Int
+struct LanguagesResponsePagination: Codable {
+    let offset: Int
+    let limit: Int
 
     enum CodingKeys: String, CodingKey {
         case offset
         case limit
     }
 
-    public init(offset: Int, limit: Int) {
+    init(offset: Int, limit: Int) {
         self.offset = offset
         self.limit = limit
     }

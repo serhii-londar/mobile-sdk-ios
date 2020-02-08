@@ -8,13 +8,13 @@
 import Foundation
 
 struct ManifestResponse: Codable {
-    public let files: [String]
+    let files: [String]
 
     enum CodingKeys: String, CodingKey {
         case files
     }
 
-    public init(files: [String]) {
+    init(files: [String]) {
         self.files = files
     }
 }
